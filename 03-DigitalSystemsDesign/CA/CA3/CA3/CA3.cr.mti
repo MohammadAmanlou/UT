@@ -1,0 +1,37 @@
+C:/Users/a/Desktop/CA3/TB3.sv {1 {vlog -work work -sv -stats=none {C:\Users\a\Desktop\CA3\TB3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_TB
+
+Top level modules:
+	ALU_TB
+
+} {} {}} C:/Users/a/Desktop/CA3/Q3_2.sv {1 {vlog -work work -sv -stats=none C:/Users/a/Desktop/CA3/Q3_2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_2
+
+Top level modules:
+	ALU_2
+
+} {} {}} C:/Users/a/Desktop/CA3/Q1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CA3/Q1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CLA_4bit
+-- Compiling module CRA_8bit
+
+Top level modules:
+	CRA_8bit
+
+} {} {}} C:/Users/a/Desktop/CA3/TB1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CA3/TB1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder8_TB
+
+Top level modules:
+	Adder8_TB
+
+} {} {}} C:/Users/a/Desktop/CA3/Q3.sv {1 {vlog -work work -sv -stats=none {C:\Users\a\Desktop\CA3\Q3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

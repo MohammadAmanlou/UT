@@ -1,0 +1,478 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vComparatorTB
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1667854624
+!i10b 1
+!s100 ;;9@^zOU:XWNbWaF^?1U<0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Id`K3R7z`E^]mcDCe;VNOG0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/a/Desktop/FPGA_Projects
+w1667854202
+Z5 8C:/Users/a/Desktop/FPGA_Projects/TB6.sv
+Z6 FC:/Users/a/Desktop/FPGA_Projects/TB6.sv
+!i122 286
+Z7 L0 2 14
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1667854624.000000
+Z10 !s107 C:/Users/a/Desktop/FPGA_Projects/TB6.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a/Desktop/FPGA_Projects/TB6.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@comparator@t@b
+vComparatorTBQ8
+R0
+R1
+!i10b 1
+!s100 OdJ4ZUz;MzYn`6QR^VQD;0
+R2
+I1=geo>[CiKgz4hWXijm@20
+R3
+S1
+R4
+w1667854621
+Z14 8C:/Users/a/Desktop/FPGA_Projects/TB8.sv
+Z15 FC:/Users/a/Desktop/FPGA_Projects/TB8.sv
+!i122 288
+Z16 L0 2 15
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 C:/Users/a/Desktop/FPGA_Projects/TB8.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a/Desktop/FPGA_Projects/TB8.sv|
+!i113 1
+R12
+R13
+n@comparator@t@b@q8
+vCompretorTB
+R0
+Z19 !s110 1667852230
+!i10b 1
+!s100 fjzUUHSajzBPSkB21nCHT1
+R2
+IX1_T`^j^]KzGSX4]ORgWU2
+R3
+S1
+R4
+w1667849353
+R5
+R6
+!i122 238
+R7
+R8
+r1
+!s85 0
+31
+Z20 !s108 1667852230.000000
+R10
+R11
+!i113 1
+R12
+R13
+n@compretor@t@b
+vCompretorTBQ8
+R0
+R19
+!i10b 1
+!s100 Tf9a8U?N79E8:Vlb9zD4P1
+R2
+I^XSajjojOnB[k?XbdZ9_P1
+R3
+S1
+R4
+w1667852227
+R14
+R15
+!i122 240
+R16
+R8
+r1
+!s85 0
+31
+R20
+R17
+R18
+!i113 1
+R12
+R13
+n@compretor@t@b@q8
+vmyCompretor
+R1
+!i10b 1
+!s100 hTJMK6]`c3`01^<nY:`VO0
+R2
+IGIa8E5jL9Nj7FEVCoomOZ1
+R3
+R4
+Z21 w1667851946
+Z22 8C:/Users/a/Desktop/FPGA_Projects/Verilog5.v
+Z23 FC:/Users/a/Desktop/FPGA_Projects/Verilog5.v
+!i122 285
+L0 19 8
+R8
+r1
+!s85 0
+31
+R9
+Z24 !s107 C:/Users/a/Desktop/FPGA_Projects/Verilog5.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/Verilog5.v|
+!i113 1
+Z26 o-work work
+R13
+nmy@compretor
+vmyComXor
+R1
+!i10b 1
+!s100 WGDFaBaXhkP_mbo6M4:Wk1
+R2
+IDb>5fVC=I_MY?l5X:8aNA3
+R3
+R4
+R21
+R22
+R23
+!i122 285
+L0 13 5
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!i113 1
+R26
+R13
+nmy@com@xor
+vmyInv
+R1
+!i10b 1
+!s100 IC=8=kVSX6R7>IUC7C9A?3
+R2
+I7F^49@eBRf<K<KRkzK1<81
+R3
+R4
+R21
+R22
+R23
+!i122 285
+L0 2 4
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!i113 1
+R26
+R13
+nmy@inv
+vmyXor
+R1
+!i10b 1
+!s100 6FWk8z58g=8iHQb2l74N02
+R2
+IQFo8C7:?J5R1Xh@Wn9Z;=1
+R3
+R4
+R21
+R22
+R23
+!i122 285
+L0 7 5
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!i113 1
+R26
+R13
+nmy@xor
+vNandQ1TB
+Z27 !s110 1667854623
+!i10b 1
+!s100 mBc]njEVQS59G`mB7MQ:W0
+R2
+IKfbXW]o8X1hdlik^T809a2
+R3
+R4
+w1667822227
+8C:/Users/a/Desktop/FPGA_Projects/TB1.v
+FC:/Users/a/Desktop/FPGA_Projects/TB1.v
+!i122 278
+Z28 L0 2 13
+R8
+r1
+!s85 0
+31
+Z29 !s108 1667854623.000000
+!s107 C:/Users/a/Desktop/FPGA_Projects/TB1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/TB1.v|
+!i113 1
+R26
+R13
+n@nand@q1@t@b
+vNandQ2TB
+R27
+!i10b 1
+!s100 G4kT[z5oNZaZXNTTc@@OY2
+R2
+IzcNfS72C@=VeTT^]_]VM63
+R3
+R4
+w1667821955
+8C:/Users/a/Desktop/FPGA_Projects/TB2.v
+FC:/Users/a/Desktop/FPGA_Projects/TB2.v
+!i122 279
+R28
+R8
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/a/Desktop/FPGA_Projects/TB2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/TB2.v|
+!i113 1
+R26
+R13
+n@nand@q2@t@b
+vNandQ3TB
+R1
+!i10b 1
+!s100 z6a76m3?S52:b?ikVkF3M2
+R2
+ITjo5bUEh`JUFzAiPM<lf12
+R3
+R4
+w1667840747
+8C:/Users/a/Desktop/FPGA_Projects/TB3.v
+FC:/Users/a/Desktop/FPGA_Projects/TB3.v
+!i122 282
+L0 2 19
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/a/Desktop/FPGA_Projects/TB3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/TB3.v|
+!i113 1
+R26
+R13
+n@nand@q3@t@b
+vNandQ4TB
+R1
+!i10b 1
+!s100 BD3`>jEHU5[<oiBoT0Dfg1
+R2
+I_6a^4V8N:Wc:0i<RNnX1]3
+R3
+R4
+w1667852203
+8C:/Users/a/Desktop/FPGA_Projects/TB4.v
+FC:/Users/a/Desktop/FPGA_Projects/TB4.v
+!i122 283
+L0 2 20
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/a/Desktop/FPGA_Projects/TB4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/TB4.v|
+!i113 1
+R26
+R13
+n@nand@q4@t@b
+vQ1Nand
+R27
+!i10b 1
+!s100 =OhZA<J2NnC9CWD7PeB9?3
+R2
+I@BQfkkfPlcGnk8C[FYimS3
+R3
+R4
+w1667810151
+Z30 8C:/Users/a/Desktop/FPGA_Projects/Verilog1.v
+Z31 FC:/Users/a/Desktop/FPGA_Projects/Verilog1.v
+!i122 277
+L0 2 7
+R8
+r1
+!s85 0
+31
+R29
+Z32 !s107 C:/Users/a/Desktop/FPGA_Projects/Verilog1.v|
+Z33 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/Verilog1.v|
+!i113 1
+R26
+R13
+n@q1@nand
+vQ2Nand
+R1
+!i10b 1
+!s100 znN`;0ifXiICc:[Rm:GM_1
+R2
+I2GJ2eP=T]4mhRojQVYC^L1
+R3
+R4
+w1667821613
+8C:/Users/a/Desktop/FPGA_Projects/Verilog2.v
+FC:/Users/a/Desktop/FPGA_Projects/Verilog2.v
+!i122 280
+Z34 L0 2 3
+R8
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/a/Desktop/FPGA_Projects/Verilog2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/Verilog2.v|
+!i113 1
+R26
+R13
+n@q2@nand
+vQ3Nand
+R1
+!i10b 1
+!s100 eG;f5WWPNncXN9RK]QF151
+R2
+I;CNa:;QcIH7`g;RfIAb=b3
+R3
+R4
+w1667840371
+8C:/Users/a/Desktop/FPGA_Projects/Verilog3.v
+FC:/Users/a/Desktop/FPGA_Projects/Verilog3.v
+!i122 281
+Z35 L0 2 8
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/a/Desktop/FPGA_Projects/Verilog3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/Verilog3.v|
+!i113 1
+R26
+R13
+n@q3@nand
+vQ4Nand
+R1
+!i10b 1
+!s100 S]9_g>96N0?GAc=F`gDii3
+R2
+IEc[7HEHclc9LcoeC^WI8i2
+R3
+R4
+w1667840986
+8C:/Users/a/Desktop/FPGA_Projects/Verilog4.v
+FC:/Users/a/Desktop/FPGA_Projects/Verilog4.v
+!i122 284
+R34
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/a/Desktop/FPGA_Projects/Verilog4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/FPGA_Projects/Verilog4.v|
+!i113 1
+R26
+R13
+n@q4@nand
+vQ7Compretor
+R0
+R1
+!i10b 1
+!s100 AOz?l`QGA0GmG^[Eh1PVT1
+R2
+ID?VjS?Dk^j1_?:mM1hZz81
+R3
+S1
+R4
+w1667852511
+8C:/Users/a/Desktop/FPGA_Projects/Verilog7.sv
+FC:/Users/a/Desktop/FPGA_Projects/Verilog7.sv
+!i122 287
+R35
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/a/Desktop/FPGA_Projects/Verilog7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a/Desktop/FPGA_Projects/Verilog7.sv|
+!i113 1
+R12
+R13
+n@q7@compretor
+XVerilog1_v_unit
+R0
+!s110 1667809955
+V^19`@Fm99_oM^^ci?X9YZ0
+r1
+!s85 0
+!i10b 1
+!s100 DPNmb]iIEj`aiBK8Hc_]T2
+I^19`@Fm99_oM^^ci?X9YZ0
+!i103 1
+S1
+R4
+w1667809774
+R30
+R31
+!i122 5
+L0 8 0
+R8
+31
+!s108 1667809955.000000
+R32
+R33
+!i113 1
+R26
+R13
+n@verilog1_v_unit
+vw
+!s110 1667767027
+!i10b 1
+!s100 =ik9WDd=[E@B<F8Sf<M532
+R2
+IDE4?H1kSE45Sb81clSXg70
+R3
+R4
+w1667767025
+R30
+R31
+!i122 0
+R34
+R8
+r1
+!s85 0
+31
+!s108 1667767027.000000
+R32
+R33
+!i113 1
+R26
+R13

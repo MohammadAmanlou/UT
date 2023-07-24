@@ -1,0 +1,16 @@
+﻿  Source.c
+C:\Users\a\Desktop\Project2\Source.c(556,36): warning C4047: '=': 'Food *' differs in levels of indirection from 'char'
+C:\Users\a\Desktop\Project2\Source.c(561,20): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\a\Desktop\Project2\Source.c(561,20): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'int'
+C:\Users\a\Desktop\Project2\Source.c(578,26): warning C4133: '=': incompatible types - from 'food_list *' to 'Food_list *'
+C:\Users\a\Desktop\Project2\Source.c(580,55): warning C4133: '=': incompatible types - from 'Food_list *' to 'food_list *'
+C:\Users\a\Desktop\Project2\Source.c(581,22): warning C4133: '=': incompatible types - from 'food_list *' to 'Food_list *'
+C:\Users\a\Desktop\Project2\Source.c(681,90): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\a\Desktop\Project2\Source.c(682,89): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+C:\Users\a\Desktop\Project2\Source.c(685,112): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\a\Desktop\Project2\Source.c(722,53): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\a\Desktop\Project2\Source.c(722,53): message : placeholders and their parameters expect 4 variadic arguments, but 5 were provided
+C:\Users\a\Desktop\Project2\Source.c(728,49): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\a\Desktop\Project2\Source.c(728,49): message : placeholders and their parameters expect 4 variadic arguments, but 5 were provided
+C:\Users\a\Desktop\Project2\Source.c(740,30): warning C4133: '=': incompatible types - from 'food_list *' to 'Food_list *'
+  Project2.vcxproj -> C:\Users\a\Desktop\Project2\Debug\Project2.exe

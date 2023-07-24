@@ -1,0 +1,3 @@
+﻿  Source.c
+H:\MMD\UNI\Mabani1\Codes&Q\Labretory 6\Q1\Source.c(10,38): warning C4013: 'malloc' undefined; assuming extern returning int
+  Project2.vcxproj -> H:\MMD\UNI\Mabani1\Codes&Q\Labretory 6\Q1\Debug\Project2.exe

@@ -1,0 +1,13 @@
+module int_rat(input start,rst,clk,run,output[1:0] move,output done,fail);
+	wire ldx,ldy,XPorX,YPorY,XorY_sel,addOrSub_sel,push,pop,qpop,reset,up,right,left,down;
+	wire[1:0]stack_in,stack_out;
+	wire[3:0]X,Y;
+	wire err,co,zx,zy,finish;
+	wire dout,din,read,write;
+	datapath d(clk,(rst|reset),ldx,ldy ,XPorX,YPorY,XorY_sel,addOrSub_sel,push,pop,qpop,stack_in ,X,Y ,up,right,left,down,err,co,zx,zy,finish ,move);
+	cu c(start,co,dout,zx,zy,finish,run,rst ,clk,err,up,right,left,down,
+	reset,read,write,ldx,ldy,push,pop,qpop,fail,done,XorY_sel,addOrSub_sel,YPorY,XPorX,din,stack_in);
+	maze_memo m(clk,read,write,din,(rst|reset),X,Y,dout);
+
+endmodule
+	

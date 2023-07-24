@@ -1,0 +1,15 @@
+C:/Users/a/Desktop/Q3.sv {1 {vlog -work work -sv -stats=none C:/Users/a/Desktop/Q3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/a/Desktop/Q3_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/a/Desktop/Q3_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_TB
+
+Top level modules:
+	ALU_TB
+
+} {} {}}

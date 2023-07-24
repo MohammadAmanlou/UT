@@ -1,0 +1,24 @@
+`timescale 1 ns/ 1 ns
+module Shift_RegTB();
+	reg clk = 0;
+	reg ld, rst ,shiftEn ;
+	reg[15:0] in;
+	wire [15:0] out;
+	
+	ShiftReg SR(clk, rst, ld, shiftEn,in,out);
+
+	always #1 clk = ~clk;
+	initial begin
+		rst = 1'b1;
+		#5 rst = 1'b0;
+		#5 ld = 1;
+		#5 in = 15'b100101101101110;
+		#5 ld = 0;
+		#5  shiftEn = 1 ;
+		#5 in = 15'b001100101001101;
+		#5 ld = 1;
+		#5 ld =0 ;shiftEn = 1;
+		#10 $stop;
+	end
+
+endmodule 

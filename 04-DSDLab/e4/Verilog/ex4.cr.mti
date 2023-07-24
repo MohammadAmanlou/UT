@@ -1,0 +1,165 @@
+C:/Users/a/Desktop/e4/Reg.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/Reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UI_Reg
+
+Top level modules:
+	UI_Reg
+
+} {} {}} C:/Users/a/Desktop/e4/CombShift.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/CombShift.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CombShift
+
+Top level modules:
+	CombShift
+
+} {} {}} C:/Users/a/Desktop/e4/Datapath.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/Datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/a/Desktop/e4/cntrlerTB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/cntrlerTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cntrlerTB
+
+Top level modules:
+	cntrlerTB
+
+} {} {}} C:/Users/a/Desktop/e4/adder.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/a/Desktop/e4/top_level.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/top_level.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_level
+
+Top level modules:
+	top_level
+
+} {} {}} C:/Users/a/Desktop/e4/ShiftRegTB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/ShiftRegTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_RegTB
+
+Top level modules:
+	Shift_RegTB
+
+} {} {}} C:/Users/a/Desktop/e4/one_pulserTB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/one_pulserTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_pulserTB
+
+Top level modules:
+	one_pulserTB
+
+} {} {}} C:/Users/a/Desktop/e4/RegTB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/RegTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UI_RegTB
+
+Top level modules:
+	UI_RegTB
+
+} {} {}} C:/Users/a/Desktop/e4/CombShiftTB.v {2 {vlog -work work -stats=none C:/Users/a/Desktop/e4/CombShiftTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CombShiftTB
+** Warning: C:/Users/a/Desktop/e4/CombShiftTB.v(4): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	CombShiftTB
+
+} {} {}} C:/Users/a/Desktop/e4/register.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/a/Desktop/e4/register18.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/register18.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register18
+
+Top level modules:
+	register18
+
+} {} {}} C:/Users/a/Desktop/e4/exponential.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/exponential.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exponential
+
+Top level modules:
+	exponential
+
+} {} {}} C:/Users/a/Desktop/e4/multiplier.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} C:/Users/a/Desktop/e4/top_levelTB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/top_levelTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_levelTB
+
+Top level modules:
+	top_levelTB
+
+} {} {}} C:/Users/a/Desktop/e4/Exp_engineTB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/Exp_engineTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module expTB
+
+Top level modules:
+	expTB
+
+} {} {}} C:/Users/a/Desktop/e4/Counter.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/a/Desktop/e4/mux2to1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} C:/Users/a/Desktop/e4/LUTExp.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/LUTExp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} C:/Users/a/Desktop/e4/cntrl.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/cntrl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_ctrl
+-- Compiling module cu
+
+Top level modules:
+	counter_ctrl
+	cu
+
+} {} {}} C:/Users/a/Desktop/e4/one_pulser.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/one_pulser.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_pulser
+
+Top level modules:
+	one_pulser
+
+} {} {}} C:/Users/a/Desktop/e4/Controller.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/a/Desktop/e4/ShiftReg.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/e4/ShiftReg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ShiftReg
+
+Top level modules:
+	ShiftReg
+
+} {} {}}

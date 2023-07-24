@@ -1,0 +1,1 @@
+void input_file(char** buffer, FILE* file);

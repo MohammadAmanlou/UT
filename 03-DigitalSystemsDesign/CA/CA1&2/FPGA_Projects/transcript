@@ -1,0 +1,209 @@
+vsim -gui work.NandQ1TB
+# vsim -gui work.NandQ1TB 
+# Start time: 23:58:13 on Nov 07,2022
+# Loading work.NandQ1TB
+# Loading work.Q1Nand
+add wave -position insertpoint  \
+sim:/NandQ1TB/aa \
+sim:/NandQ1TB/bb \
+sim:/NandQ1TB/ww
+run -continue
+quit -sim
+# End time: 23:58:51 on Nov 07,2022, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 1
+vsim -gui work.NandQ1TB
+# vsim -gui work.NandQ1TB 
+# Start time: 23:59:00 on Nov 07,2022
+# Loading work.NandQ1TB
+# Loading work.Q1Nand
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/NandQ1TB/aa \
+sim:/NandQ1TB/bb \
+sim:/NandQ1TB/ww
+run -all
+# ** Note: $stop    : C:/Users/a/Desktop/FPGA_Projects/TB1.v(12)
+#    Time: 148 ns  Iteration: 0  Instance: /NandQ1TB
+# Break in Module NandQ1TB at C:/Users/a/Desktop/FPGA_Projects/TB1.v line 12
+quit -sim
+# End time: 00:05:29 on Nov 08,2022, Elapsed time: 0:06:29
+# Errors: 0, Warnings: 1
+vsim -gui work.NandQ2TB
+# vsim -gui work.NandQ2TB 
+# Start time: 00:07:01 on Nov 08,2022
+# Loading work.NandQ2TB
+# Loading work.Q1Nand
+# Loading work.Q2Nand
+add wave -position insertpoint  \
+sim:/NandQ2TB/aa \
+sim:/NandQ2TB/bb \
+sim:/NandQ2TB/ww \
+sim:/NandQ2TB/ww2
+run -all
+# ** Note: $stop    : C:/Users/a/Desktop/FPGA_Projects/TB2.v(12)
+#    Time: 133 ns  Iteration: 0  Instance: /NandQ2TB
+# Break in Module NandQ2TB at C:/Users/a/Desktop/FPGA_Projects/TB2.v line 12
+quit -sim
+# End time: 00:08:46 on Nov 08,2022, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 1
+vsim -gui work.NandQ4TB
+# vsim -gui work.NandQ4TB 
+# Start time: 00:10:47 on Nov 08,2022
+# Loading work.NandQ4TB
+# Loading work.Q3Nand
+# Loading work.Q4Nand
+add wave -position insertpoint  \
+sim:/NandQ4TB/aa \
+sim:/NandQ4TB/bb \
+sim:/NandQ4TB/cc \
+sim:/NandQ4TB/ww \
+sim:/NandQ4TB/ww2
+run -all
+# ** Note: $stop    : C:/Users/a/Desktop/FPGA_Projects/TB4.v(19)
+#    Time: 384 ns  Iteration: 0  Instance: /NandQ4TB
+# Break in Module NandQ4TB at C:/Users/a/Desktop/FPGA_Projects/TB4.v line 19
+quit -sim
+# End time: 00:17:59 on Nov 08,2022, Elapsed time: 0:07:12
+# Errors: 0, Warnings: 1
+# Load canceled
+# Compile of Verilog1.v was successful.
+# Compile of TB1.v was successful.
+# Compile of TB2.v was successful.
+# Compile of Verilog2.v was successful.
+# Compile of Verilog3.v was successful.
+# Compile of TB3.v was successful.
+# Compile of TB4.v was successful.
+# Compile of Verilog4.v was successful.
+# Compile of Verilog5.v was successful.
+# Compile of TB6.sv was successful.
+# Compile of Verilog7.sv was successful.
+# Compile of TB8.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.ComparatorTB
+# vsim -gui work.ComparatorTB 
+# Start time: 00:18:58 on Nov 08,2022
+# Loading sv_std.std
+# Loading work.ComparatorTB
+# Loading work.myCompretor
+# Loading work.myComXor
+# Loading work.myXor
+# Loading work.myInv
+# Loading work.Q1Nand
+# Loading work.Q3Nand
+add wave -position insertpoint  \
+sim:/ComparatorTB/a1 \
+sim:/ComparatorTB/a2 \
+sim:/ComparatorTB/a3 \
+sim:/ComparatorTB/a4 \
+sim:/ComparatorTB/b1 \
+sim:/ComparatorTB/b2 \
+sim:/ComparatorTB/b3 \
+sim:/ComparatorTB/b4 \
+sim:/ComparatorTB/ww
+run -all
+# ** Note: $stop    : C:/Users/a/Desktop/FPGA_Projects/TB6.sv(13)
+#    Time: 161 ns  Iteration: 0  Instance: /ComparatorTB
+# Break in Module ComparatorTB at C:/Users/a/Desktop/FPGA_Projects/TB6.sv line 13
+# Break key hit
+quit -sim
+# End time: 00:20:14 on Nov 08,2022, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 2
+vsim -gui work.ComparatorTB
+# vsim -gui work.ComparatorTB 
+# Start time: 00:20:36 on Nov 08,2022
+# Loading sv_std.std
+# Loading work.ComparatorTB
+# Loading work.myCompretor
+# Loading work.myComXor
+# Loading work.myXor
+# Loading work.myInv
+# Loading work.Q1Nand
+# Loading work.Q3Nand
+# Compile of Verilog1.v was successful.
+# Compile of TB1.v was successful.
+# Compile of TB2.v was successful.
+# Compile of Verilog2.v was successful.
+# Compile of Verilog3.v was successful.
+# Compile of TB3.v was successful.
+# Compile of TB4.v was successful.
+# Compile of Verilog4.v was successful.
+# Compile of Verilog5.v was successful.
+# Compile of TB6.sv was successful.
+# Compile of Verilog7.sv was successful.
+# Compile of TB8.sv was successful.
+# 12 compiles, 0 failed with no errors.
+quit -sim
+# End time: 00:20:58 on Nov 08,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 2
+# Load canceled
+vsim -gui work.ComparatorTB
+# vsim -gui work.ComparatorTB 
+# Start time: 00:21:17 on Nov 08,2022
+# Loading sv_std.std
+# Loading work.ComparatorTB
+# Loading work.myCompretor
+# Loading work.myComXor
+# Loading work.myXor
+# Loading work.myInv
+# Loading work.Q1Nand
+# Loading work.Q3Nand
+add wave -position insertpoint  \
+sim:/ComparatorTB/a1 \
+sim:/ComparatorTB/a2 \
+sim:/ComparatorTB/a3 \
+sim:/ComparatorTB/a4 \
+sim:/ComparatorTB/b1 \
+sim:/ComparatorTB/b2 \
+sim:/ComparatorTB/b3 \
+sim:/ComparatorTB/b4 \
+sim:/ComparatorTB/ww
+run -all
+# ** Note: $stop    : C:/Users/a/Desktop/FPGA_Projects/TB6.sv(13)
+#    Time: 500 ns  Iteration: 0  Instance: /ComparatorTB
+# Break in Module ComparatorTB at C:/Users/a/Desktop/FPGA_Projects/TB6.sv line 13
+quit -sim
+# End time: 00:23:39 on Nov 08,2022, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 1
+# Compile of Verilog1.v was successful.
+# Compile of TB1.v was successful.
+# Compile of TB2.v was successful.
+# Compile of Verilog2.v was successful.
+# Compile of Verilog3.v was successful.
+# Compile of TB3.v was successful.
+# Compile of TB4.v was successful.
+# Compile of Verilog4.v was successful.
+# Compile of Verilog5.v was successful.
+# Compile of TB6.sv was successful.
+# Compile of Verilog7.sv was successful.
+# Compile of TB8.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.ComparatorTBQ8
+# vsim -gui work.ComparatorTBQ8 
+# Start time: 00:27:55 on Nov 08,2022
+# Loading sv_std.std
+# Loading work.ComparatorTBQ8
+# Loading work.myCompretor
+# Loading work.myComXor
+# Loading work.myXor
+# Loading work.myInv
+# Loading work.Q1Nand
+# Loading work.Q3Nand
+# Loading work.Q7Compretor
+add wave -position insertpoint  \
+sim:/ComparatorTBQ8/a1 \
+sim:/ComparatorTBQ8/a2 \
+sim:/ComparatorTBQ8/a3 \
+sim:/ComparatorTBQ8/a4 \
+sim:/ComparatorTBQ8/b1 \
+sim:/ComparatorTBQ8/b2 \
+sim:/ComparatorTBQ8/b3 \
+sim:/ComparatorTBQ8/b4 \
+sim:/ComparatorTBQ8/ww \
+sim:/ComparatorTBQ8/ww1
+run -all
+# ** Note: $stop    : C:/Users/a/Desktop/FPGA_Projects/TB8.sv(14)
+#    Time: 500 ns  Iteration: 0  Instance: /ComparatorTBQ8
+# Break in Module ComparatorTBQ8 at C:/Users/a/Desktop/FPGA_Projects/TB8.sv line 14
+# End time: 00:30:56 on Nov 08,2022, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 2

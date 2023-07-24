@@ -1,0 +1,29 @@
+# Compile of Q3.sv was successful.
+# Compile of Q3_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ALU_TB
+# vsim -gui work.ALU_TB 
+# Start time: 23:56:18 on Dec 13,2022
+# Loading sv_std.std
+# Loading work.ALU_TB
+# Loading work.ALU
+# ** Error: (vsim-3033) Instantiation of 'CRA_8bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_TB/uut File: C:/Users/a/Desktop/Q3.sv Line: 10
+#         Searched libraries:
+#             C:/Users/a/Desktop/work
+# Error loading design
+# End time: 23:56:19 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+vsim -gui work.ALU_TB
+# vsim -gui work.ALU_TB 
+# Start time: 23:56:31 on Dec 13,2022
+# Loading sv_std.std
+# Loading work.ALU_TB
+# Loading work.ALU
+# ** Error: (vsim-3033) Instantiation of 'CRA_8bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_TB/uut File: C:/Users/a/Desktop/Q3.sv Line: 10
+#         Searched libraries:
+#             C:/Users/a/Desktop/work
+# Error loading design
+# End time: 23:56:32 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1

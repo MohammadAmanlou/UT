@@ -1,0 +1,19 @@
+`timescale 1 ns/ 1 ns
+module cntrlerTB;
+	reg start,rst,co,eng_done;
+	reg clk = 0;
+	wire done,reset,ld,ui_reg_ld,eng_start,wr_reg,cnt_en,sh_en;
+	
+	cu c(start,clk,rst,eng_done,done,reset,ld,ui_reg_ld,eng_start,wr_reg,cnt_en,sh_en);
+
+	always #1 clk = ~clk;
+	initial begin
+		#5 rst = 1'b1;
+		#5 rst = 1'b0;
+		#5 start = 1'b1;
+		#5 start = 1'b0;
+		#5 eng_done = 1;
+		#30 $stop;
+	end
+
+endmodule 
