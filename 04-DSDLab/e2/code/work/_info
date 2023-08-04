@@ -1,0 +1,198 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/SHAHZAD/00UT/sems/sem4/logic circuit LAB
+vBinary_To_7Segment
+Z0 !s110 1681572219
+!i10b 1
+!s100 UTd]>KhHeoWC_kYP^aPzI2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6A8Zo?K<1mN=DUHhjY`Vl3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/LENOVO/Desktop/mmd
+w1681560293
+8C:/Users/LENOVO/Desktop/mmd/hexDisplay.v
+FC:/Users/LENOVO/Desktop/mmd/hexDisplay.v
+!i122 160
+L0 2 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1681572219.000000
+!s107 C:/Users/LENOVO/Desktop/mmd/hexDisplay.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/Desktop/mmd/hexDisplay.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@binary_@to_7@segment
+vcounter
+R0
+!i10b 1
+!s100 k8?SkZWKLkiDPHU:[nZe31
+R1
+ING1=a1=fQ:oTGlmN>AN?W1
+R2
+R3
+Z8 w1681566701
+Z9 8C:/Users/LENOVO/Desktop/mmd/all.v
+Z10 FC:/Users/LENOVO/Desktop/mmd/all.v
+!i122 161
+L0 14 12
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 C:/Users/LENOVO/Desktop/mmd/all.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/Desktop/mmd/all.v|
+!i113 1
+R6
+R7
+vL2TB
+Z13 !s110 1681572220
+!i10b 1
+!s100 Lm^cz=4i29V1F7J=DP`5z0
+R1
+I9hd2hNKZNlGjeQgn=6IH91
+R2
+R3
+w1681572215
+8C:/Users/LENOVO/Desktop/mmd/allTB.v
+FC:/Users/LENOVO/Desktop/mmd/allTB.v
+!i122 162
+L0 3 102
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/LENOVO/Desktop/mmd/allTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/Desktop/mmd/allTB.v|
+!i113 1
+R6
+R7
+n@l2@t@b
+vone_pulser
+R0
+!i10b 1
+!s100 K;6`E7`PaMlik7lT2[K;W0
+R1
+IohLoi`8Dfj4d8Se<dG0NW1
+R2
+R3
+R8
+R9
+R10
+!i122 161
+L0 26 23
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+vone_pulser_tb
+R0
+!i10b 1
+!s100 MX`bNV[N`R9>MZUc:;I=G2
+R1
+I@6T07;`O=nbW>V0;FNioL3
+R2
+R3
+w1680965008
+8C:/Users/LENOVO/Desktop/mmd/opTB.v
+FC:/Users/LENOVO/Desktop/mmd/opTB.v
+!i122 158
+L0 2 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/LENOVO/Desktop/mmd/opTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/Desktop/mmd/opTB.v|
+!i113 1
+R6
+R7
+vsequence_dec
+R0
+!i10b 1
+!s100 Cl;Cj]7zz5[CP:SCd6omV0
+R1
+IfIVNB6OD7W3@U@Gz?5bP>3
+R2
+R3
+w1681040042
+8C:/Users/LENOVO/Desktop/mmd/seq_det.v
+FC:/Users/LENOVO/Desktop/mmd/seq_det.v
+!i122 159
+L0 9 31
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/LENOVO/Desktop/mmd/seq_det.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/Desktop/mmd/seq_det.v|
+!i113 1
+R6
+R7
+vSequence_Detector
+R0
+!i10b 1
+!s100 VCgZUeLlRn3dMo`O2o8=H2
+R1
+IHH4:Kl56B12ShRCDBV8ig1
+R2
+R3
+R8
+R9
+R10
+!i122 161
+L0 49 37
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@sequence_@detector
+vtop
+R13
+!i10b 1
+!s100 IB<?eodbDO:PI<X^2cCzO2
+R1
+I1EQci^Te<`;<dehMS]h[[0
+R2
+R3
+w1681572021
+8C:/Users/LENOVO/Desktop/mmd/top.v
+FC:/Users/LENOVO/Desktop/mmd/top.v
+!i122 163
+L0 1 8
+R4
+r1
+!s85 0
+31
+!s108 1681572220.000000
+!s107 C:/Users/LENOVO/Desktop/mmd/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/Desktop/mmd/top.v|
+!i113 1
+R6
+R7

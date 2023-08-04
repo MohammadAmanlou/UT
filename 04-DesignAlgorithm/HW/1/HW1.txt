@@ -1,0 +1,25 @@
+Page 107 of Levitin's book, exercises:
+
+6 examples for worst case string matching
+
+8 number of subcategories
+
+
+
+Page 113 of the book, exercises:
+
+3 Post office location
+
+4 distance from Manhattan
+
+12 linear programming
+
+
+
+Page 120 of the book, exercises:
+
+3 Eulerian circuits
+
+5 examples of the special case of the allocation problem
+
+9 eight ministers

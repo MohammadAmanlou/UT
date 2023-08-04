@@ -1,0 +1,8 @@
+module top(input clk,rst,clkPB,serIn , output[6:0] Hex ,output serOut,serOutValid );
+	wire clkEn,Co,cnt_reset,load;
+	wire [3:0] Count;
+	counter C(clk,cnt_reset,clkEn,load,Co,Count);
+	Sequence_Detector SD(clk,rst,clkEn,serIn,Co,serOut,serOutValid,load,cnt_reset);
+	one_pulser P(clk,rst,clkPB,clkEn);
+	Binary_To_7Segment ss(Count,r_Hex);
+endmodule

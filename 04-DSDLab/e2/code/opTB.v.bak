@@ -1,0 +1,17 @@
+`timescale 1ns/1ns
+module one_pulser_tb (
+    
+);
+  reg clk=0,Lp=0 , rst=0;
+  wire SP;
+  always  #10 clk=~clk;
+  //module one_pulser (  input clk,LP,output reg SP);
+    one_pulser OP (Lp,clk,SP);
+  initial begin
+    #15 Lp=1;
+    #15 Lp=0;
+    #50 Lp=1;
+    #30 Lp=0;
+    #100 $stop;
+  end
+endmodule

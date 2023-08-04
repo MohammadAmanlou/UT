@@ -1,0 +1,54 @@
+C:/Users/LENOVO/Desktop/mmd/allTB.v {1 {vlog -work work -stats=none C:/Users/LENOVO/Desktop/mmd/allTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module L2TB
+
+Top level modules:
+	L2TB
+
+} {} {}} C:/Users/LENOVO/Desktop/mmd/top.v {1 {vlog -work work -stats=none C:/Users/LENOVO/Desktop/mmd/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/LENOVO/Desktop/mmd/op.v {1 {vlog -work work -stats=none C:/Users/LENOVO/Desktop/mmd/op.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_pulser
+
+Top level modules:
+	one_pulser
+
+} {} {}} C:/Users/LENOVO/Desktop/mmd/hexDisplay.v {1 {vlog -work work -stats=none C:/Users/LENOVO/Desktop/mmd/hexDisplay.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Binary_To_7Segment
+
+Top level modules:
+	Binary_To_7Segment
+
+} {} {}} C:/Users/LENOVO/Desktop/mmd/opTB.v {1 {vlog -work work -stats=none C:/Users/LENOVO/Desktop/mmd/opTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_pulser_tb
+
+Top level modules:
+	one_pulser_tb
+
+} {} {}} C:/Users/LENOVO/Desktop/mmd/seq_det.v {1 {vlog -work work -stats=none C:/Users/LENOVO/Desktop/mmd/seq_det.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sequence_dec
+
+Top level modules:
+	sequence_dec
+
+} {} {}} C:/Users/LENOVO/Desktop/mmd/all.v {1 {vlog -work work -stats=none C:/Users/LENOVO/Desktop/mmd/all.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+-- Compiling module one_pulser
+-- Compiling module Sequence_Detector
+
+Top level modules:
+	counter
+	one_pulser
+	Sequence_Detector
+
+} {} {}}
