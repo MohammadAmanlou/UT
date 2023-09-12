@@ -1,0 +1,59 @@
+#ifndef _TRIP_
+#define _TRIP_
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include "person.hpp"
+
+typedef struct Place{
+    std::string name;
+    float lat;
+    float lon;
+}Place;
+
+class Trip{
+    private:
+        std::string origin;
+        std::string destination;
+        Passenger * passenger;
+        Driver * driver;
+        int id;
+        int status;
+
+    public:
+        Trip(std::string _origin, std::string _destination, Passenger * _passenger , int id_){
+            origin = _origin;
+            destination = _destination;
+            passenger = _passenger;
+            status = WAITING ;
+            id = id_;
+        }
+        std::string get_origin(){
+            return origin;
+        }
+        std::string get_destination(){
+            return destination;
+        }
+        int get_id(){
+            return id;
+        }
+        std::string get_status_name();
+        int get_status(){
+            return status;
+        }
+        void set_status(int status_){
+            status = status_;
+        }
+        Passenger * get_passenger(){
+            return passenger;
+        }
+        void set_driver(Driver * driver_){
+            driver = driver_;
+        }
+        Driver * get_driver(){
+            return driver;
+        }
+};
+
+#endif

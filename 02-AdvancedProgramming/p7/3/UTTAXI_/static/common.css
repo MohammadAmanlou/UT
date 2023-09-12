@@ -1,0 +1,142 @@
+
+body {font-family: monospace;
+  background: #d8c1e7;
+}
+* {box-sizing: border-box}
+
+/* input fields */
+input[type=password], input[type=non_hide_pass], input[type=username], input[type=origin], input[type=destination] ,input[type= tripId]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  background: #ffffff;
+}
+
+
+input[type=password]:focus, input[type=non_hide_pass]:focus, input[type=username]:focus , input[type=origin]:focus ,input[type=destination]:focus ,input[type= tripId]:focus{
+  background-color: rgb(50, 42, 167);
+  outline: none;
+}
+input[type=amount] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  position: relative;
+  border: none;
+  border-radius: 30px;
+  background: #27769a;
+}
+input[type=amount]:focus{
+  background-color: rgb(119, 56, 98);
+  outline: none;
+}
+input[type=filter] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  background: #484594;
+}
+input[type=filter]:focus{
+  background-color: rgb(51, 36, 139);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #21a378;
+  position: relative;
+  border-radius: 25px;
+  color: rgb(14, 12, 12);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {}
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(48, 120, 111);
+  overflow: auto;
+  border-radius: 30px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #58b09d;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.filter {
+  background-color: rgb(241, 232, 243);
+  background-size:30%;
+  text-align: center;
+}
+.bad_message {
+  background-color: rgb(250, 122, 132);
+  text-align: center;
+}
+.good_message {
+  background-color: rgb(164, 240, 149);
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+}
