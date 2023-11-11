@@ -1,0 +1,1 @@
+cmd_/home/mohammad/OS/Proj1/names.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/mohammad/OS/Proj1/names.ko /home/mohammad/OS/Proj1/names.o /home/mohammad/OS/Proj1/names.mod.o;  true

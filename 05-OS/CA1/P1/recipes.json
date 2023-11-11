@@ -1,0 +1,54 @@
+{
+    "Chelo_Kebab": {
+        "beef" : 50,
+        "Onions" : 70,
+        "Salt" : 10,
+        "Saffron" : 5
+    },
+    "Ghormeh_Sabzi": {
+        "Stew_beef" : 90,
+        "Parsley" : 15,
+        "Onions" : 30,
+        "Turmeric" : 100
+    },
+    "Tahdig": {
+        "Basmati_rice" : 1000,
+        "Saffron" : 20
+    },
+    "Zereshk_Polo": {
+        "Basmati_rice" : 2000,
+        "Saffron" : 2,
+        "Sugar" : 130
+    },
+    "Kashk_Bademjan": {
+        "Eggplant" : 25,
+        "Garlic" : 40,
+        "Walnuts" : 60
+    },
+    "Mirza_Ghasemi": {
+        "Eggplant" : 30,
+        "Tomatoes" : 200,
+        "Eggs" : 4,
+        "Garlic" : 50,
+        "Turmeric" : 200
+    },
+    "Ash_Reshteh": {
+        "Chickpeas" : 30,
+        "Lentils" : 880,
+        "Turmeric" : 400
+    },
+    "Fesenjan": {
+        "Onions" : 100,
+        "Sugar" : 70,
+        "Turmeric" : 200
+    },
+    "Tahchin": {
+        "Saffron" : 10,
+        "Eggs" : 2
+    },
+    "Baghali_Polo": {
+        "Dill" : 50,
+        "Saffron" : 5,
+        "Turmeric" : 500
+    }
+}

@@ -1,0 +1,32 @@
+function sendScores() {
+  var num_questions = 7;
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet1 = ss.getSheetByName('Student. Info.'); 
+  var sheet2 = ss.getSheetByName('Logic.'); 
+  var data1 = sheet1.getDataRange().getValues();
+  var data2 = sheet2.getDataRange().getValues();
+  var subject = 'Your scores';
+  
+  for (var i = 1; i < data1.length; i++) {
+    var email = data1[i][0];
+    var scores = '';
+    
+    for (var j = 3; j < data2.length; j+=2) {
+      if (data1[i][1] == data2[j][0]) {
+        for (var q = 2 ; q < num_questions*2 ; q +=2 ){
+          scores += data2[j+1][q] + '\n';
+          Logger.log("hello");
+        }
+        Logger.log('Scores for ' + data1[i][1] + ':\n' + scores); // Print the scores to the logs
+        
+      }
+    }
+    
+    
+    // var message = 'Dear student,\n\nYour scores are as follows:\n\n' + scores + '\nBest regards,\nYour teacher';
+    // MailApp.sendEmail("mohammadamanlou2@gmail.com", subject, message);
+  }
+  var message = 'Dear student,\n\nYour scores are as follows:\n\n' + scores + '\nBest regards,\nYour teacher';
+  
+  MailApp.sendEmail("mohammadamanlou2@gmail.com", subject, message);
+}
