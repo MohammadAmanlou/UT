@@ -1,0 +1,52 @@
+module tb_Buffer_16x4;
+
+reg clk;
+reg we;
+reg shift_up;
+reg [3:0] data_in;
+reg [5:0] address;
+wire [15:0] data_out;
+
+Buffer_16x4 buffer (
+  .data_in(data_in),
+  .we(we),
+  .clk(clk),
+  .shift_up(shift_up),
+  .address(address),
+  .data_out(data_out)
+);
+
+always #5 clk <= ~clk;
+
+initial begin
+  clk <= 0;
+  we <= 0;
+  shift_up <= 0;
+  data_in <= 0;
+  address <= 0;
+
+  #10 we <= 1;
+  data_in <= 4'b1011;
+  address <= 0;
+
+  #10 we <= 1;
+  data_in <= 4'b1111;
+  address <= 16;
+
+  #10 we <= 0;
+  shift_up <= 1;
+
+  #10 shift_up <= 0;
+  we <= 1;
+  data_in <= 4'b0101;
+  address <= 0;
+
+  #100;
+$stop;
+end
+
+always @(*) begin
+  $monitor("clk = %b, we = %b, shift_up = %b, data_in = %b, address = %b, data_out = %x", clk, we, shift_up, data_in, address, data_out);
+end
+
+endmodule

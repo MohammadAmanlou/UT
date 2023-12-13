@@ -1,0 +1,110 @@
+H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/MaxnetTB.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/MaxnetTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MaxnetTB
+
+Top level modules:
+	MaxnetTB
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/MemPU.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/MemPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mem4PU
+-- Compiling module Mem1PU
+
+Top level modules:
+	Mem4PU
+	Mem1PU
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Controller.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/PU.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/PU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PU
+
+Top level modules:
+	PU
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/AdderTB.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/AdderTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder_Testbench
+
+Top level modules:
+	Adder_Testbench
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Decoder.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Datapath.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/RegisterArray.sv {1 {vlog -work work -sv -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/RegisterArray.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterArray
+
+Top level modules:
+	RegisterArray
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/mux2to1.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2To1
+
+Top level modules:
+	Mux2To1
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/mux4to1.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux4To1
+
+Top level modules:
+	Mux4To1
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Maxnet.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Maxnet.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Maxnet
+
+Top level modules:
+	Maxnet
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Multiplier.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mult2
+-- Compiling module Mult
+
+Top level modules:
+	Mult2
+	Mult
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/mem.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mem4
+
+Top level modules:
+	Mem4
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Adder.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/MultTB.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P1/MultTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MultTB
+
+Top level modules:
+	MultTB
+
+} {} {}}

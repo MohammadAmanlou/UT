@@ -1,0 +1,17 @@
+module Buffer_16 (
+  input [127:0] data_in,
+  input we, clk,
+  output reg [127:0] data_out
+);
+
+reg [15:0] data ;
+integer i;
+always@(posedge clk)begin
+  if (we) begin
+    data <= data_in;
+  end
+end
+
+assign data_out = data;
+
+endmodule

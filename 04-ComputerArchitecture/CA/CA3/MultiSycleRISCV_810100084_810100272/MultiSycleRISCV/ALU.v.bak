@@ -1,0 +1,18 @@
+module ALU (input signed SrcA, SrcB, input[2:0]control, output zero , sign , output reg[31:0] res);
+
+    assign zero = ~|res;
+    assign sign = res[31];
+
+    always @(SrcA,SrcB, control) begin
+        case (control)
+            3'b000:  res = SrcA & SrcB;
+            3'b001:  res = SrcA | SrcB;
+            3'b010:  res = SrcA + SrcB;
+            3'b110:  res = SrcA - SrcB;
+	    3'b011:  res = SrcA ^ SrcB;
+            3'b111:  res = SrcA < SrcB ? 'd1 : 'd0;
+            default: res = {32{1'b0}};
+        endcase
+    end
+endmodule
+

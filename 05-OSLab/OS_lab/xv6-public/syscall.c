@@ -7,6 +7,24 @@
 #include "x86.h"
 #include "syscall.h"
 
+int
+fetchfloat(uint addr, float *fp)
+{
+  struct proc *curproc = myproc();
+
+  if(addr >= curproc->sz || addr+4 > curproc->sz)
+    return -1;
+  *fp = *(float*)(addr);
+  return 0;
+}
+
+
+int
+argfloat(int n, float *fp)
+{
+  return fetchfloat((myproc()->tf->esp) + 4 + 4*n, fp);
+}
+
 // User code makes a system call with INT T_SYSCALL.
 // System call number in %eax.
 // Arguments on the stack, from the user call to the C
@@ -107,6 +125,10 @@ extern int sys_find_digital_root(void);
 extern int sys_get_process_lifetime(void);
 extern int sys_copy_file(void);
 extern int sys_get_uncle_count(void);
+extern int sys_change_sched_Q(void);
+extern int sys_show_process_info(void);
+extern int sys_set_proc_bjf_params(void);
+extern int sys_set_system_bjf_params(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -134,6 +156,12 @@ static int (*syscalls[])(void) = {
 [SYS_get_process_lifetime] sys_get_process_lifetime,
 [SYS_copy_file] sys_copy_file,
 [SYS_get_uncle_count] sys_get_uncle_count,
+[SYS_change_sched_Q] sys_change_sched_Q,
+[SYS_show_process_info] sys_show_process_info,
+[SYS_set_proc_bjf_params] sys_set_proc_bjf_params,
+[SYS_set_system_bjf_params] sys_set_system_bjf_params,
+
+
 };
 
 void

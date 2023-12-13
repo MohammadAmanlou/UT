@@ -1,0 +1,16 @@
+Sun Nov 19 15:56:14 +0430 2023
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$tree UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 6)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:eval:1: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}

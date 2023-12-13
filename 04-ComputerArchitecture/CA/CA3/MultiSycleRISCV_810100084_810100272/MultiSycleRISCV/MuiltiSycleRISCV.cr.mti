@@ -1,0 +1,103 @@
+C:/Users/a/Desktop/MultiSycleRISCV/RegisterFile.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/RegisterFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/Register.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Reg
+
+Top level modules:
+	Reg
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/TB_multi.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/TB_multi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/Mux3To1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/Mux3To1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux3To1
+
+Top level modules:
+	Mux3To1
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/top_level.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/top_level.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_level
+
+Top level modules:
+	top_level
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/PC.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/ImmExtend.v {2 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/ImmExtend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ImmExt
+** Warning: C:/Users/a/Desktop/MultiSycleRISCV/ImmExtend.v(8): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	ImmExt
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/Controller.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/DP.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/DP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/TB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/InstDataMem.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/InstDataMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/Mux2To1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/Mux2To1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2To1
+
+Top level modules:
+	Mux2To1
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/IRReg.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/IRReg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IRReg
+
+Top level modules:
+	IRReg
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/Mux4To1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/Mux4To1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux4To1
+
+Top level modules:
+	Mux4To1
+
+} {} {}} C:/Users/a/Desktop/MultiSycleRISCV/ALU.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/MultiSycleRISCV/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

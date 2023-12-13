@@ -1,0 +1,10 @@
+
+module PC(input [31:0] in, input clk , en , output reg [31:0]out);
+	
+    always @(posedge clk) begin
+	if(en)
+            out <= in;
+    end
+endmodule
+
+

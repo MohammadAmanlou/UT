@@ -1,0 +1,151 @@
+`define 	R_Type	7'b0110011
+`define 	I_Type	7'b0010011
+`define		Lw	7'b0000011
+`define 	Jalr	7'b1100111
+`define		S_Type	7'b0100011
+`define		J_Type	7'b1101111
+`define 	B_Type	7'b1100011
+`define		U_Type	7'b0110111
+
+
+`define		Add	10'b0000_0000_00
+`define 	Sub	10'b0100_0000_00
+`define		And	10'b0000_0001_11
+`define 	Or	10'b0000_0001_10
+`define		Slt	10'b0000_0000_10
+
+
+`define		lw	3'b010
+`define 	addi	3'b000
+`define		xori	3'b100
+`define 	ori	3'b110
+`define		slti	3'b010
+`define		jalr	3'b000
+
+
+`define		beq	3'b000
+`define 	bne	3'b001
+`define		blt	3'b100
+`define 	bge	3'b101
+
+
+`define 	q0	5'b00000
+`define 	q1	5'b00001
+`define 	q2	5'b00010
+`define 	q3	5'b00011
+`define 	q4	5'b00100
+`define 	q5	5'b00101
+`define 	q6	5'b00110
+`define 	q7	5'b00111
+`define 	q8	5'b01000
+`define 	q9	5'b01001
+`define 	q10	5'b01010
+`define 	q11	5'b01011
+`define 	q12	5'b01100
+`define 	q13	5'b01101
+`define 	q14	5'b01110
+`define 	q15	5'b01111
+`define 	q16	5'b10000
+`define 	q17	5'b10001
+
+
+
+module Controller(input clk,zero,branchLEG,input [6:0] op,func7,input[2:0] func3,
+	output reg PCWrite,AdrSrc,MemWrite,IRWrite,RegWrite,output reg[1:0] ResultSrc,ALUSrcA,ALUSrcB,output reg[2:0]ALUControl,ImmSrc);
+	
+	reg[4:0] ps=5'b0,ns;
+	always@(posedge clk)begin
+		ps<=ns;
+	end
+	always@(ps,zero,branchLEG,op,func7,func3)begin 
+		case(ps)
+		`q0:ns=`q1;
+		`q1:ns=	(op==`R_Type)? `q2 :
+		        (op==`I_Type)? `q4 :
+			(op==`Lw)    ? `q5 :
+			(op==`S_Type)? `q8 :
+			(op==`B_Type)? `q10:
+			(op==`Jalr  )? `q11:
+			(op==`J_Type)? `q14:
+			(op==`U_Type)? `q17:
+			5'b00000;
+		`q2 :	ns=`q3;
+		`q3 :	ns=`q0;
+		`q4 :	ns=`q3;
+		`q5 :	ns=`q6;
+		`q6 :	ns=`q7;
+		`q7 :	ns=`q0;
+		`q8 :	ns=`q9;
+		`q9 :	ns=`q0;
+		`q10:	ns=`q0;
+		`q11:	ns=`q12;
+		`q12:	ns=`q13;
+		`q13:	ns=`q0;
+		`q14:	ns=`q15;
+		`q15:	ns=`q16;
+		`q16:	ns=`q0;
+		`q17:	ns=`q0;
+		endcase		
+	end
+	always@(ps,zero,branchLEG,op,func7,func3)begin
+		{PCWrite,AdrSrc,MemWrite,IRWrite,RegWrite,ResultSrc,ALUSrcA,ALUSrcB,ImmSrc,ALUControl}=17'b0000_0000_0000_0001_0;
+		case(ps)
+		`q0 :{AdrSrc,IRWrite,ALUSrcA,ALUSrcB,ALUControl,ResultSrc,PCWrite}=12'b0100__1001_0101;
+		`q1 :{ALUSrcA,ALUSrcB,ImmSrc,ALUControl}=10'b0101_0100_10;
+		`q2 :begin {ALUSrcA,ALUSrcB}=4'b1000;
+			case({func7,func3})
+				`Add:ALUControl=3'b010;
+				`Sub:ALUControl=3'b110;
+				`And:ALUControl=3'b000;
+				`Or :ALUControl=3'b001;
+				`Slt:ALUControl=3'b111;
+			endcase	
+		    end
+		`q3 :{ResultSrc,RegWrite}=3'b001;
+		`q4 :begin {ALUSrcA,ALUSrcB,ImmSrc}=7'b1001_000;
+		  	case(func3)
+				`addi:ALUControl=3'b010;
+				`xori:ALUControl=3'b011;	
+				`ori :ALUControl=3'b001;
+				`slti:ALUControl=3'b111;
+		    	endcase
+		    end
+		`q5 :	{ImmSrc,ALUSrcA,ALUSrcB,ALUControl}=10'b0001_0010_10;
+		`q6 :	{ResultSrc,AdrSrc}  =3'b001;
+		`q7 :	{ResultSrc,RegWrite}=3'b111;
+		`q8 :	{ImmSrc,ALUSrcA,ALUSrcB,ALUControl}=10'b0011_0010_10;
+		`q9 :	{ResultSrc,AdrSrc,MemWrite}=4'b0011;
+		`q10:begin {ALUSrcA,ALUSrcB,ResultSrc}=6'b1000_00;
+			case(func3)
+				`beq:begin
+					ALUControl=3'b110;
+					PCWrite=(zero)?1:0;
+				end
+				`bne:begin
+					ALUControl=3'b110;
+					PCWrite=(zero)?0:1;
+				end
+				`blt:begin
+					ALUControl=3'b111;
+					PCWrite=(branchLEG)?1:0;
+				end
+				`bge:begin
+					ALUControl=3'b111;
+					PCWrite=(branchLEG)?0:1;
+				end
+			endcase
+		    end
+		`q11:{ALUSrcA,ALUSrcB,ALUControl}=7'b0110_010;
+		`q12:{ResultSrc,RegWrite}=3'b001;
+		`q13:{ALUSrcA,ALUSrcB,ALUControl,ResultSrc,PCWrite,ImmSrc}=13'b1001_0101_0100_0;
+		`q14:{ALUSrcA,ALUSrcB,ALUControl}=7'b0110_010;
+		`q15:{ResultSrc,RegWrite}=3'b001;
+		`q16:{ALUSrcA,ALUSrcB,ALUControl,ResultSrc,PCWrite,ImmSrc}=13'b0101_0101_0101_1;
+		`q17:{ImmSrc,RegWrite,ResultSrc}=6'b1001_11;
+		endcase
+	end
+endmodule
+
+
+
+

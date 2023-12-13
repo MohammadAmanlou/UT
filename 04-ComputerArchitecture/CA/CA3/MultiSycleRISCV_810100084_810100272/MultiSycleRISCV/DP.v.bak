@@ -1,0 +1,32 @@
+module Datapath(input clk,PCWrite,AdrSrc,MemWrite,IRWrite,RegWrite ,input[1:0] ResultSrc,ALUSrcA,ALUSrcB ,input[2:0] ALUControl,ImmSrc,
+	output zero , sign , output reg[6:0] func7 , output reg [2:0] func3, output reg [6:0] opcode);
+	wire[31:0] Result , PPC , Adr;
+	PC pc(Result,clk,PCWrite,PPC);
+	Mux2To1 muxpc(PPC,Result,AdrSrc,Adr);
+	wire[31:0] BData , ReadData;
+	DataMemory DM(Adr, BData, MemWrite, clk , ReadData);
+	wire[31:0] Data;
+	Reg MDR(ReadData,clk,Data);
+	wire[31:0] OldPC,Instr;
+	IRReg IR(PPC , ReadData ,clk , IRWrite , OldPC , Instr);
+	assign opcode = Instr[6:0];
+	assign func7 = Instr[31:25];
+	assign func3 = Instr[14:12];
+	wire[31:0] WD3;
+	Mux2To1 WD3Src(PPC,Result,WDSrc,WD3);
+	wire[31:0] A,B;
+	RegisterFile RF(Instr[19:15] , Instr[24:20],Instr[11:7],WD3,RegWrite , clk , A , B);
+	wire[31:0] AData;
+	Reg AReg(A,clk,AData);
+	Reg BReg(B,clk,BData);
+	wire[31:0] SrcA,SrcB;
+	Mux3To1 MuxA(PPC,OldPC,AData,ALUSrcA,SrcA);
+	wire[31:0] ImmExt;
+	ImmExt im(Instr[31:7] , ImmSrc , ImmExt );
+	Mux3To1 MuxB(BData,ImmExt,32'b00000000000000000000000000000100,ALUSrcB,SrcB);
+	wire[31:0] ALUResult;
+	ALU alu(SrcA, SrcB,ALUControl,zero , sign , ALUResult);
+	wire[31:0] ALUOut;
+	Reg ALUReg(ALUResult,clk,ALUOut);
+	Mux4To1 ResMux(ALUOut, Data , ALUResult, ImmExt,ResultSrc,Result);
+endmodule

@@ -1,0 +1,30 @@
+module Buffer_16x4 (
+  input [3:0] data_in,
+  input we, clk, shift_up,
+  input [5:0] address,
+  output reg [15:0] data_out
+);
+
+  reg [15:0] buffer[0:3];
+  integer shifted_address;
+
+  // Asynchronous read
+  always @(address)
+    data_out <= buffer[address];
+
+  // Write enable
+  always @(posedge clk)
+    if (we)
+      buffer[address] <= data_in;
+
+  // Shifting the data
+  always @(posedge clk)
+    if (shift_up)
+      for (integer i = 0; i < 64; i = i + 1) begin
+        if (i < 48)
+          shifted_address = i + 16;
+        else
+          shifted_address = i - 48;
+        buffer[i] <= buffer[shifted_address];
+      end
+endmodule

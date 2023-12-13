@@ -28,6 +28,7 @@ main(void)
       exit();
     }
     if(pid == 0){
+      change_sched_Q(getpid() , 1);
       exec("sh", argv);
       printf(1, "init: exec sh failed\n");
       exit();

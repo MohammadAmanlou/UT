@@ -1,0 +1,18 @@
+module register (
+  input clk,
+  input rst,jmp,
+  input [8:0] data_in, default_val , 
+  output reg [8:0] data_out
+);
+
+  always @(posedge clk) begin
+    if (rst) begin
+      data_out <= default_val;
+    end else if(jmp === 1) begin
+      data_out <= 48;
+    end else begin
+	data_out <= data_in;
+     end
+  end
+
+endmodule

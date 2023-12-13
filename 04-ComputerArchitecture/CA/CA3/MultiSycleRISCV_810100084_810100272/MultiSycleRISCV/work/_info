@@ -1,0 +1,418 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/a/Desktop/Single_cycle_riscV
+vALU
+Z0 !s110 1686255841
+!i10b 1
+!s100 R@5]PjUJ>l3;`0]SSB1E:0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INTaJO7kj70ZD44>0FRQ:K0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/a/Desktop/MultiSycleRISCV
+w1686070589
+8C:/Users/a/Desktop/MultiSycleRISCV/ALU.v
+FC:/Users/a/Desktop/MultiSycleRISCV/ALU.v
+!i122 603
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1686255841.000000
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u
+vAReg
+Z8 !s110 1685991390
+!i10b 1
+!s100 O?27JZ_USeMm:S^`]7mik2
+R1
+I;EHnLP5U_TMOg6[DP_`eK3
+R2
+R3
+w1685991282
+8C:/Users/a/Desktop/MultiSycleRISCV/AReg.v
+FC:/Users/a/Desktop/MultiSycleRISCV/AReg.v
+!i122 47
+Z9 L0 2 6
+R4
+r1
+!s85 0
+31
+Z10 !s108 1685991390.000000
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/AReg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/AReg.v|
+!i113 1
+R6
+R7
+n@a@reg
+vBReg
+R8
+!i10b 1
+!s100 VWSbXR15;fIU1O30n>n6_2
+R1
+IQM0WU4o;>91]dC]UXm4e90
+R2
+R3
+w1685991309
+8C:/Users/a/Desktop/MultiSycleRISCV/BReg.v
+FC:/Users/a/Desktop/MultiSycleRISCV/BReg.v
+!i122 48
+Z11 L0 1 6
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/BReg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/BReg.v|
+!i113 1
+R6
+R7
+n@b@reg
+vController
+Z12 !s110 1686255842
+!i10b 1
+!s100 z8353U8VHUXON^U4]9ZP^1
+R1
+INXLa0MmJWJ9;U`;ShP2W=0
+R2
+R3
+w1686251822
+8C:/Users/a/Desktop/MultiSycleRISCV/Controller.v
+FC:/Users/a/Desktop/MultiSycleRISCV/Controller.v
+!i122 606
+L0 53 95
+R4
+r1
+!s85 0
+31
+Z13 !s108 1686255842.000000
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/Controller.v|
+!i113 1
+R6
+R7
+n@controller
+vDataMemory
+R0
+!i10b 1
+!s100 6M[];NTmHCEJICX2OzF060
+R1
+I00SAlYlBBRfc`D1`]H_Qc2
+R2
+R3
+w1686249643
+8C:/Users/a/Desktop/MultiSycleRISCV/InstDataMem.v
+FC:/Users/a/Desktop/MultiSycleRISCV/InstDataMem.v
+!i122 597
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/InstDataMem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/InstDataMem.v|
+!i113 1
+R6
+R7
+n@data@memory
+vDatapath
+R12
+!i10b 1
+!s100 XCg_ijF`HN<>TSa]nDZE=0
+R1
+IW@ohXg]KeLEZZf7ZVH`[D1
+R2
+R3
+w1686250883
+8C:/Users/a/Desktop/MultiSycleRISCV/DP.v
+FC:/Users/a/Desktop/MultiSycleRISCV/DP.v
+!i122 604
+L0 1 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/DP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/DP.v|
+!i113 1
+R6
+R7
+n@datapath
+vImmExt
+R0
+!i10b 1
+!s100 4OoOXCjYn<z87k3T>E<T30
+R1
+IV@kHaPTgz;6`6Vc6A^gnX3
+R2
+R3
+w1686148302
+8C:/Users/a/Desktop/MultiSycleRISCV/ImmExtend.v
+FC:/Users/a/Desktop/MultiSycleRISCV/ImmExtend.v
+!i122 600
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/ImmExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/ImmExtend.v|
+!i113 1
+R6
+R7
+n@imm@ext
+vIRReg
+R0
+!i10b 1
+!s100 DT<X_M[66iKa1idc3kzgn3
+R1
+ImV3>;RnM4@eD7O9hnTKSF2
+R2
+R3
+w1686039997
+8C:/Users/a/Desktop/MultiSycleRISCV/IRReg.v
+FC:/Users/a/Desktop/MultiSycleRISCV/IRReg.v
+!i122 598
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/IRReg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/IRReg.v|
+!i113 1
+R6
+R7
+n@i@r@reg
+vMDR
+R8
+!i10b 1
+!s100 f5odW^JCHDZikj81_oH0F3
+R1
+Ic33T[KgWldYUfID>SG;XC3
+R2
+R3
+w1685985880
+8C:/Users/a/Desktop/MultiSycleRISCV/MDR.v
+FC:/Users/a/Desktop/MultiSycleRISCV/MDR.v
+!i122 43
+R9
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/MDR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/MDR.v|
+!i113 1
+R6
+R7
+n@m@d@r
+vMux2To1
+R0
+!i10b 1
+!s100 >7dzQmPBgJ?]]F1KjWPgf3
+R1
+IaKFWMdd0XMeacK=AB@cIA1
+R2
+R3
+w1685983415
+8C:/Users/a/Desktop/MultiSycleRISCV/Mux2To1.v
+FC:/Users/a/Desktop/MultiSycleRISCV/Mux2To1.v
+!i122 596
+L0 2 4
+R4
+r1
+!s85 0
+31
+Z14 !s108 1686255840.000000
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/Mux2To1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/Mux2To1.v|
+!i113 1
+R6
+R7
+n@mux2@to1
+vMux3To1
+R0
+!i10b 1
+!s100 ^ciJzm0QgTkzJZY`oCC2`2
+R1
+IkBI@:iLBZONDGg9cEDSH@1
+R2
+R3
+w1685991389
+8C:/Users/a/Desktop/MultiSycleRISCV/Mux3To1.v
+FC:/Users/a/Desktop/MultiSycleRISCV/Mux3To1.v
+!i122 601
+Z15 L0 1 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/Mux3To1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/Mux3To1.v|
+!i113 1
+R6
+R7
+n@mux3@to1
+vMux4To1
+R12
+!i10b 1
+!s100 47mlmTnz1BU7eE`4:EEAc0
+R1
+I@;oC1>e8fGiZFB?@[K]Z]0
+R2
+R3
+w1686237592
+8C:/Users/a/Desktop/MultiSycleRISCV/Mux4To1.v
+FC:/Users/a/Desktop/MultiSycleRISCV/Mux4To1.v
+!i122 605
+R15
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/Mux4To1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/Mux4To1.v|
+!i113 1
+R6
+R7
+n@mux4@to1
+vPC
+!s110 1686255840
+!i10b 1
+!s100 0Q9aQ>Tj2f]Un;]3`mYUf3
+R1
+I9K8gJ>314k6dii>PoGlZ81
+R2
+R3
+w1686249427
+8C:/Users/a/Desktop/MultiSycleRISCV/PC.v
+FC:/Users/a/Desktop/MultiSycleRISCV/PC.v
+!i122 595
+L0 2 7
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/PC.v|
+!i113 1
+R6
+R7
+n@p@c
+vReg
+R0
+!i10b 1
+!s100 7RP=9WNaPkKooY<gMD8X=0
+R1
+Iz4NbU^z=GQB34=`A@T00f0
+R2
+R3
+w1685991435
+8C:/Users/a/Desktop/MultiSycleRISCV/Register.v
+FC:/Users/a/Desktop/MultiSycleRISCV/Register.v
+!i122 602
+R11
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/Register.v|
+!i113 1
+R6
+R7
+n@reg
+vRegisterFile
+R0
+!i10b 1
+!s100 6ahAd5A7`=aMf:G3P6P;_2
+R1
+I2[PnNjG9S3<z@[7_aVZ_Q3
+R2
+R3
+w1686147002
+8C:/Users/a/Desktop/MultiSycleRISCV/RegisterFile.v
+FC:/Users/a/Desktop/MultiSycleRISCV/RegisterFile.v
+!i122 599
+L0 2 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/RegisterFile.v|
+!i113 1
+R6
+R7
+n@register@file
+vTB
+R12
+!i10b 1
+!s100 ;:@eU]:fPTfL<0V[4S7gz2
+R1
+IFnoa[5Khem]a04GlbT4[<2
+R2
+R3
+w1686236080
+8C:/Users/a/Desktop/MultiSycleRISCV/TB_multi.v
+FC:/Users/a/Desktop/MultiSycleRISCV/TB_multi.v
+!i122 608
+L0 4 15
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/TB_multi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/TB_multi.v|
+!i113 1
+R6
+R7
+n@t@b
+vtop_level
+R12
+!i10b 1
+!s100 @RGAUVo]@U5hgmM`L?5@G0
+R1
+ImLQl;EV1ODji@eRa0Xk;@0
+R2
+R3
+w1686250941
+8C:/Users/a/Desktop/MultiSycleRISCV/top_level.v
+FC:/Users/a/Desktop/MultiSycleRISCV/top_level.v
+!i122 607
+L0 2 13
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/a/Desktop/MultiSycleRISCV/top_level.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MultiSycleRISCV/top_level.v|
+!i113 1
+R6
+R7

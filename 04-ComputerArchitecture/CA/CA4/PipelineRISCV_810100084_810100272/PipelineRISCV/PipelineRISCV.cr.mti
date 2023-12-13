@@ -1,0 +1,139 @@
+C:/Users/a/Desktop/PipelineRISCV/HazardUnit.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/HazardUnit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/Top.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TopLevelPipe
+
+Top level modules:
+	TopLevelPipe
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/RegisterBlocks.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/RegisterBlocks.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF_ID_Regs
+-- Compiling module ID_EX_Regs
+-- Compiling module EX_Mem_Regs
+-- Compiling module Mem_WB_Regs
+
+Top level modules:
+	IF_ID_Regs
+	ID_EX_Regs
+	EX_Mem_Regs
+	Mem_WB_Regs
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/RegisterFile.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/RegisterFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/Register.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/Decoder.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/Decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/Mux2to1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/Mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2to1
+
+Top level modules:
+	Mux2to1
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/DataMem.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/DataMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMem2
+-- Compiling module DataMem
+
+Top level modules:
+	DataMem2
+	DataMem
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/Mux4to1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/Mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux4to1
+
+Top level modules:
+	Mux4to1
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/ALU.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/controller.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+-- Compiling module Controller2
+
+Top level modules:
+	Controller
+	Controller2
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/ImmExt.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/ImmExt.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ImmExtend
+
+Top level modules:
+	ImmExtend
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/InstMem.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/InstMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstMemory2
+-- Compiling module InstMemory
+
+Top level modules:
+	InstMemory2
+	InstMemory
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/TB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TBPipe
+
+Top level modules:
+	TBPipe
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/DataPath.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/Adder.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/MS.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/MS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF
+
+Top level modules:
+	DFF
+
+} {} {}} C:/Users/a/Desktop/PipelineRISCV/Mux3to1.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/PipelineRISCV/Mux3to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux3to1
+
+Top level modules:
+	Mux3to1
+
+} {} {}}

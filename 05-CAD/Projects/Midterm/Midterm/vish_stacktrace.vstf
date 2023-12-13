@@ -1,0 +1,21 @@
+# Current time Wed Dec 06 19:46:00 2023
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 004eea91. Traceback:
+# 0    0x004eea91: 'mti_strlen + 0x40431'
+# 1    0x004f72f9: 'EnumDispProc + 0x1779'
+# 2    0x613c1fae: 'TclInvokeStringCommand + 0xbe'
+# 3    0x613c39f1: 'TclNREvalObjv + 0x3e1'
+# 4    0x613c3a49: 'TclNRRunCallbacks + 0x49'
+# 5    0x613c563c: 'Tcl_EvalObjEx + 0x2c'
+# 6    0x68910400: 'Itcl_EvalMemberCode + 0x300'
+# 7    0x0264e4f8: '<unknown (@0x264e4f8)>'
+# 8    0x613c39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
