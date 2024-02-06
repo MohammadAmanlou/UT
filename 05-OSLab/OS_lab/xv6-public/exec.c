@@ -10,6 +10,12 @@
 int
 exec(char *path, char **argv)
 {
+  pushcli();
+  for (int i = 0; i < ncpu; i++){
+    cpus[i].syscalls_count = 0;
+  }
+  count_shared_syscalls = 0;
+  popcli();
   char *s, *last;
   int i, off;
   uint argc, sz, sp, ustack[3+MAXARG+1];
@@ -92,6 +98,16 @@ exec(char *path, char **argv)
     if(*s == '/')
       last = s+1;
   safestrcpy(curproc->name, last, sizeof(curproc->name));
+
+
+  /*
+    Detach shared region segments
+  */
+  for(int i = 0; i < SHAREDREGIONS; i++) {
+    if(curproc->pages[i].shmid != -1 && curproc->pages[i].key != -1) {
+      shmdtWrapper(curproc->pages[i].virtualAddr);
+    }
+  }
 
   // Commit to the user image.
   oldpgdir = curproc->pgdir;

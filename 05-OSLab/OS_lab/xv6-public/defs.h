@@ -7,8 +7,10 @@ struct proc;
 struct rtcdate;
 struct spinlock;
 struct sleeplock;
+struct PriorityLock;
 struct stat;
 struct superblock;
+
 
 // bio.c
 void            binit(void);
@@ -120,16 +122,18 @@ void            scheduler(void) __attribute__((noreturn));
 void            sched(void);
 void            setproc(struct proc*);
 void            sleep(void*, struct spinlock*);
+void			priority_wakeup(void*);
 void            userinit(void);
 int             wait(void);
 void            wakeup(void*);
 void            yield(void);
-int 		   find_digital_root(int);
+int 		    find_digital_root(int);
 int				change_Q(int, int);
 void			show_process_info(void);
 int             set_proc_bjf_params(int, float, float, float,float);
 int             set_system_bjf_params(float, float, float,float);
-
+void			init_queue_test(void);
+void			make_priority_queue(void *);
 
 
 // swtch.S
@@ -149,6 +153,15 @@ void            acquiresleep(struct sleeplock*);
 void            releasesleep(struct sleeplock*);
 int             holdingsleep(struct sleeplock*);
 void            initsleeplock(struct sleeplock*, char*);
+
+//priorityLock.c
+
+void			priorityLock_test(void);
+void 			acquirePriorityLock(struct PriorityLock *);
+void 			releasePriorityLock(struct PriorityLock *);
+void 			initPriorityLock(struct PriorityLock * );
+int				holdingPriorityLock(struct PriorityLock * );
+
 
 // string.c
 int             memcmp(const void*, const void*, uint);
@@ -198,6 +211,13 @@ void            switchuvm(struct proc*);
 void            switchkvm(void);
 int             copyout(pde_t*, uint, void*, uint);
 void            clearpteu(pde_t *pgdir, char *uva);
+
+// Shared memory (vm.c)
+void sharedMemoryInit(void);
+int getShmidIndex(int);
+void mappagesWrapper(struct proc *process, int, int);
+void shmdtWrapper(void *);
+
 
 // number of elements in fixed-size array
 #define NELEM(x) (sizeof(x)/sizeof((x)[0]))

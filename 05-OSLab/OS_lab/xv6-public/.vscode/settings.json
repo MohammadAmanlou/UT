@@ -30,6 +30,11 @@
   ],
   "C_Cpp.default.compilerPath": "/usr/bin/gcc",
   "files.associations": {
-    "file.h": "c"
+    "file.h": "c",
+    "user.h": "c",
+    "types.h": "c",
+    "defs.h": "c",
+    "prioritylock.h": "c",
+    "sleeplock.h": "c"
   }
 }

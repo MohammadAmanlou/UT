@@ -1,1 +1,78 @@
-cd C:/Users/a/Desktop/trunk/trunk/sim
+# Compile of buf16.v was successful.
+# Compile of buf44.v was successful.
+# Compile of buf88.v was successful.
+# Compile of buf88TB.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Convolution.v was successful.
+# Compile of counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Mux2To1.v was successful.
+# Compile of Mux4To1.v was successful.
+# Compile of Mux16To1.v was successful.
+# Compile of Register.v was successful.
+# Compile of shift_reg_32.v was successful.
+vsim -gui work.convolution_tb
+# vsim -gui work.convolution_tb 
+# Start time: 16:54:46 on Dec 20,2023
+# Loading work.convolution_tb
+# Loading work.convolution
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.mux4_1_9bit
+# Loading work.Memory
+# Loading work.Buffer_16x4
+# Loading work.Buffer_44
+# Loading work.Buffer_16
+# Loading work.counter16
+# Loading work.mux_16to1
+# Loading work.MAC
+# Loading work.shift_register32
+# Compile of TB.v was successful.
+# 16 compiles, 1 failed with no errors.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "test1234.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v(3)
+#    Time: 0 ns  Iteration: 0  Instance: /convolution_tb/conv/d/mem
+# ** Note: $stop    : H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v(27)
+#    Time: 200040 ns  Iteration: 0  Instance: /convolution_tb
+# Break in Module convolution_tb at H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v line 27
+add wave -position insertpoint  \
+sim:/convolution_tb/clk \
+sim:/convolution_tb/done \
+sim:/convolution_tb/start \
+sim:/convolution_tb/X \
+sim:/convolution_tb/Y \
+sim:/convolution_tb/Z
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Mohamma.Amanlou  Hostname: DESKTOP-JOGDHNR  ProcessID: 9384
+#           Attempting to use alternate WLF file "./wlftrzrqxz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrzrqxz
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "test1234.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v(3)
+#    Time: 0 ns  Iteration: 0  Instance: /convolution_tb/conv/d/mem
+# ** Note: $stop    : H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v(27)
+#    Time: 200040 ns  Iteration: 0  Instance: /convolution_tb
+# Break in Module convolution_tb at H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v line 27
+add wave -position insertpoint  \
+sim:/convolution_tb/conv/c/count16_mux_en
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "test1234.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v(3)
+#    Time: 0 ns  Iteration: 0  Instance: /convolution_tb/conv/d/mem
+# ** Note: $stop    : H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v(27)
+#    Time: 200040 ns  Iteration: 0  Instance: /convolution_tb
+# Break in Module convolution_tb at H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v line 27
+quit -sim
+# End time: 16:56:12 on Dec 20,2023, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 2

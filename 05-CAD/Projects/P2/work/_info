@@ -1,0 +1,861 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAdder
+Z0 !s110 1703272713
+!i10b 1
+!s100 8lfEnGHLlh]fz0ne_YKLg2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ih7D8bQGRe9<l_nH]h1UfF2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2
+w1703157985
+Z4 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Adder.v
+Z5 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Adder.v
+!i122 2040
+L0 1 22
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1703272713.000000
+Z8 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Adder.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Adder.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@adder
+vadder5
+!s110 1703157459
+!i10b 1
+!s100 iO@@IKGQB_NcSa8Qz3RlT1
+R1
+I:`8Tb6;eLFSEookT7DECe1
+R2
+R3
+w1703153456
+R4
+R5
+!i122 703
+L0 1 15
+R6
+r1
+!s85 0
+31
+!s108 1703157459.000000
+R8
+R9
+!i113 1
+R10
+R11
+vAdderTB
+!s110 1703155918
+!i10b 1
+!s100 H<N4Doi`Rm:Woa<=^fEZB3
+R1
+IUAW2YRc<@K8SdD<g=`::l1
+R2
+R3
+w1703153519
+Z12 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/AdderTB.v
+Z13 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/AdderTB.v
+!i122 687
+L0 4 38
+R6
+r1
+!s85 0
+31
+!s108 1703155918.000000
+Z14 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/AdderTB.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/AdderTB.v|
+!i113 1
+R10
+R11
+n@adder@t@b
+vAnd
+Z16 !s110 1703272711
+!i10b 1
+!s100 W^o_4?HnBzHRD6<gSoJZT0
+R1
+I6cGeS0khng<NlIO?aDjOg2
+R2
+R3
+w1703083332
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/And.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/And.v
+!i122 2031
+Z17 L0 1 3
+R6
+r1
+!s85 0
+31
+Z18 !s108 1703272711.000000
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/And.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/And.v|
+!i113 1
+R10
+R11
+n@and
+vC1
+Z19 !s110 1703272710
+!i10b 1
+!s100 _2:c7W1<<=cid1FQ@=o^60
+R1
+IOQc^>c70XWMfg0[Ik`[o;1
+R2
+R3
+w1703083604
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C1.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C1.v
+!i122 2027
+L0 1 8
+R6
+r1
+!s85 0
+31
+Z20 !s108 1703272710.000000
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C1.v|
+!i113 1
+R10
+R11
+n@c1
+vC2
+R19
+!i10b 1
+!s100 z8F0P:@[e>ClS<4iXLGYU0
+R1
+Ih3=ZGN44F<o2fBQVJ422H1
+R2
+R3
+w1703084416
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C2.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C2.v
+!i122 2028
+L0 1 9
+R6
+r1
+!s85 0
+31
+R20
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/C2.v|
+!i113 1
+R10
+R11
+n@c2
+vController
+Z21 !s110 1703272717
+!i10b 1
+!s100 ITJfVjaI9I=YS2C`m=z`N2
+R1
+I^[QY<iZ6flPbk10l=V7RP0
+R2
+R3
+w1703199051
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Controller.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Controller.v
+!i122 2046
+L0 9 38
+R6
+r1
+!s85 0
+31
+Z22 !s108 1703272717.000000
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Controller.v|
+!i113 1
+R10
+R11
+n@controller
+vconvert_5to1bit
+Z23 !s110 1703272714
+!i10b 1
+!s100 H`?5EYobL[UKno2>9do=@2
+R1
+IjSZj]JA`W96HQ5CRDNFcR1
+R2
+R3
+Z24 w1703194762
+Z25 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Decoder.v
+Z26 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Decoder.v
+!i122 2045
+L0 52 7
+R6
+r1
+!s85 0
+31
+Z27 !s108 1703272714.000000
+Z28 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Decoder.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Decoder.v|
+!i113 1
+R10
+R11
+vDatapath
+R23
+!i10b 1
+!s100 @meafiLCJ_UBP@hCL?jZ31
+R1
+IE_]jacGKRP[X=[4ioaNTS2
+R2
+R3
+w1703195188
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Datapath.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Datapath.v
+!i122 2043
+L0 1 20
+R6
+r1
+!s85 0
+31
+R27
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Datapath.v|
+!i113 1
+R10
+R11
+n@datapath
+vdecoder
+R23
+!i10b 1
+!s100 1jnjOXhV>k1E8:V4?FN9m3
+R1
+IJ0WGGzeTUAbFe7nWNXIHl3
+R2
+R3
+R24
+R25
+R26
+!i122 2045
+L0 1 50
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R10
+R11
+vFA
+Z30 !s110 1703272712
+!i10b 1
+!s100 :_Fn=Z0B2k^:>A4VT:Qmf2
+R1
+IlQWbOBZA5EjGPX5EMHKGB1
+R2
+R3
+w1703152173
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/FA.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/FA.v
+!i122 2036
+L0 1 21
+R6
+r1
+!s85 0
+31
+Z31 !s108 1703272712.000000
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/FA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/FA.v|
+!i113 1
+R10
+R11
+n@f@a
+vMaxnet
+R21
+!i10b 1
+!s100 hWUKmiZY_Rne8zN3MWom]3
+R1
+I3:lS=4]UC`VXnR7mJh2mQ3
+R2
+R3
+w1703199182
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNet.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNet.v
+!i122 2047
+Z32 L0 1 6
+R6
+r1
+!s85 0
+31
+R22
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNet.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNet.v|
+!i113 1
+R10
+R11
+n@maxnet
+vMaxnetTB
+!s110 1703272718
+!i10b 1
+!s100 b0X=WJDCXR9Qm^dCC6f;82
+R1
+Ic]Tn`Vdcc^g5b<L[A@NPg1
+R2
+R3
+w1703270096
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNetTB.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNetTB.v
+!i122 2048
+L0 2 45
+R6
+r1
+!s85 0
+31
+!s108 1703272718.000000
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNetTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/MaxNetTB.v|
+!i113 1
+R10
+R11
+n@maxnet@t@b
+vmemory
+!s110 1703155583
+!i10b 1
+!s100 gSI8A5N32nRN>A;9ngQa@3
+R1
+In2J0Bmf]7O]8nmNX]ij@>0
+R2
+R3
+w1703154533
+Z33 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Registers.v
+Z34 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Registers.v
+!i122 645
+L0 7 6
+R6
+r1
+!s85 0
+31
+!s108 1703155583.000000
+Z35 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Registers.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Registers.v|
+!i113 1
+R10
+R11
+vmemory10
+R30
+!i10b 1
+!s100 ^oO01WCZlHD3ZK^dT`OSz0
+R1
+IRm:m0:kAS[12L^;S45Vh`0
+R2
+R3
+Z37 w1703198387
+R33
+R34
+!i122 2035
+L0 25 6
+R6
+r1
+!s85 0
+31
+R31
+R35
+R36
+!i113 1
+R10
+R11
+vmemory5
+R30
+!i10b 1
+!s100 edWQ<z3ilkL6zoIRSAbh41
+R1
+IEP>39MSB5GGSS?6MhiKb82
+R2
+R3
+R37
+R33
+R34
+!i122 2035
+L0 18 6
+R6
+r1
+!s85 0
+31
+R31
+R35
+R36
+!i113 1
+R10
+R11
+vmult
+R30
+!i10b 1
+!s100 V28b27SeGcTcQ`3Eh?=Jo3
+R1
+IO_PA@E3NGhAOjVicC1@;U3
+R2
+R3
+w1703184898
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mult.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mult.v
+!i122 2037
+L0 1 69
+R6
+r1
+!s85 0
+31
+R31
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mult.v|
+!i113 1
+R10
+R11
+vmult_testbench
+R0
+!i10b 1
+!s100 h_]6K[<NXR9EI8bDRaN^=0
+R1
+ISHeJiEgbdT@WC][_jk[e11
+R2
+R3
+w1703267698
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/multTB.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/multTB.v
+!i122 2039
+L0 3 36
+R6
+r1
+!s85 0
+31
+R7
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/multTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/multTB.v|
+!i113 1
+R10
+R11
+vMux2To1
+R23
+!i10b 1
+!s100 KdgPdo`Hn:0[MAOoNH@>`1
+R1
+IkOzmjEoGJ;daa94h[J7Ef3
+R2
+R3
+Z38 w1703183002
+Z39 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mux2To1.v
+Z40 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mux2To1.v
+!i122 2042
+R17
+R6
+r1
+!s85 0
+31
+R7
+Z41 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mux2To1.v|
+Z42 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Mux2To1.v|
+!i113 1
+R10
+R11
+n@mux2@to1
+vmux2x1
+!s110 1703154788
+!i10b 1
+!s100 @@G2B=VdNMaP<kOo`CLZF0
+R1
+I8ICN3e1EBm34IjeFzk^RC1
+R2
+R3
+w1703154005
+R39
+R40
+!i122 601
+R17
+R6
+r1
+!s85 0
+31
+!s108 1703154788.000000
+R41
+R42
+!i113 1
+R10
+R11
+vMux4To1
+R23
+!i10b 1
+!s100 G;;KHoU=52;4MmDKhXJVY3
+R1
+IKk:[_POgjIKdbQhS:z<9N3
+R2
+R3
+R38
+R39
+R40
+!i122 2042
+Z43 L0 5 3
+R6
+r1
+!s85 0
+31
+R7
+R41
+R42
+!i113 1
+R10
+R11
+n@mux4@to1
+vmux4To1
+!s110 1703182956
+!i10b 1
+!s100 F<UMUC:Azc4mb7U>lXKQf3
+R1
+Ie?fAeH:BXW5_kMzi>6B6I1
+R2
+R3
+w1703160396
+R39
+R40
+!i122 1119
+R43
+R6
+r1
+!s85 0
+31
+!s108 1703182955.000000
+R41
+R42
+!i113 1
+R10
+R11
+nmux4@to1
+vNAnd
+R0
+!i10b 1
+!s100 0lmz>2]lO1>:djAiVM:kJ0
+R1
+IncmZbZ=e=?_5OYz]Yh<JK1
+R2
+R3
+w1703148198
+Z44 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Nand.v
+Z45 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Nand.v
+!i122 2038
+Z46 L0 1 5
+R6
+r1
+!s85 0
+31
+R31
+Z47 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Nand.v|
+Z48 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Nand.v|
+!i113 1
+R10
+R11
+n@n@and
+vNand
+!s110 1703148054
+!i10b 1
+!s100 EASeliaDRZ=mdS];ilZo83
+R1
+Iz84MhHWNkQ^SPcFk_?aad1
+R2
+R3
+w1703088153
+R44
+R45
+!i122 325
+R46
+R6
+r1
+!s85 0
+31
+!s108 1703148054.000000
+R47
+R48
+!i113 1
+R10
+R11
+n@nand
+vNot
+R16
+!i10b 1
+!s100 @^@N[0SO=PggnCd?YjlA13
+R1
+IO8L<ifo3CUeb8;FfoPgLP3
+R2
+R3
+w1703084205
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Not.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Not.v
+!i122 2032
+R17
+R6
+r1
+!s85 0
+31
+R18
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Not.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Not.v|
+!i113 1
+R10
+R11
+n@not
+vOr
+R16
+!i10b 1
+!s100 gE4YTRZaC7Ie>Z=5ZQY0Z3
+R1
+ICHUd[4fbk_;R>cho8nZ[02
+R2
+R3
+w1703085789
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Or.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Or.v
+!i122 2033
+L0 1 4
+R6
+r1
+!s85 0
+31
+R18
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Or.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Or.v|
+!i113 1
+R10
+R11
+n@or
+vParamAdder_tb
+R0
+!i10b 1
+!s100 VOa^hCZ:7IZLSS=J5@R031
+R1
+IS<OT?Dg1@`h45=0AheXXm1
+R2
+R3
+w1703157452
+R12
+R13
+!i122 2041
+L0 3 41
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R10
+R11
+n@param@adder_tb
+vPU
+R23
+!i10b 1
+!s100 PS<`S8PY@BTVc_z0a_8DR0
+R1
+If=6j@<L1N47OO=b^[4R`Z0
+R2
+R3
+w1703269801
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/PU.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/PU.v
+!i122 2044
+L0 1 23
+R6
+r1
+!s85 0
+31
+R27
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/PU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/PU.v|
+!i113 1
+R10
+R11
+n@p@u
+vreg32
+!s110 1703085793
+!i10b 1
+!s100 1^1zfmW?B4=i:PXbk5FP?0
+R1
+I>Mj@@J?=P854Y^iTTU?d72
+R2
+R3
+w1703083558
+R33
+R34
+!i122 200
+R17
+R6
+r1
+!s85 0
+31
+!s108 1703085793.000000
+R35
+R36
+!i113 1
+R10
+R11
+vregister
+!s110 1703184394
+!i10b 1
+!s100 MhG_H2PgF8dk;?93005920
+R1
+Il_2TL>RF:ZmD[fH:bT2[U2
+R2
+R3
+w1703184383
+R33
+R34
+!i122 1310
+R32
+R6
+r1
+!s85 0
+31
+!s108 1703184393.000000
+R35
+R36
+!i113 1
+R10
+R11
+vregister1
+R30
+!i10b 1
+!s100 BeD_@=H@NWUL5li0G7fhh3
+R1
+IOFaaf8iB?o2EJ8QNC:8aZ0
+R2
+R3
+R37
+R33
+R34
+!i122 2035
+L0 12 3
+R6
+r1
+!s85 0
+31
+R31
+R35
+R36
+!i113 1
+R10
+R11
+vregister10
+R30
+!i10b 1
+!s100 zYgKGH8Z>TP2ZmZa9Yn@A2
+R1
+IeX9<lm[Y4=;FZ=AQA]OiH2
+R2
+R3
+R37
+R33
+R34
+!i122 2035
+L0 8 3
+R6
+r1
+!s85 0
+31
+R31
+R35
+R36
+!i113 1
+R10
+R11
+vregister5
+R30
+!i10b 1
+!s100 X:Q_iiN:UzW0Y`GNe5D2z1
+R1
+IiBKiAfCnzheP:NfPblVmf3
+R2
+R3
+R37
+R33
+R34
+!i122 2035
+R32
+R6
+r1
+!s85 0
+31
+R31
+R35
+R36
+!i113 1
+R10
+R11
+vS1
+R19
+!i10b 1
+!s100 VkfUi1fGSNLZV;Dm14?T81
+R1
+IbJf<gKbh0a4:_kC9ejh<=2
+R2
+R3
+w1703083714
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S1.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S1.v
+!i122 2029
+L0 1 18
+R6
+r1
+!s85 0
+31
+R20
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S1.v|
+!i113 1
+R10
+R11
+n@s1
+vS2
+R19
+!i10b 1
+!s100 G3m6moQETXhaBZT@CGc9e0
+R1
+IN6=aOCeCAc4PH]8]IJiZe0
+R2
+R3
+w1703195869
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S2.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S2.v
+!i122 2030
+L0 2 17
+R6
+r1
+!s85 0
+31
+R20
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/S2.v|
+!i113 1
+R10
+R11
+n@s2
+vXor
+R16
+!i10b 1
+!s100 K01heQX:2z9nMF>P1K4h^2
+R1
+INmX;0B2400;SOM6cn@CLI1
+R2
+R3
+w1703083385
+8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Xor.v
+FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Xor.v
+!i122 2034
+L0 1 12
+R6
+r1
+!s85 0
+31
+R18
+!s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Xor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/Xor.v|
+!i113 1
+R10
+R11
+n@xor

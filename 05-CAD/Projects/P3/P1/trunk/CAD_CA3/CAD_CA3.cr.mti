@@ -1,0 +1,104 @@
+C:/Users/a/Desktop/CAD_CA3/Memory.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/OFM.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/OFM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OFM
+
+Top level modules:
+	OFM
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/Muxes.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/Muxes.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_16to1
+-- Compiling module mux2_1_9bit
+-- Compiling module mux2_1_4bit
+-- Compiling module mux4_1_9bit
+
+Top level modules:
+	mux_16to1
+	mux2_1_9bit
+	mux2_1_4bit
+	mux4_1_9bit
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/Buffers.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/Buffers.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer4x4
+-- Compiling module Buffer_16
+-- Compiling module Buffer_16x4
+
+Top level modules:
+	buffer4x4
+	Buffer_16
+	Buffer_16x4
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/Adder.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/Registers.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/Registers.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register32
+-- Compiling module register
+
+Top level modules:
+	shift_register32
+	register
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/MAC.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/MAC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC
+
+Top level modules:
+	MAC
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/controller.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/PE.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/PE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE
+
+Top level modules:
+	PE
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/TB.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top_level
+
+Top level modules:
+	tb_top_level
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/CNN.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/CNN.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_level
+
+Top level modules:
+	top_level
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/Datapath.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/Datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/a/Desktop/CAD_CA3/Counter.v {1 {vlog -work work -stats=none C:/Users/a/Desktop/CAD_CA3/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

@@ -1,0 +1,24 @@
+# Compile of C1.v was successful.
+# Compile of C2.v was successful.
+# Compile of S1.v was successful.
+# Compile of S2.v was successful.
+# Compile of And.v was successful.
+# Compile of Not.v was successful.
+# Compile of Or.v was successful.
+# Compile of Xor.v was successful.
+# Compile of Registers.v was successful.
+# Compile of FA.v was successful.
+# Compile of Mult.v was successful.
+# Compile of Nand.v was successful.
+# Compile of multTB.v was successful.
+# Compile of Adder.v was successful.
+# Compile of AdderTB.v was successful.
+# Compile of Mux2To1.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of PU.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of MaxNet.v was successful.
+# Compile of MaxNetTB.v was successful.
+# 22 compiles, 0 failed with no errors.
+cd H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/P2/trunk/trunk/sim

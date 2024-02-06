@@ -23,6 +23,7 @@ module datapath(input mem_write , clk , buf88_write , buf88_shift , buf44_write 
 	register Y_reg(clk,Y_reset,jmp,Y_in,Y,Y_out);
 	register Z_reg(clk,Z_reset,jmp,Z_in,Z,Z_out);
 	mux4_1_9bit mux_mem(X_out,Y_out,Z_out,9'b0,mem_mux_sel,mem_adr);
+	
 	Memory mem(mem_data ,mem_write , clk , mem_adr , mem_out);
 	mux4_1_9bit mux_buf88(9'b0,9'd4,9'd1 ,9'b0,mux_buf88_sel,adder_buf88_in);
 	Adder adder_buf88(adder_buf88_in, buf88_adr,adder_buf88_out);

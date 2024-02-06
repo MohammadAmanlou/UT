@@ -1,0 +1,1465 @@
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v failed with 1 errors.
+# 10 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v failed with 1 errors.
+# 10 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v failed with 1 errors.
+# 10 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v failed with 2 errors.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v failed with 1 errors.
+# 10 compiles, 2 failed with 3 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v failed with 2 errors.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v failed with 4 errors.
+# 10 compiles, 2 failed with 6 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v failed with 2 errors.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# 10 compiles, 1 failed with 2 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 26 errors.
+# 11 compiles, 1 failed with 26 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 19 errors.
+# 11 compiles, 1 failed with 19 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 11 errors.
+# 11 compiles, 1 failed with 11 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 4 errors.
+# 11 compiles, 1 failed with 4 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 2 errors.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 71 errors.
+# 11 compiles, 1 failed with 71 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:41:08 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (32) for port 'in3'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/Muxes.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/buf4x16_mux File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# Error loading design
+# End time: 08:41:08 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 32
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:42:39 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 23
+# Error loading design
+# End time: 08:42:39 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 10
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v failed with 2 errors.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:45:26 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# Error loading design
+# End time: 08:45:27 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 11
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:46:21 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 24
+# Error loading design
+# End time: 08:46:22 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 9
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v failed with 1 errors.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:51:46 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'bufferInput'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# Error loading design
+# End time: 08:51:46 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 12
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:52:40 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (9) for port 'addr'. The port definition is at: C:/Users/a/Desktop/CAD_CA3/PE.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe File: C:/Users/a/Desktop/CAD_CA3/Datapath.v Line: 51
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# Error loading design
+# End time: 08:52:41 on Jan 09,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 6
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Load canceled
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:54:50 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[0]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[2]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire[7:0]$[3:0]' is incompatible with 'wire[31:0]' for  port (data_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_level/uut/u_datapath/genblk1[3]/pe/shift_reg File: C:/Users/a/Desktop/CAD_CA3/PE.v Line: 13
+# Error loading design
+# End time: 08:54:50 on Jan 09,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 2
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 08:57:49 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+add wave -position insertpoint sim:/tb_top_level/*
+add wave -position insertpoint  \
+sim:/tb_top_level/clk
+add wave -position insertpoint  \
+sim:/tb_top_level/done
+quit -sim
+# End time: 08:58:38 on Jan 09,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v failed with 1 errors.
+# Compile of TB.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v failed with 1 errors.
+# Compile of TB.v failed with 1 errors.
+# 13 compiles, 2 failed with 2 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v failed with 2 errors.
+# Compile of TB.v failed with 1 errors.
+# 13 compiles, 2 failed with 3 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v failed with 2 errors.
+# Compile of TB.v failed with 1 errors.
+# 13 compiles, 2 failed with 3 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v failed with 2 errors.
+# Compile of TB.v failed with 1 errors.
+# 13 compiles, 2 failed with 3 errors.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v failed with 1 errors.
+# 13 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 09:02:21 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+add wave -position insertpoint  \
+sim:/tb_top_level/clk
+quit -sim
+# End time: 09:03:02 on Jan 09,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 8
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 09:07:01 on Jan 09,2024
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint sim:/tb_top_level/uut/u_datapath/mem/*
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_datapath/mem/memory
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_datapath/buf4x16/data
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_controller/ns \
+sim:/tb_top_level/uut/u_controller/ps
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/start
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_datapath/mem/adr
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_datapath/buf4x16/address
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_datapath/reg_buf4x16/jmp
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[0]/pe/kernel/data}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[0]/pe/kernel/data_in}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[0]/pe/kernel/we}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[0]/pe/kernel/address}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_datapath/buf44_adr
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_datapath/reg_buf44/rst
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_controller/kernel
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+restart
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 1 errors.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[0]/pe/kernel/data}
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/kernel/data}
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[2]/pe/kernel/data}
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[3]/pe/kernel/data}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_controller/kernel
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v failed with 1 errors.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 1 failed with 1 error.
+restart
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mac/a} \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mac/b}
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mac/enable}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mac1Input} \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mac2Input}
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/bufferOut}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mux16_1/data_inputs} \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mux16_1/out} \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/mux16_1/select}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/shift_reg/register}
+restart
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/ofm/address}
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/ofm/wrData}
+add wave -position insertpoint  \
+{sim:/tb_top_level/uut/u_datapath/genblk1[1]/pe/ofm/wr}
+restart
+run -all
+# Operation finished at time             12455000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12495 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+# Compile of Memory.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Buffers.v was successful.
+# Compile of Muxes.v was successful.
+# Compile of MAC.v was successful.
+# Compile of Registers.v was successful.
+# Compile of OFM.v was successful.
+# Compile of PE.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of CNN.v was successful.
+# Compile of TB.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_top_level
+# Loading work.top_level
+# Loading work.controller
+# Loading work.datapath
+# Loading work.mux2_1_9bit
+# Loading work.Adder
+# Loading work.register
+# Loading work.Memory
+# Loading work.mux4_1_9bit
+# Loading work.Buffer_16x4
+# Loading work.Buffer_16
+# Loading work.counter
+# Loading work.mux_16to1
+# Loading work.PE
+# Loading work.buffer4x4
+# Loading work.MAC
+# Loading work.shift_register32
+# Loading work.OFM
+run -all
+# Operation finished at time             12539000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12579 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+add wave -position insertpoint  \
+sim:/tb_top_level/uut/u_controller/counter_4_result
+restart
+run -all
+# Operation finished at time             12539000
+# Number is:          3
+# Number is:          2
+# Number is:          1
+# Number is:          0
+# ** Note: $stop    : C:/Users/a/Desktop/CAD_CA3/TB.v(54)
+#    Time: 12579 ns  Iteration: 0  Instance: /tb_top_level
+# Break in Module tb_top_level at C:/Users/a/Desktop/CAD_CA3/TB.v line 54
+quit -sim
+# End time: 10:50:06 on Jan 09,2024, Elapsed time: 1:43:05
+# Errors: 0, Warnings: 1
+cd C:/Users/a/Desktop/trunk/sim

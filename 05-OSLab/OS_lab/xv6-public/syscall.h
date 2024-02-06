@@ -28,4 +28,12 @@
 #define SYS_change_sched_Q 27
 #define SYS_set_system_bjf_params 28
 #define SYS_set_proc_bjf_params 29
+#define SYS_priorityLock_test 30
+#define SYS_syscalls_count 31
+
+// System calls for shared memory
+#define SYS_shmget 32
+#define SYS_shmat  33
+#define SYS_shmdt  34
+#define SYS_shmctl 35
 

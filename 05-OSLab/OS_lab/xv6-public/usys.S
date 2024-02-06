@@ -37,4 +37,11 @@ SYSCALL(change_sched_Q)
 SYSCALL(show_process_info)
 SYSCALL(set_proc_bjf_params)
 SYSCALL(set_system_bjf_params)
+SYSCALL(priorityLock_test)
+SYSCALL(syscalls_count)
+
+SYSCALL(shmget)
+SYSCALL(shmat)
+SYSCALL(shmdt)
+SYSCALL(shmctl)
 

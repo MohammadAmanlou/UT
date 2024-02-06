@@ -1,0 +1,123 @@
+`define q0 5'b00000
+`define q1 5'b00001
+`define q2 5'b00010
+`define q3 5'b00011
+`define q4 5'b00100
+`define q5 5'b00101
+`define q6 5'b00110
+`define q7 5'b00111
+`define q8 5'b01000
+`define q9 5'b01001
+`define q10 5'b01010
+`define q11 5'b01011
+`define q12 5'b01100
+`define q13 5'b01101
+`define q14 5'b01110
+`define q15 5'b01111
+`define q16 5'b10000
+`define q17 5'b10001
+`define q18 5'b10010
+`define q19 5'b10011
+`define q20 5'b10100
+`define q21 5'b10101
+`define q22 5'b10110
+`define q23 5'b10111
+`define q24 5'b11000
+
+
+
+module  controller #(parameter N) (clk, start, cout3, cout5, cout6, cout7, cout8, cout9, cout11, en1, en2, en3, en4, en5, en6, en7, en8,
+		 en9, en10, en11, en12, rst3,rst5, rst6, rst7, rst8, rst9, rst11, rst12, sel, shift, wr,kernel_filter2_en, done);
+
+	input clk, start, cout3, cout5, cout6, cout7, cout8, cout9, cout11;
+
+	output reg en3,en5, en6, en7, en8, en9, en10, en11, en12, rst3, rst5, rst6, rst7, rst8, rst9, rst11, rst12, shift, wr, done;
+	output reg sel;
+	output reg[15:0] en2,en4;
+	output [15:0] kernel_filter2_en [0:N-1];
+	output reg [15:0] en1 [0:N-1];  
+
+
+	reg[4:0] ps=5'b0, ns;
+
+
+	wire[31:0] kernel;
+	reg enK,rstK;
+	wire coutK;
+
+
+	counter #( .N(N), .M(32)) myCounter(.clk(clk),.rst(rstK),.en(enK),.cout(coutK),.count(kernel));
+
+
+	integer i;
+	always@(ps,start,cout3, cout5, cout7, cout8, cout11) begin
+		for(i = 0; i < N; i = i + 1) begin
+           		en1[i] = 16'b0;
+        	end
+		{en2, en3, en4, en5, en6, en7, en8, en9, en10, en11, en12, rst3, rst5, rst6, rst7, rst8, rst9, rst11, rst12, sel, shift, wr, done,enK,rstK}=57'b0;////////////////////
+		case(ps)
+			`q0 : {rst3, rst5, rst6, rst7, rst8, rst9, rst11, rst12,rstK} = 9'b111111111;
+			`q1 : {en1[kernel][15:12], sel, en9} = 6'b1111_1_1;
+			`q2 : {en1[kernel][11:8], sel, en9} = 6'b1111_1_1;
+			`q3 : {en1[kernel][7:4], sel, en9} = 6'b1111_1_1;
+			`q4 : {en1[kernel][3:0], sel, en9,enK} = 7'b1111_1_1_1;
+			`q5 : {en2[15:12], sel, en6} = 6'b1111_0_1;
+			`q6 : {en2[11:8], sel, en6} = 6'b1111_0_1;
+			`q7 : {en2[7:4], sel, en6} = 6'b1111_0_1;
+			`q8 : {en2[3:0], sel, en6, en11} = 7'b1111_0_1_1;
+			`q9 : shift = 1'b1;
+			`q10 : {en3, en4} = 17'b1_1111_1111_1111_1111;
+			`q11 : {en5, en12} = 2'b11;
+			`q12 : {en8, en10, rst5, rst12} = 4'b1111;
+			`q13 : {wr, en7, sel, rst8} = 5'b11_10_1;
+			`q14 : {shift, rst3} = 2'b11;
+			`q15 : {en2[15:12], sel, en6} = 6'b1111_0_1;
+			`q16 : {en2[11:8], sel, en6} = 6'b1111_0_1;
+			`q17 : {en2[7:4], sel, en6} = 6'b1111_0_1;
+			`q18 : {en2[3:0], sel, en6} = 6'b1111_0_1;
+			`q19 : en10 = 1'b1;
+			`q20 : en10 = 1'b1;
+			`q21 : en10 = 1'b1;
+			`q22 : {wr, sel} = 3'b110;
+			`q23 : done = 1'b1;
+			`q24 : {kernel_filter2_en[0][15:12] ,kernel_filter2_en[1],kernel_filter2_en[2],kernel_filter2_en[3]} = 4'b1111;
+		endcase
+	end
+
+	always@(ps,start,cout3, cout5, cout7, cout8, cout11)
+	begin
+		case(ps)
+			`q0 : ns= start ? `q1 : `q0 ;
+			`q1 : ns= `q2;
+			`q2 : ns= `q3;
+			`q3 : ns= `q4;
+			`q4 : ns= coutK ? `q5 : `q1 ;
+			`q5 : ns= `q6;
+			`q6 : ns= `q7;
+			`q7 : ns= `q8;
+			`q8 : ns= cout11 ? `q10 : `q9 ;
+			`q9 : ns= `q5;
+			`q10 : ns= `q11;
+			`q11 : ns= cout5 ? `q12 : `q11 ;
+			`q12 : ns= (cout3==0 & cout8==0) ? `q10 :
+				(cout3==1 & cout8==0) ? `q14 : `q13;
+			`q13 : ns= cout3 ? `q14 : `q10;
+			`q14 : ns= cout7 ? `q19 : `q15;
+			`q15 : ns= `q16;
+			`q16 : ns= `q17;
+			`q17 : ns= `q18;
+			`q18 : ns= `q10;
+			`q19 : ns= `q20;
+			`q20 : ns= `q21;
+			`q21 : ns= `q22;
+			`q22 : ns= `q23;
+			`q23 : ns= `q24;
+		endcase
+	end
+
+	always@(posedge clk)
+	begin
+		ps<=ns;
+	end
+
+endmodule

@@ -70,6 +70,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Buffer_16
 
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_16to1
+
+Top level modules:
+	mux_16to1
+
 } {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Buffer_16x4
@@ -83,13 +90,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	Adder
-
-} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_16to1
-
-Top level modules:
-	mux_16to1
 
 } {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -105,18 +105,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	datapath
 
-} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Memory
-
-Top level modules:
-	Memory
-
 } {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/MAC.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/MAC.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MAC
 
 Top level modules:
 	MAC
+
+} {} {}} H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v {1 {vlog -work work -stats=none H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
 
 } {} {}}

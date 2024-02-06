@@ -8,11 +8,13 @@ struct cpu {
   int ncli;                    // Depth of pushcli nesting.
   int intena;                  // Were interrupts enabled before pushcli?
   struct proc *proc;           // The process running on this cpu or null
+  int syscalls_count;
 };
 
 extern struct cpu cpus[NCPU];
 extern int ncpu;
 extern int sys_uptime(void);
+extern int count_shared_syscalls;
 
 //PAGEBREAK: 17
 // Saved registers for kernel context switches.
@@ -55,6 +57,18 @@ struct schedinfo {
 
 enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };
 
+
+// ### Shared Memory ### //
+
+#define SHAREDREGIONS 64 // same as marco in memlayout.h
+
+typedef struct sharedPages {
+  uint key, size;
+  int shmid,perm;
+  void *virtualAddr;
+} sharedPages;
+
+
 // Per-process state
 struct proc {
   uint sz;                     // Size of process memory (bytes)
@@ -72,6 +86,9 @@ struct proc {
   char name[16];               // Process name (debugging)
   uint start_time;             //Process start tick
   struct schedinfo sched_info;
+
+
+  sharedPages pages[SHAREDREGIONS];
 };
 
 // Process memory is laid out contiguously, low addresses first:

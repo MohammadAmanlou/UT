@@ -1,0 +1,716 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vbuffer13x13
+Z0 !s110 1705244567
+!i10b 1
+!s100 `:Tg<;9ZikAAn5;P1F^BL0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0eob8ROF`H_d9KF2mBh=`0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/a/Desktop/MMD
+Z4 w1705236537
+Z5 8C:/Users/a/Desktop/MMD/Buffers.v
+Z6 FC:/Users/a/Desktop/MMD/Buffers.v
+!i122 3022
+L0 133 68
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1705244566.000000
+Z9 !s107 C:/Users/a/Desktop/MMD/Buffers.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/Buffers.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vbuffer4x16
+R0
+!i10b 1
+!s100 RV5j7M1Ok:Too[Zdgf=jR2
+R1
+Ib[@WPNH4caZP]XNLE^50o3
+R2
+R3
+R4
+R5
+R6
+!i122 3022
+L0 18 50
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbuffer4x4
+R0
+!i10b 1
+!s100 zzN`M]A^J=SbU[z_P1IM42
+R1
+I01ceTfcYjH3Iez9cL3gb31
+R2
+R3
+R4
+R5
+R6
+!i122 3022
+L0 1 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vCNN
+Z13 !s110 1705244570
+!i10b 1
+!s100 T9MaUaT_03S?W`UQCF>DZ2
+R1
+I1j[^5UKT3U^mO5^^939ZL0
+R2
+R3
+w1705233991
+Z14 8C:/Users/a/Desktop/MMD/CNN.v
+Z15 FC:/Users/a/Desktop/MMD/CNN.v
+!i122 3026
+L0 1 32
+R7
+r1
+!s85 0
+31
+!s108 1705244569.000000
+Z16 !s107 C:/Users/a/Desktop/MMD/CNN.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/CNN.v|
+!i113 1
+R11
+R12
+n@c@n@n
+vcontroller
+R0
+!i10b 1
+!s100 <C_G9EjRa14e_^3J6_?^12
+R1
+ITA[ja0b5?]2g8876>mJE61
+R2
+R3
+w1705240246
+8C:/Users/a/Desktop/MMD/Controller.v
+FC:/Users/a/Desktop/MMD/Controller.v
+!i122 3023
+L0 45 143
+R7
+r1
+!s85 0
+31
+Z18 !s108 1705244567.000000
+!s107 C:/Users/a/Desktop/MMD/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/Controller.v|
+!i113 1
+R11
+R12
+vcounter
+!s110 1705244566
+!i10b 1
+!s100 4WlUE0YX;V41`bGLTaUZe2
+R1
+IM?XPBPKd_kgC7zgDeAmWV1
+R2
+R3
+w1705077332
+8C:/Users/a/Desktop/MMD/Counter.v
+FC:/Users/a/Desktop/MMD/Counter.v
+!i122 3021
+L0 1 19
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/a/Desktop/MMD/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/Counter.v|
+!i113 1
+R11
+R12
+vdataPath
+R0
+!i10b 1
+!s100 ZFKgI=;z_zP5XdA1MiE823
+R1
+Ij?`Q?;hMmGBjUFZ`4Oao81
+R2
+R3
+w1705236736
+8C:/Users/a/Desktop/MMD/Datapath.v
+FC:/Users/a/Desktop/MMD/Datapath.v
+!i122 3024
+L0 1 137
+R7
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/a/Desktop/MMD/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/Datapath.v|
+!i113 1
+R11
+R12
+ndata@path
+vfilterBuffer
+R0
+!i10b 1
+!s100 IE>V7MD6cU7ecb:KmBEhJ3
+R1
+IRK>>`BVzF6FKYnJCL4N6A2
+R2
+R3
+R4
+R5
+R6
+!i122 3022
+L0 99 32
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nfilter@buffer
+vfilterBuffer2
+!s110 1705071923
+!i10b 1
+!s100 GIYYgkkoM=]cgE9XGCn@_0
+R1
+I`<^ezV^T0:nzeA9ENdcHQ3
+R2
+R3
+w1705071902
+R5
+R6
+!i122 1237
+L0 100 32
+R7
+r1
+!s85 0
+31
+!s108 1705071923.000000
+R9
+R10
+!i113 1
+R11
+R12
+nfilter@buffer2
+vLayer1
+!s110 1705150790
+!i10b 1
+!s100 XG^<1dP`zTJzE>_Y;<JXV0
+R1
+IRCn`KU_NbZo`6S:IDL51b0
+R2
+R3
+w1705150785
+R14
+R15
+!i122 2129
+L0 1 23
+R7
+r1
+!s85 0
+31
+!s108 1705150790.000000
+R16
+R17
+!i113 1
+R11
+R12
+n@layer1
+vmac
+Z19 !s110 1705244568
+!i10b 1
+!s100 U`3Sdm?8G@YogcfP3Ag`a0
+R1
+Im1BgZmNY7I[6z@A1SERJR3
+R2
+R3
+Z20 w1705090390
+Z21 8C:/Users/a/Desktop/MMD/MAC.v
+Z22 FC:/Users/a/Desktop/MMD/MAC.v
+!i122 3025
+L0 1 24
+R7
+r1
+!s85 0
+31
+R18
+Z23 !s107 C:/Users/a/Desktop/MMD/MAC.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/MAC.v|
+!i113 1
+R11
+R12
+vmac2
+R19
+!i10b 1
+!s100 Q;RdF87PTUiO1nIU:nI_j0
+R1
+I9_JE`?S[jZSOJGGA5=`fz0
+R2
+R3
+R20
+R21
+R22
+!i122 3025
+L0 27 24
+R7
+r1
+!s85 0
+31
+R18
+R23
+R24
+!i113 1
+R11
+R12
+vmainProccess
+!s110 1705076243
+!i10b 1
+!s100 I1f>]2GR6S=6M0PCRI48R1
+R1
+IEH6:2e[GX]PT?a0lRA?7_0
+R2
+R3
+w1704981174
+R14
+R15
+!i122 1408
+L0 1 22
+R7
+r1
+!s85 0
+31
+!s108 1705076243.000000
+R16
+R17
+!i113 1
+R11
+R12
+nmain@proccess
+vmemory
+R13
+!i10b 1
+!s100 R7WMLT`YQ7<GhUZ^Gj:1d1
+R1
+I`F6HFRjH0acmooR;;P_jz0
+R2
+R3
+Z25 w1705244173
+Z26 8C:/Users/a/Desktop/MMD/Memory.v
+Z27 FC:/Users/a/Desktop/MMD/Memory.v
+!i122 3027
+L0 1 18
+R7
+r1
+!s85 0
+31
+Z28 !s108 1705244570.000000
+Z29 !s107 C:/Users/a/Desktop/MMD/Memory.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/Memory.v|
+!i113 1
+R11
+R12
+vMemory
+!s110 1705056847
+!i10b 1
+!s100 BmOWCI`d7DT7]a<diOQd02
+R1
+I]90SdI01BYJ0Yk74VlZI:3
+R2
+R3
+w1705056840
+R26
+R27
+!i122 381
+L0 21 9
+R7
+r1
+!s85 0
+31
+!s108 1705056847.000000
+R29
+R30
+!i113 1
+R11
+R12
+n@memory
+vmux16to1
+R13
+!i10b 1
+!s100 J7ARFAJ9Xizef=m0F=F^23
+R1
+IUj]@eY3H:V:FXVCLRhM0F0
+R2
+R3
+Z31 w1705075619
+Z32 8C:/Users/a/Desktop/MMD/Muxes.v
+Z33 FC:/Users/a/Desktop/MMD/Muxes.v
+!i122 3028
+L0 2 9
+R7
+r1
+!s85 0
+31
+R28
+Z34 !s107 C:/Users/a/Desktop/MMD/Muxes.v|
+Z35 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/Muxes.v|
+!i113 1
+R11
+R12
+vmux2to1
+Z36 !s110 1704984204
+!i10b 1
+!s100 Bdb]n@z3>ZUHLeK`jj`o23
+R1
+I1<3aQ=jCCHS5hLGbF8LTO1
+R2
+R3
+Z37 w1704984202
+R32
+R33
+!i122 196
+L0 1 8
+R7
+r1
+!s85 0
+31
+Z38 !s108 1704984204.000000
+R34
+R35
+!i113 1
+R11
+R12
+vmux3to1
+R36
+!i10b 1
+!s100 SLTZ@W>eQK_6<zQ3Pb>_N1
+R1
+IDc7T^I1fK_Z5TJ5KMbPo^0
+R2
+R3
+R37
+R32
+R33
+!i122 196
+L0 10 9
+R7
+r1
+!s85 0
+31
+R38
+R34
+R35
+!i113 1
+R11
+R12
+vmux_16to12
+R13
+!i10b 1
+!s100 UzXzfRzImf1E7JSz[?RLZ0
+R1
+IIjm:6Di:AVAJKdLXYP7^m1
+R2
+R3
+R31
+R32
+R33
+!i122 3028
+L0 20 29
+R7
+r1
+!s85 0
+31
+R28
+R34
+R35
+!i113 1
+R11
+R12
+vmux_nx1
+R13
+!i10b 1
+!s100 OfG^h^SD0WKX;``<`QP=^3
+R1
+IWfYLZEI9mFJc_4:G<NI0i0
+R2
+R3
+R31
+R32
+R33
+!i122 3028
+L0 13 6
+R7
+r1
+!s85 0
+31
+R28
+R34
+R35
+!i113 1
+R11
+R12
+vOFM
+Z39 !s110 1705244571
+!i10b 1
+!s100 8PI_?=ThC<MAaC9SWFPmi0
+R1
+Io2JjWW0gkTQWeo<;8]k?f0
+R2
+R3
+Z40 w1705244227
+Z41 8C:/Users/a/Desktop/MMD/OFM.v
+Z42 FC:/Users/a/Desktop/MMD/OFM.v
+!i122 3029
+L0 1 28
+R7
+r1
+!s85 0
+31
+R28
+Z43 !s107 C:/Users/a/Desktop/MMD/OFM.v|
+Z44 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/OFM.v|
+!i113 1
+R11
+R12
+n@o@f@m
+vOFM2
+R39
+!i10b 1
+!s100 N]d^mhzo?O9f<2SA^nbQ]3
+R1
+I8BzT[edaSMEIT^ZYUAe5?1
+R2
+R3
+R40
+R41
+R42
+!i122 3029
+L0 32 28
+R7
+r1
+!s85 0
+31
+R28
+R43
+R44
+!i113 1
+R11
+R12
+n@o@f@m2
+vout_mem
+R13
+!i10b 1
+!s100 Aek@Ib3=@Cjke>>;8Z7n?0
+R1
+IALF:be8:bK9z5k1MY4G643
+R2
+R3
+R25
+R26
+R27
+!i122 3027
+L0 20 39
+R7
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R11
+R12
+vPE
+R39
+!i10b 1
+!s100 0Bc`W`1zO94o64Af;1FS<0
+R1
+I84iL@n;zH91VDHYmWN5Hg3
+R2
+R3
+Z45 w1705233025
+Z46 8C:/Users/a/Desktop/MMD/PE.v
+Z47 FC:/Users/a/Desktop/MMD/PE.v
+!i122 3030
+L0 1 78
+R7
+r1
+!s85 0
+31
+Z48 !s108 1705244571.000000
+Z49 !s107 C:/Users/a/Desktop/MMD/PE.v|
+Z50 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/PE.v|
+!i113 1
+R11
+R12
+n@p@e
+vPE2
+R39
+!i10b 1
+!s100 7jI<B8`j8H5j[Vc:R@RNd1
+R1
+I^OUHzhdb7hJbUDlf_48zk3
+R2
+R3
+R45
+R46
+R47
+!i122 3030
+L0 125 60
+R7
+r1
+!s85 0
+31
+R48
+R49
+R50
+!i113 1
+R11
+R12
+n@p@e2
+vPU
+R39
+!i10b 1
+!s100 N8RUD@`zA2KZ0]nRRW<Ob0
+R1
+I2EJARNnNlNEc6>?E9BJBh0
+R2
+R3
+R45
+R46
+R47
+!i122 3030
+L0 81 42
+R7
+r1
+!s85 0
+31
+R48
+R49
+R50
+!i113 1
+R11
+R12
+n@p@u
+vshiftRegister
+!s110 1705244572
+!i10b 1
+!s100 ^ELNaYnYIOLlalnW2EcY62
+R1
+IedIzW;?ak4ca^3]F>m55@0
+R2
+R3
+w1705076213
+8C:/Users/a/Desktop/MMD/Shift_reg.v
+FC:/Users/a/Desktop/MMD/Shift_reg.v
+!i122 3031
+L0 1 26
+R7
+r1
+!s85 0
+31
+R48
+!s107 C:/Users/a/Desktop/MMD/Shift_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/Shift_reg.v|
+!i113 1
+R11
+R12
+nshift@register
+vTB
+!s110 1705244581
+!i10b 1
+!s100 2[z8=Sc<B2=d=m:fCX4d]1
+R1
+Ia22^Q8hC<Qln;zA2gR?cX0
+R2
+R3
+w1705243581
+Z51 8C:/Users/a/Desktop/MMD/TB.v
+Z52 FC:/Users/a/Desktop/MMD/TB.v
+!i122 3032
+Z53 L0 2 16
+R7
+r1
+!s85 0
+31
+!s108 1705244581.000000
+Z54 !s107 C:/Users/a/Desktop/MMD/TB.v|
+Z55 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/MMD/TB.v|
+!i113 1
+R11
+R12
+n@t@b
+vtest
+R0
+!i10b 1
+!s100 ^kO1BP2BINe[oLzaFjE4h3
+R1
+Ihg>WVb:Wh8:C5=`9LzhU^1
+R2
+R3
+R4
+R5
+R6
+!i122 3022
+L0 70 28
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtestBench
+!s110 1705240254
+!i10b 1
+!s100 RTG9;0HmnDGCiBeGk74H50
+R1
+I9M<oSG60Fn5No5n]V8<9;1
+R2
+R3
+w1705148076
+R51
+R52
+!i122 2972
+R53
+R7
+r1
+!s85 0
+31
+!s108 1705240254.000000
+R54
+R55
+!i113 1
+R11
+R12
+ntest@bench

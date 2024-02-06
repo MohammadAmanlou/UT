@@ -1,0 +1,52 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000027b0bcf2720 .scope module, "memory" "memory" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clk";
+    .port_info 1 /INPUT 32 "adr";
+    .port_info 2 /INPUT 32 "in";
+    .port_info 3 /INPUT 1 "we";
+    .port_info 4 /OUTPUT 32 "out";
+L_0000027b0bcf2b30 .functor BUFZ 32, L_0000027b0bdeeaa0, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>;
+v0000027b0bcf28b0_0 .net *"_ivl_0", 31 0, L_0000027b0bdeeaa0;  1 drivers
+o0000027b0bd27008 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0000027b0bcf2950_0 .net "adr", 31 0, o0000027b0bd27008;  0 drivers
+o0000027b0bd27038 .functor BUFZ 1, C4<z>; HiZ drive
+v0000027b0bcf29f0_0 .net "clk", 0 0, o0000027b0bd27038;  0 drivers
+v0000027b0bcf2a90 .array "data", 511 0, 31 0;
+o0000027b0bd27068 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0000027b0bdee8c0_0 .net "in", 31 0, o0000027b0bd27068;  0 drivers
+v0000027b0bdee960_0 .net "out", 31 0, L_0000027b0bcf2b30;  1 drivers
+o0000027b0bd270c8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000027b0bdeea00_0 .net "we", 0 0, o0000027b0bd270c8;  0 drivers
+E_0000027b0bde8880 .event posedge, v0000027b0bcf29f0_0;
+L_0000027b0bdeeaa0 .array/port v0000027b0bcf2a90, o0000027b0bd27008;
+    .scope S_0000027b0bcf2720;
+T_0 ;
+    %vpi_call 2 9 "$readmemh", "input.txt", v0000027b0bcf2a90 {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0000027b0bcf2720;
+T_1 ;
+    %wait E_0000027b0bde8880;
+    %load/vec4 v0000027b0bdeea00_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.0, 8;
+    %load/vec4 v0000027b0bdee8c0_0;
+    %ix/getv 4, v0000027b0bcf2950_0;
+    %store/vec4a v0000027b0bcf2a90, 4, 0;
+T_1.0 ;
+    %jmp T_1;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "Memory.v";

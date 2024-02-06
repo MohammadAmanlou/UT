@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module convolution_tb;
+module TB();
 
 reg clk;
 reg start;
@@ -18,7 +18,7 @@ convolution conv (
 initial begin
   clk = 0;
   start = 0;
-  X = 5;
+  X = 9;
   Y = 71;
   Z = 76;
   #20 start = 1;

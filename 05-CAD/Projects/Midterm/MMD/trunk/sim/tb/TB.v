@@ -18,9 +18,9 @@ convolution conv (
 initial begin
   clk = 0;
   start = 0;
-  X = 5;
-  Y = 71;
-  Z = 76;
+  X = 9;
+  Y = 76;
+  Z = 82;
   #20 start = 1;
   #20 start = 0;
 	#200000 ;

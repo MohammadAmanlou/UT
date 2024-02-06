@@ -6,6 +6,8 @@
 #include "x86.h"
 #include "proc.h"
 #include "spinlock.h"
+#include "sleeplock.h"
+#include "priorityLock.h"
 
 #define AGING_THRESHOLD 8000
 
@@ -15,13 +17,15 @@ roundrobin(struct proc *last_scheduled);
 struct proc *
 lcfs(void);
 
+int count_shared_syscalls = 0;
+
 struct {
   struct spinlock lock;
   struct proc proc[NPROC];
 } ptable;
 
 static struct proc *initproc;
-
+static struct PriorityLock lock;
 int nextpid = 1;
 extern void forkret(void);
 extern void trapret(void);
@@ -119,7 +123,32 @@ found:
   p->context = (struct context*)sp;
   memset(p->context, 0, sizeof *p->context);
   p->context->eip = (uint)forkret;
+  p->sched_info.bjf.arrival_time = ticks;
+  p->sched_info.queue = UNSET;
+  p->sched_info.bjf.priority = 3;
+  p->sched_info.bjf.priority_ratio = 1;
+  p->sched_info.bjf.arrival_time_ratio = 1;
+  p->sched_info.bjf.executed_cycle = 0;
+  p->sched_info.bjf.executed_cycle_ratio = 1;
+  p->sched_info.bjf.process_size = p->sz;
+  p->sched_info.bjf.process_size_ratio = 1;
   p->start_time = ticks;
+
+
+  for(int i = 0; i < SHAREDREGIONS; i++) {
+    // default values
+    p->pages[i].key = -1;
+    p->pages[i].shmid = -1;
+    p->pages[i].size  = 0;
+    p->pages[i].perm = PTE_W | PTE_U;
+    p->pages[i].virtualAddr = (void *)0;
+  }
+
+  return p;
+
+
+
+
   return p;
 }
 
@@ -229,6 +258,19 @@ fork(void)
 
   pid = np->pid;
 
+    // copy shared pages values from parent to child
+  for(int i = 0; i < SHAREDREGIONS; i++) {
+    if(curproc->pages[i].key != -1 && curproc->pages[i].shmid != -1) {
+      np->pages[i] = curproc->pages[i];
+      // get valid shmid index in shmtable-allRegions struct
+      int index = getShmidIndex(np->pages[i].shmid);
+      if(index != -1) {
+        // map them to child's address space
+        mappagesWrapper(np, index, i);
+      }
+    }
+  }
+
   acquire(&ptable.lock);
 
   np->state = RUNNABLE;
@@ -278,6 +320,14 @@ exit(void)
     if(curproc->ofile[fd]){
       fileclose(curproc->ofile[fd]);
       curproc->ofile[fd] = 0;
+    }
+  }
+
+    // detach, attached shared regions
+  for(int i = 0; i < SHAREDREGIONS; i++) {
+    if(curproc->pages[i].shmid != -1 && curproc->pages[i].key != -1) {
+      // wrapper that calls detach
+      shmdtWrapper(curproc->pages[i].virtualAddr);
     }
   }
 
@@ -429,6 +479,7 @@ void scheduler(void)
     p->sched_info.last_run = ticks;
 
     p->sched_info.bjf.executed_cycle += 0.1f;
+    // add 0.1 to executed_cycle for each tick
 
     swtch(&(c->scheduler), p->context);
 
@@ -602,37 +653,8 @@ kill(int pid)
   return -1;
 }
 
-//get process lifetime:
-/*int get_process_lifetime(int pid){
-  pid = pid - 1;
-  int lifetime;
-  cprintf("pid in proc.c is %d\n", pid + 1 );
-  struct proc *p;
-  acquire(&ptable.lock);
-  if(pid < 0 || pid >= NPROC){
-      return -1;
-      }
-  int count = 0;
-  for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-    if((p->pid) == pid){
-      //cprintf("%dp-> pid is found\n", (p->pid));
-      lifetime = ticks - (p->start_time);
-      release(&ptable.lock);
-      return lifetime;
-    }
-    if(count > 80){
-      break;
-    }
-  }
-  release(&ptable.lock);
-  return -1;
-    
-}*/
-
-
 //get_uncle_count
 int get_uncle_count(int pid){
-  //pid = pid - 1; //////////////////////////////???????????????
   struct proc *p;
   struct proc *p_parent;
   struct proc *p_grandParent = 0;
@@ -747,7 +769,6 @@ void ageprocs(int os_ticks)
   }
   release(&ptable.lock);
 }
-
 
 int change_Q(int pid, int new_queue)
 {
@@ -894,4 +915,106 @@ void show_process_info()
     cprintf("%d", (int)bjfrank(p));
     cprintf("\n");
   }
+}
+
+void priority_wakeup(void* chan){
+  acquire(&ptable.lock);
+  struct proc *p;
+  struct proc * p_max_pid = 0 ;
+  int first = 1 ; 
+  for (p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+    if(p->state == SLEEPING && p->chan == chan){
+      if(first){
+        p_max_pid = p;
+        first = 0;
+      }
+      else{
+        if(p->pid > p_max_pid->pid){
+          p_max_pid = p;
+        }
+      }
+    }
+  }
+  if (p_max_pid)
+  {
+      p_max_pid->state = RUNNABLE;
+
+    
+  }
+  
+  release(&ptable.lock);
+}
+
+int compare_pid(const void *a, const void *b) {
+  struct proc *procA = (struct proc *)a;
+  struct proc *procB = (struct proc *)b;
+  return procA->pid - procB->pid;
+}
+
+
+void make_priority_queue(void * chan) {
+  acquire(&ptable.lock); // Lock the ptable before making changes
+  struct proc *p;
+  struct proc *proc_queue = 0;
+  
+  // Allocate space for the process queue
+  //proc_queue = (struct proc *)malloc(sizeof(struct proc) * NPROC);
+  
+  /*if (proc_queue == '\0') {
+    // Handle the allocation failure 
+    release(&ptable.lock);
+    return;
+  }*/
+
+  int first = 1;
+  int i = 0;
+  cprintf("Queue: \n" );
+  // Populate the queue with processes that match the channel
+  for (p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
+    if (p->state == SLEEPING && p->chan == chan) {
+      if(first){
+        proc_queue = p ;
+        first = 0;
+        i ++;
+        cprintf("Pid %d , Name: %s \n", p->pid , p->name );
+      }
+      else if(p->pid > proc_queue->pid){
+        proc_queue = p ;
+        i ++ ;
+        cprintf("Pid %d , Name: %s \n", p->pid , p->name );
+      }
+    }
+  }
+  if(first){
+    cprintf("Queue is empty\n");
+  }
+  else{
+    cprintf("Now it is pid %d's turn\n");
+  }
+  // Sort the queue by pid using the comparison function
+  //qsort(proc_queue, i, sizeof(struct proc), compare_pid);
+  
+
+
+  release(&ptable.lock); // Release the lock after modifications are done
+}
+
+
+void priorityLock_test(){
+  cprintf("Process pid:%d want access to critical section\n" , myproc()->pid);
+  acquirePriorityLock(&lock);
+  cprintf("Process pid:%d acquired access to critical section\n" , myproc()->pid);
+  volatile long long temp = 0;
+  for (long long l = 0; l < 200000000; l++){
+    temp += 5 * 7 + 1;
+  }
+            
+  make_priority_queue(&lock);
+  releasePriorityLock(&lock);
+  cprintf("Process pid: %d exited from critical section\n" , myproc()->pid);
+}
+
+void
+init_queue_test(void){
+  initPriorityLock(&lock);
 }

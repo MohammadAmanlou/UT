@@ -1,3 +1,3 @@
 sysproc.o: sysproc.c /usr/include/stdc-predef.h types.h x86.h defs.h \
  date.h param.h memlayout.h mmu.h proc.h fcntl.h fs.h spinlock.h \
- sleeplock.h stat.h
+ sleeplock.h stat.h mp.h

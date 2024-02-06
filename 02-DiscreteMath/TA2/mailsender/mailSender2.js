@@ -1,16 +1,16 @@
 function sendScores() {
 
-  var num_drill_q = 2;
-  var num_homework_q = 3;
+  var num_drill_q = 2; // third edit num of each parts questions
+  var num_homework_q = 2;
   var num_quize_q = 1;
-  var num_class_q = 8 ;
+  var num_class_q = 6 ;
 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet1 = ss.getSheetByName('Student. Info.'); 
-  var sheet2 = ss.getSheetByName('Logic.'); 
+  var sheet2 = ss.getSheetByName('Int. Graph.');  // first edit subject here
   var data1 = sheet1.getDataRange().getValues();
   var data2 = sheet2.getDataRange().getValues();
-  var unit = ' استقرا' ; // dont forget space after name of unit
+  var unit = ' گراف مقدماتی' ; // Second. edit subject persian name here, dont forget space after name of unit
   var subject = '  نمرات مبحث' + unit + ' درس ریاضیات گسسته'
   
   for (var i = 1; i < data1.length; i++) {
@@ -25,7 +25,11 @@ function sendScores() {
           scores += "شماره سوال:"
           scores += num_q
           scores += "\n"
-          if (data2[j+1][q + 2] != ""){
+          if(data2[j][q + 2] == "Yes"){
+            scores += "تقلب!\n";
+            scores += data2[j][q + 3] + '\n';
+          }
+          else if ((data2[j+1][q + 2] != "") && (data2[j+1][q + 2] != " ") && (data2[j+1][q + 2] != null)){
             scores += data2[j+1][q + 2] + '\n';
             scores += data2[j+1][q + 3] + '\n';
             if(data2[j+1][q + 3] != ""){
@@ -45,7 +49,12 @@ function sendScores() {
           scores += "شماره سوال:"
           scores += num_q
           scores += "\n"
-          if ((data2[j+1][q + 2] != "") && (data2[j+1][q + 2] != " ") && (data2[j+1][q + 2] != null)){
+          console.log(data2[j][q + 2]);
+          if(data2[j][q + 2] == "Yes"){
+            scores += "تقلب!\n";
+            scores += data2[j][q + 3] + '\n';
+          }
+          else if ((data2[j+1][q + 2] != "") && (data2[j+1][q + 2] != " ") && (data2[j+1][q + 2] != null)){
             scores += data2[j+1][q + 2] + '\n';
             scores += data2[j+1][q + 3] + '\n';
             if(data2[j+1][q + 3] != ""){
@@ -65,7 +74,11 @@ function sendScores() {
           scores += "شماره سوال:"
           scores += num_q
           scores += "\n"
-          if ((data2[j+1][q + 2] != "") && (data2[j+1][q + 2] != " ") && (data2[j+1][q + 2] != null)){
+          if(data2[j][q + 2] == "Yes"){
+            scores += "تقلب!\n";
+            scores += data2[j][q + 3] + '\n';
+          }
+          else if ((data2[j+1][q + 2] != "") && (data2[j+1][q + 2] != " ") && (data2[j+1][q + 2] != null)){
             scores += data2[j+1][q + 2] + '\n';
             scores += data2[j+1][q + 3] + '\n';
             if(data2[j+1][q + 3] != ""){
@@ -85,7 +98,11 @@ function sendScores() {
           scores += "شماره سوال:"
           scores += num_q
           scores += "\n"
-          if ((data2[j+1][q + 2] != "") && (data2[j+1][q + 2] != " ") && (data2[j+1][q + 2] != null)){
+          if(data2[j][q + 2] == "Yes"){
+            scores += "تقلب!\n";
+            scores += data2[j][q + 3] + '\n';
+          }
+          else if ((data2[j+1][q + 2] != "") && (data2[j+1][q + 2] != " ") && (data2[j+1][q + 2] != null)){
             scores += data2[j+1][q + 2] + '\n';
             scores += data2[j+1][q + 3] + '\n';
             if(data2[j+1][q + 3] != ""){
@@ -99,19 +116,19 @@ function sendScores() {
         }
       }
     }
-  //     var message = 'نمرات مبحث' + unit + ' ' +
-  //  'شما به شرح زیر است:\n\n' + scores + 
-  //  'در صورت وجود هرگونه ابهام، با ایمیل دستیار آموزشی مربوط به هر تمرین که در سربرگ تمرین مندرج است، در ارتباط باشید.\n'+
-  //   '\nبا آرزوی بهترین ها برای شما ,\nتیم دستیاران آموزشی درس ریاضیات گسسته';
+      var message = 'نمرات مبحث' + unit + ' ' +
+   'شما به شرح زیر است:\n\n' + scores + 
+   'در صورت وجود هرگونه ابهام، با ایمیل دستیار آموزشی مربوط به هر تمرین که در سربرگ تمرین مندرج است، در ارتباط باشید.\n'+
+    '\nبا آرزوی بهترین ها برای شما ,\nتیم دستیاران آموزشی درس ریاضیات گسسته';
     
     
-  //   // var message = 'Dear student,\n\nYour scores are as follows:\n\n' + scores + '\nBest regards,\nYour teacher';
-  //   MailApp.sendEmail(email, subject, message);
+    // var message = 'Dear student,\n\nYour scores are as follows:\n\n' + scores + '\nBest regards,\nYour teacher';
+    MailApp.sendEmail(email, subject, message);
   }
-  var message = 'نمرات مبحث' + unit + ' ' +
-  'شما به شرح زیر است:\n\n' + scores + 
-  'در صورت وجود هرگونه ابهام، با ایمیل دستیار آموزشی مربوط به هر تمرین که در سربرگ تمرین مندرج است، در ارتباط باشید.\n'+
-   '\nبا آرزوی بهترین ها برای شما ,\nتیم دستیاران آموزشی درس ریاضیات گسسته';
+  // var message = 'نمرات مبحث' + unit + ' ' +
+  // 'شما به شرح زیر است:\n\n' + scores + 
+  // 'در صورت وجود هرگونه ابهام، با ایمیل دستیار آموزشی مربوط به هر تمرین که در سربرگ تمرین مندرج است، در ارتباط باشید.\n'+
+  //  '\nبا آرزوی بهترین ها برای شما ,\nتیم دستیاران آموزشی درس ریاضیات گسسته';
   
-  MailApp.sendEmail("mohammadamanlou2@gmail.com", subject, message);
+  // MailApp.sendEmail("mohammadamanlou2@gmail.com", subject, message);
 }

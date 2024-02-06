@@ -16,13 +16,13 @@ vAdder
 Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IO3>[[;<G=o=Db`@EGXNRe1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/a/Desktop/Midterm
+dC:/Users/a/Desktop/Midterm
 w1701763879
 8C:/Users/a/Desktop/Midterm/Adder.v
 FC:/Users/a/Desktop/Midterm/Adder.v
 !i122 2211
 L0 1 11
-Z3 OV;L;2020.1;71
+Z2 OV;L;2020.1;71
 r1
 !s85 0
 31
@@ -30,403 +30,403 @@ r1
 !s107 C:/Users/a/Desktop/Midterm/Adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a/Desktop/Midterm/Adder.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+Z3 o-work work
+Z4 tCvgOpt 0
 n@adder
 vBuffer_16
-Z6 !s110 1701961340
+!s110 1703078653
 !i10b 1
 !s100 Nfj_eG]4[ZZnben_MnS4F1
 R0
 IT@E?6RV5GJ8c@E^BiU`U`0
 R1
-R2
+Z5 dH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Midterm
 w1701845039
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf16.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf16.v
-!i122 2260
+!i122 2276
 L0 1 17
-R3
+R2
 r1
 !s85 0
 31
-!s108 1701961339.000000
+Z6 !s108 1703078653.000000
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf16.v|
 !i113 1
+R3
 R4
-R5
 n@buffer_16
 vBuffer_16x4
-R6
+Z7 !s110 1703078654
 !i10b 1
 !s100 ^bHMEM2;aAbb[^Okj`3@E0
 R0
 I:0Lz1HiV1WV]z=k?OaH0C1
 R1
-R2
+R5
 w1701955022
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88.v
-!i122 2262
+!i122 2278
 L0 2 42
-R3
+R2
 r1
 !s85 0
 31
-Z7 !s108 1701961340.000000
+Z8 !s108 1703078654.000000
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88.v|
 !i113 1
+R3
 R4
-R5
 n@buffer_16x4
 vBuffer_16x4_tb
-Z8 !s110 1701961341
+R7
 !i10b 1
 !s100 ]dZUU>f^ZXC]>Ci@?5jhh1
 R0
 I]UPQZYB[[?ko]>RG4Ek981
 R1
-R2
+R5
 w1701602749
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88TB.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88TB.v
-!i122 2263
+!i122 2279
 L0 1 47
-R3
+R2
 r1
 !s85 0
 31
-R7
+R8
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf88TB.v|
 !i113 1
+R3
 R4
-R5
 n@buffer_16x4_tb
 vBuffer_44
-R6
+R7
 !i10b 1
 !s100 G=?XV;20o;Zi2]KUP6Gzj1
 R0
 I=mW4`1za0]oi31IL9o3L13
 R1
-R2
+R5
 w1701955532
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf44.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf44.v
-!i122 2261
+!i122 2277
 L0 1 24
-R3
+R2
 r1
 !s85 0
 31
-R7
+R6
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf44.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/buf44.v|
 !i113 1
+R3
 R4
-R5
 n@buffer_44
 vcontroller
-R8
+R7
 !i10b 1
 !s100 >nhSTC8BB2io>_5Z7B^;L2
 R0
 I]W^`?ZG@:FKXdSGEX0k>73
 R1
-R2
+R5
 w1701961336
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Controller.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Controller.v
-!i122 2264
+!i122 2280
 L0 26 78
-R3
+R2
 r1
 !s85 0
 31
-Z9 !s108 1701961341.000000
+R8
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Controller.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Controller.v|
 !i113 1
+R3
 R4
-R5
 vconvolution
-R8
+Z9 !s110 1703078655
 !i10b 1
 !s100 gTJV[>UkTXUL60OK[4[PG0
 R0
 I3blX`@?;mIPeC4cX:[[XK3
 R1
-R2
+R5
 w1701944883
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Convolution.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Convolution.v
-!i122 2265
+!i122 2281
 Z10 L0 1 22
-R3
+R2
 r1
 !s85 0
 31
-R9
+R8
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Convolution.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Convolution.v|
 !i113 1
+R3
 R4
-R5
 vconvolution_tb
-Z11 !s110 1701961344
+!s110 1703078686
 !i10b 1
 !s100 ejeKV;d=YYfAkZU`loze_2
 R0
 ImY>:n5R?S>_AD4n49IIiN3
 R1
-R2
+R5
 w1701934273
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v
-!i122 2275
+!i122 2291
 L0 2 35
-R3
+R2
 r1
 !s85 0
 31
-!s108 1701961344.000000
+!s108 1703078686.000000
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/TB.v|
 !i113 1
+R3
 R4
-R5
 vcounter16
-R8
+R9
 !i10b 1
 !s100 U]lAWM`cR8ii`Gi@QT^L10
 R0
 I?EMmSE<KKR=CUY7R>U4J@1
 R1
-R2
+R5
 w1701672160
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/counter.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/counter.v
-!i122 2266
+!i122 2282
 L0 1 19
-R3
+R2
 r1
 !s85 0
 31
-R9
+Z11 !s108 1703078655.000000
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/counter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/counter.v|
 !i113 1
+R3
 R4
-R5
 vdatapath
-Z12 !s110 1701961342
+R9
 !i10b 1
 !s100 6W0T`@3ji6hTc;2eAJXPD2
 R0
 IioA0Wj4hKhaJn;K^<7N<F1
 R1
-R2
+R5
 w1701944385
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Datapath.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Datapath.v
-!i122 2267
+!i122 2283
 L0 1 43
-R3
+R2
 r1
 !s85 0
 31
-R9
+R11
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Datapath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Datapath.v|
 !i113 1
+R3
 R4
-R5
 vMAC
-R12
+R9
 !i10b 1
 !s100 kcTb;EdaTnATIjEA[YM^l1
 R0
 ILOldZ[FB8HR;594hdR<S;0
 R1
-R2
+R5
 w1701952011
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/MAC.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/MAC.v
-!i122 2268
+!i122 2284
 L0 1 21
-R3
+R2
 r1
 !s85 0
 31
-Z13 !s108 1701961342.000000
+R11
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/MAC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/MAC.v|
 !i113 1
+R3
 R4
-R5
 n@m@a@c
 vMemory
-R12
+Z12 !s110 1703078656
 !i10b 1
 !s100 :I1OOJd9lY;NFlokz8mo93
 R0
 IhNR4o1[J^`JINM<QLbmVc2
 R1
-R2
+R5
 w1701953980
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v
-!i122 2269
+!i122 2285
 L0 1 9
-R3
+R2
 r1
 !s85 0
 31
-R13
+R11
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Memory.v|
 !i113 1
+R3
 R4
-R5
 n@memory
 vmux2_1_4bit
-Z14 !s110 1701961343
+R12
 !i10b 1
 !s100 9c<@=Y@mCUJ4mUFo<WW1i1
 R0
 I?aWfb5XBh`FK;W[eY1?K=2
 R1
-R2
-Z15 w1701606023
-Z16 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v
-Z17 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v
-!i122 2270
+R5
+Z13 w1701606023
+Z14 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v
+Z15 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v
+!i122 2286
 L0 17 15
-R3
+R2
 r1
 !s85 0
 31
-R13
-Z18 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v|
-Z19 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v|
+Z16 !s108 1703078656.000000
+Z17 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux2To1.v|
 !i113 1
+R3
 R4
-R5
 vmux2_1_9bit
-R14
+R12
 !i10b 1
 !s100 z55JToR_TNPN7Ki_SZ4S`3
 R0
 ISB[RVhFaW9l8;akP1cU4X2
 R1
-R2
+R5
+R13
+R14
 R15
-R16
-R17
-!i122 2270
-Z20 L0 1 15
-R3
+!i122 2286
+Z19 L0 1 15
+R2
 r1
 !s85 0
 31
-R13
+R16
+R17
 R18
-R19
 !i113 1
+R3
 R4
-R5
 vmux4_1_9bit
-R14
+R12
 !i10b 1
 !s100 :VZB]Y?h4<lM]ZHbA[jJW1
 R0
 IU_o9mL7:=moa]kSiJYaYZ1
 R1
-R2
+R5
 w1701606161
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux4To1.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux4To1.v
-!i122 2271
-R20
-R3
+!i122 2287
+R19
+R2
 r1
 !s85 0
 31
-Z21 !s108 1701961343.000000
+R16
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux4To1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux4To1.v|
 !i113 1
+R3
 R4
-R5
 vmux_16to1
-R14
+Z20 !s110 1703078657
 !i10b 1
 !s100 lhBW4mIVaHdiQ:9_e4U431
 R0
 IECmALYXS5;;IKTLP8UONR0
 R1
-R2
+R5
 w1701944668
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v
-!i122 2272
+!i122 2288
 L0 1 29
-R3
+R2
 r1
 !s85 0
 31
-R21
+R16
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Mux16To1.v|
 !i113 1
+R3
 R4
-R5
 vregister
-R14
+R20
 !i10b 1
 !s100 jWhNFN0M0F[ccJd7K]@oR2
 R0
 IB@0?Bm;OH2iOa2c9?2XR20
 R1
-R2
+R5
 w1701763974
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Register.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Register.v
-!i122 2273
+!i122 2289
 L0 1 18
-R3
+R2
 r1
 !s85 0
 31
-R21
+!s108 1703078657.000000
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/Register.v|
 !i113 1
+R3
 R4
-R5
 vshift_register32
-R11
+!s110 1703078658
 !i10b 1
 !s100 JgMFcmSZ9nFbn?`57Wn;V0
 R0
 IAAQF@IGjQWGeZn>AX>lEE2
 R1
-R2
+R5
 w1701886322
 8H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/shift_reg_32.v
 FH:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/shift_reg_32.v
-!i122 2274
+!i122 2290
 R10
-R3
+R2
 r1
 !s85 0
 31
-R21
+!s108 1703078658.000000
 !s107 H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/shift_reg_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|H:/MMD/UNI/ProjectsAndHWs/05-CAD/Projects/Midterm/shift_reg_32.v|
 !i113 1
+R3
 R4
-R5
