@@ -1,0 +1,73 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.9)
+
+2024-02-26T23:15:09.172+03:30  INFO 119971 --- [           main] com.example.demo.Application             : Starting Application using Java 17.0.10 with PID 119971 (/media/mohammad/Mohammad/MMD/UNI/ProjectsAndHWs/06-SE/CAs/CA1/messaging-jms/target/classes started by mohammad in /media/mohammad/Mohammad/MMD/UNI/ProjectsAndHWs/06-SE/CAs/CA1)
+2024-02-26T23:15:09.174+03:30  INFO 119971 --- [           main] com.example.demo.Application             : No active profile set, falling back to 1 default profile: "default"
+2024-02-26T23:15:09.946+03:30  INFO 119971 --- [           main] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+jakarta.jms.JMSException: Failed to create session factory
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnectionInternal(ActiveMQConnectionFactory.java:897) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:291) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:286) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	at org.springframework.jms.connection.SingleConnectionFactory.doCreateConnection(SingleConnectionFactory.java:425) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:352) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.connection.SingleConnectionFactory.getConnection(SingleConnectionFactory.java:327) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.connection.SingleConnectionFactory.createConnection(SingleConnectionFactory.java:242) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:196) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:413) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.establishSharedConnection(AbstractJmsListeningContainer.java:381) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.establishSharedConnection(DefaultMessageListenerContainer.java:863) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.doStart(AbstractJmsListeningContainer.java:293) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.start(AbstractJmsListeningContainer.java:278) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.start(DefaultMessageListenerContainer.java:657) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.config.JmsListenerEndpointRegistry.startIfNecessary(JmsListenerEndpointRegistry.java:242) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.config.JmsListenerEndpointRegistry.start(JmsListenerEndpointRegistry.java:205) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:183) ~[spring-context-6.0.17.jar:6.0.17]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:363) ~[spring-context-6.0.17.jar:6.0.17]
+	at java.base/java.lang.Iterable.forEach(Unknown Source) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:160) ~[spring-context-6.0.17.jar:6.0.17]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:128) ~[spring-context-6.0.17.jar:6.0.17]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:965) ~[spring-context-6.0.17.jar:6.0.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618) ~[spring-context-6.0.17.jar:6.0.17]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738) ~[spring-boot-3.1.9.jar:3.1.9]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440) ~[spring-boot-3.1.9.jar:3.1.9]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324) ~[spring-boot-3.1.9.jar:3.1.9]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317) ~[spring-boot-3.1.9.jar:3.1.9]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.9.jar:3.1.9]
+	at com.example.demo.Application.main(Application.java:42) ~[classes/:na]
+Caused by: org.apache.activemq.artemis.api.core.ActiveMQNotConnectedException: AMQ219007: Cannot connect to server(s). Tried with all available servers.
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:701) ~[artemis-core-client-2.28.0.jar:2.28.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnectionInternal(ActiveMQConnectionFactory.java:895) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	... 28 common frames omitted
+
+2024-02-26T23:15:09.960+03:30  INFO 119971 --- [           main] com.example.demo.Application             : Started Application in 1.043 seconds (process running for 1.343)
+Sending an email message.
+2024-02-26T23:15:14.953+03:30  INFO 119971 --- [ntContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+jakarta.jms.JMSException: Failed to create session factory
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnectionInternal(ActiveMQConnectionFactory.java:897) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:291) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:286) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	at org.springframework.jms.connection.SingleConnectionFactory.doCreateConnection(SingleConnectionFactory.java:425) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:352) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.connection.SingleConnectionFactory.getConnection(SingleConnectionFactory.java:327) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.connection.SingleConnectionFactory.createConnection(SingleConnectionFactory.java:242) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:196) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:413) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:398) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:986) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:960) ~[spring-jms-6.0.17.jar:6.0.17]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1148) ~[spring-jms-6.0.17.jar:6.0.17]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: org.apache.activemq.artemis.api.core.ActiveMQNotConnectedException: AMQ219007: Cannot connect to server(s). Tried with all available servers.
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:701) ~[artemis-core-client-2.28.0.jar:2.28.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnectionInternal(ActiveMQConnectionFactory.java:895) ~[artemis-jakarta-client-2.28.0.jar:2.28.0]
+	... 13 common frames omitted
+
+2024-02-26T23:15:14.957+03:30 ERROR 119971 --- [ntContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'mailbox' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]

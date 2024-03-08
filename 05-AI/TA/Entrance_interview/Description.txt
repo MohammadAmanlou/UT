@@ -1,0 +1,7 @@
+Can you elucidate the stochastic processes clearly?
+I want you to do the following:
+1. Explain the theory. 
+2. Provide two examples.
+3. Use python and write codes 
+
+You need to record your presentation in English and put it in Google drive so I can review your technical work and communication skills. Cheers,
