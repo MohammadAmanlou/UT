@@ -1,0 +1,7 @@
+shareholderId,isin,positions
+1,SEC1,1000
+1,SEC2,800
+2,SEC1,100
+3,SEC1,1000
+3,SEC2,1200
+3,SEC3,2000
