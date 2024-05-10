@@ -1,0 +1,217 @@
+-- Q1
+SELECT count(*)
+FROM customers c
+LEFT JOIN orders o ON c.customer_id = o.customer_id
+WHERE o.customer_id IS NULL;
+
+-- Q2
+SELECT s.first_name, s.last_name
+FROM staffs s
+JOIN (
+    SELECT s1.staff_id
+    FROM orders o
+    JOIN staffs s1 ON o.staff_id = s1.staff_id
+    WHERE o.order_status = 4
+    GROUP BY s1.staff_id
+    ORDER BY COUNT(o.order_id) DESC
+    LIMIT 3
+) top_staffs ON s.staff_id = top_staffs.staff_id;
+
+-- Q3
+SELECT *
+FROM orders o
+WHERE customer_id IN (SELECT customer_id FROM customers c WHERE c.first_name LIKE 'A%' OR o.order_status = 2);
+
+-- Q4
+SELECT product_id, product_name, list_price
+FROM products
+WHERE list_price > (SELECT AVG(list_price) FROM products);
+
+-- Q5
+SELECT s.store_id
+FROM staffs s
+WHERE s.first_name LIKE '______'
+GROUP BY s.store_id
+HAVING 1 < (SELECT COUNT(*)
+            FROM staffs st
+            WHERE st.store_id = s.store_id);
+
+-- Q6
+SELECT s.store_id
+FROM staffs s
+WHERE s.first_name LIKE '______'
+GROUP BY s.store_id
+HAVING 1 < COUNT(*);
+
+-- Q7
+SELECT 
+    c.customer_id, c.first_name, c.last_name, sum(OI.quantity) / SUM(DISTINCT o.order_id) AS avg_total_quantity
+FROM 
+    orders o, order_items oi, customers c
+WHERE 
+    o.customer_id = c.customer_id AND o.order_id = oi.order_id 
+GROUP BY 
+    c.customer_id, c.first_name, c.last_name
+HAVING 
+    count(distinct o.order_id) > 8;
+
+-- Q8
+SELECT
+    p.product_id,
+    p.product_name,
+    SUM(s.quantity) AS total_quantity
+FROM
+    products p
+JOIN
+    stocks s ON p.product_id = s.product_id
+WHERE NOT EXISTS (
+    SELECT *
+    FROM stores st
+    WHERE NOT EXISTS (
+        SELECT *
+        FROM stocks stk
+        WHERE stk.store_id = st.store_id
+        AND stk.product_id = p.product_id
+        AND stk.quantity != 0
+    )
+)
+GROUP BY
+    p.product_id, p.product_name;
+
+-- Q9
+SELECT
+    b.brand_name, p.product_id, p.product_name, p.list_price
+FROM
+    brands b, products p, order_items oi
+WHERE
+    b.brand_id = p.brand_id AND
+      p.product_id = oi.product_id
+GROUP BY
+    b.brand_id, p.product_id
+HAVING
+    sum(oi.quantity) = (
+	    SELECT max(Max.total_quantity)
+	    FROM (
+		    SELECT sum(oi.quantity) AS total_quantity
+		    FROM
+		        products p, order_items oi
+		    WHERE
+		        p.brand_id = b.brand_id AND
+		        oi.product_id = p.product_id
+		    GROUP BY p.product_id
+	    ) AS Max
+);
+
+-- Q10
+SELECT p.product_id, COUNT(DISTINCT o.customer_id) AS num_customers
+FROM products p
+JOIN order_items oi ON p.product_id = oi.product_id
+JOIN orders o ON oi.order_id = o.order_id
+GROUP BY p.product_id
+HAVING num_customers > 40
+ORDER BY num_customers DESC;
+
+-- Q11
+SELECT DISTINCT c.customer_id, c.first_name, c.last_name
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+JOIN stores s ON o.store_id = s.store_id
+WHERE c.city != s.city;
+
+-- Q12
+CREATE VIEW category_revenue_by_date AS
+SELECT
+    o.order_date,
+    c.category_name,
+    SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS total_revenue
+FROM
+    orders o
+INNER JOIN
+    order_items oi ON o.order_id = oi.order_id
+INNER JOIN
+    products p ON oi.product_id = p.product_id
+INNER JOIN
+    categories c ON p.category_id = c.category_id
+GROUP BY
+    o.order_date,
+    c.category_id;
+
+-- Q13
+CREATE VIEW order_item_stats AS
+SELECT p.product_name, o.order_status, oi.order_id
+FROM order_items oi
+JOIN products p ON oi.product_id = p.product_id
+JOIN orders o ON o.order_id = oi.order_id
+WHERE o.order_id = oi.order_id
+
+-- Q14
+CREATE VIEW min_in_stock AS
+SELECT s.store_id, b.brand_id
+FROM stores s
+INNER JOIN stocks st ON s.store_id = st.store_id
+INNER JOIN products p ON st.product_id = p.product_id
+INNER JOIN brands b ON b.brand_id = p.brand_id
+WHERE st.quantity IN (SELECT MIN(st1.quantity)
+					   FROM stocks st1
+                       WHERE st1.store_id = s.store_id)
+GROUP BY s.store_id, b.brand_id;
+
+-- Q15
+DELIMITER //
+
+CREATE TRIGGER before_order_item_delete
+BEFORE DELETE ON order_items
+FOR EACH ROW
+BEGIN
+    DECLARE updated_product_id INT;
+    DECLARE updated_quantity INT;
+
+    SET updated_product_id = OLD.product_id;
+    SET updated_quantity = OLD.quantity;
+
+    UPDATE stocks
+    SET quantity = quantity + updated_quantity
+    WHERE product_id = updated_product_id;
+END;
+//
+DELIMITER ;
+
+-- Q16
+DELIMITER //
+
+CREATE TRIGGER before_update_staff_manager_id
+BEFORE UPDATE ON staffs
+FOR EACH ROW
+BEGIN
+    DECLARE manager_count INT;
+
+    SELECT COUNT(*)
+    INTO manager_count
+    FROM staffs s
+    WHERE s.manager_id = NEW.manager_id;
+
+    IF manager_count >= 2 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Error: Specified manager is full.';
+    END IF;
+END;
+//
+
+DELIMITER ;
+
+-- Q17
+DELIMITER //
+CREATE TRIGGER check_phone_number_digits
+BEFORE INSERT ON customers
+FOR EACH ROW
+BEGIN
+    DECLARE phone_length INT;
+    SET phone_length = LENGTH(NEW.phone);
+    IF phone_length < 7 OR phone_length > 15 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Phone number must have between 7 and 15 digits';
+    END IF;
+END
+//
+DELIMITER ;
+
