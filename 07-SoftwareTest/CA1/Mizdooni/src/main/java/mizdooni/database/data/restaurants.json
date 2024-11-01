@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Downtown Burger",
+        "managerUsername": "adminDB",
+        "type": "Burger",
+        "startTime": "12:00",
+        "endTime": "23:30",
+        "description": "The best burger in town",
+        "address": {
+            "country": "Iran",
+            "city": "Tehran",
+            "street": "Jordan"
+        },
+        "image": null
+    },
+    {
+        "name": "Perperook",
+        "managerUsername": "adminP",
+        "type": "Pizza",
+        "startTime": "13:00",
+        "endTime": "23:00",
+        "description": "The best pizza in Tehran",
+        "address": {
+            "country": "Iran",
+            "city": "Tehran",
+            "street": "Gheytarieh"
+        },
+        "image": null
+    }
+]
