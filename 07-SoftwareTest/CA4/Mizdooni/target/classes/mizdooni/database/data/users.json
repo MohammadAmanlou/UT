@@ -1,0 +1,42 @@
+[
+    {
+        "username": "AlirezaRR",
+        "password": "123456",
+        "email": "alireza@gmail.com",
+        "role": "client",
+        "address": {
+            "country": "Iran",
+            "city": "Tehran"
+        }
+    },
+    {
+        "username": "Peyman",
+        "password": "asdf",
+        "email": "peyman@gmail.com",
+        "role": "client",
+        "address": {
+            "country": "Iran",
+            "city": "Tehran"
+        }
+    },
+    {
+        "username": "adminDB",
+        "password": "admin",
+        "email": "mizdooni@downtown-burger.ir",
+        "role": "manager",
+        "address": {
+            "country": "Iran",
+            "city": "Tehran"
+        }
+    },
+    {
+        "username": "adminP",
+        "password": "admin",
+        "email": "mizdooni@perperook.ir",
+        "role": "manager",
+        "address": {
+            "country": "Iran",
+            "city": "Tehran"
+        }
+    }
+]

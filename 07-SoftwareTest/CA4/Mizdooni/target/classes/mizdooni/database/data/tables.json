@@ -1,0 +1,22 @@
+[
+    {
+        "restaurantName": "Downtown Burger",
+        "tableNumber": 1,
+        "seatsNumber": 4
+    },
+    {
+        "restaurantName": "Downtown Burger",
+        "tableNumber": 2,
+        "seatsNumber": 3
+    },
+    {
+        "restaurantName": "Perperook",
+        "tableNumber": 1,
+        "seatsNumber": 4
+    },
+    {
+        "restaurantName": "Perperook",
+        "tableNumber": 2,
+        "seatsNumber": 2
+    }
+]

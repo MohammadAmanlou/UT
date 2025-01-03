@@ -1,0 +1,29 @@
+[
+    {
+        "restaurantName": "Downtown Burger",
+        "username": "AlirezaRR",
+        "foodRate": 5.0,
+        "serviceRate": 4.0,
+        "ambianceRate": 4.0,
+        "overallRate": 4.5,
+        "comment": "Great food, very crowded!"
+    },
+    {
+        "restaurantName": "Perperook",
+        "username": "AlirezaRR",
+        "foodRate": 3.0,
+        "serviceRate": 4.0,
+        "ambianceRate": 5.0,
+        "overallRate": 4.0,
+        "comment": "Not bad but overrated."
+    },
+    {
+        "restaurantName": "Perperook",
+        "username": "Peyman",
+        "foodRate": 4.0,
+        "serviceRate": 4.0,
+        "ambianceRate": 4.0,
+        "overallRate": 4.0,
+        "comment": "Pizza was good, drink was warm."
+    }
+]
