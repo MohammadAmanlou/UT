@@ -1,0 +1,185 @@
+# Comprehensive Use Cases for UTAXI Project
+
+## 1. User Registration and Login
+### Use Case: New User Registration
+**Actor:** Passenger
+**Preconditions:** The user has not registered before.
+**Basic Flow:**
+1. The user opens the app and selects “Register.”
+2. The user enters personal details (name, phone number, email, password).
+3. The system validates the input.
+4. The system sends a verification code to the provided phone number/email.
+5. The user enters the code to verify their account.
+6. The system confirms successful registration.
+**Alternative Flow:** If the verification code is incorrect, the user is prompted to re-enter it.
+
+### Use Case: User Login
+**Actor:** Passenger, Driver
+**Preconditions:** The user has already registered.
+**Basic Flow:**
+1. The user opens the app and selects “Login.”
+2. The user enters their phone number and password.
+3. The system authenticates the credentials.
+4. If authentication is successful, the user is granted access.
+**Alternative Flow:** If authentication fails, the user is prompted to re-enter credentials or reset the password.
+
+### Use Case: Password Recovery
+**Actor:** Passenger, Driver
+**Preconditions:** The user has a registered account.
+**Basic Flow:**
+1. The user selects “Forgot Password.”
+2. The system prompts for the registered phone number/email.
+3. The system sends a reset link or code.
+4. The user enters the code or follows the reset link.
+5. The system prompts for a new password.
+6. The user submits a new password and gains access.
+
+---
+
+## 2. Requesting a Taxi
+### Use Case: Selecting Pickup and Drop-off Locations
+**Actor:** Passenger
+**Preconditions:** The user is logged in.
+**Basic Flow:**
+1. The user opens the app and selects “Request Ride.”
+2. The user enters or selects pickup and drop-off locations.
+3. The system displays available drivers.
+
+### Use Case: Display Estimated Fare
+**Actor:** Passenger
+**Preconditions:** The user has entered pickup and drop-off locations.
+**Basic Flow:**
+1. The system calculates and displays the estimated fare.
+2. The user can confirm or cancel the request.
+
+### Use Case: Requesting a Taxi and Driver Confirmation
+**Actor:** Passenger, Driver
+**Preconditions:** The user has entered valid trip details.
+**Basic Flow:**
+1. The user sends a ride request.
+2. Nearby drivers receive the request.
+3. A driver accepts the ride.
+4. The system notifies the passenger.
+5. The driver’s details are shared with the passenger.
+
+### Use Case: Display Driver Information
+**Actor:** Passenger
+**Preconditions:** A driver has accepted the request.
+**Basic Flow:**
+1. The system displays the driver’s name, photo, vehicle details, and estimated arrival time.
+2. The passenger can contact the driver if needed.
+
+---
+
+## 3. Ride and Route
+### Use Case: Display Taxi Route on Map
+**Actor:** Passenger
+**Preconditions:** The trip has started.
+**Basic Flow:**
+1. The system tracks the driver’s location in real-time.
+2. The passenger sees the route on the map.
+
+### Use Case: Contact the Driver
+**Actor:** Passenger
+**Preconditions:** A ride has been confirmed.
+**Basic Flow:**
+1. The passenger selects the contact option.
+2. The system provides options to call or message the driver.
+
+### Use Case: Change Destination Mid-Trip
+**Actor:** Passenger, Driver
+**Preconditions:** The trip is ongoing.
+**Basic Flow:**
+1. The passenger requests a destination change.
+2. The driver confirms the change.
+3. The system recalculates the fare and route.
+
+### Use Case: End Ride and Payment
+**Actor:** Passenger, Driver
+**Preconditions:** The trip has reached the destination.
+**Basic Flow:**
+1. The driver marks the trip as completed.
+2. The system calculates the final fare.
+3. The passenger selects a payment method and pays.
+
+---
+
+## 4. Rating and Feedback System
+### Use Case: Rate the Driver
+**Actor:** Passenger
+**Preconditions:** The ride has been completed.
+**Basic Flow:**
+1. The passenger is prompted to rate the driver.
+2. The passenger enters a rating and feedback.
+3. The system stores the rating.
+
+### Use Case: View Driver Ratings
+**Actor:** Passenger
+**Preconditions:** The passenger is about to request a ride.
+**Basic Flow:**
+1. The system displays driver ratings.
+2. The passenger selects a ride based on the rating.
+
+---
+
+## 5. Driver-Specific Features
+### Use Case: Accept Ride Requests
+**Actor:** Driver
+**Preconditions:** The driver is online and available.
+**Basic Flow:**
+1. The driver receives a ride request.
+2. The driver accepts or declines.
+3. If accepted, the driver navigates to the pickup location.
+
+### Use Case: View Daily Earnings
+**Actor:** Driver
+**Basic Flow:**
+1. The driver selects “Earnings.”
+2. The system displays the daily and weekly earnings summary.
+
+### Use Case: Withdraw Earnings
+**Actor:** Driver
+**Basic Flow:**
+1. The driver selects “Withdraw Funds.”
+2. The system transfers funds to the driver’s bank account.
+
+---
+
+## 6. Payment and Wallet System
+### Use Case: Wallet Top-Up
+**Actor:** Passenger
+**Basic Flow:**
+1. The user selects “Top Up Wallet.”
+2. The user enters an amount and confirms payment.
+
+### Use Case: Online Payment
+**Actor:** Passenger
+**Basic Flow:**
+1. The user selects an online payment method.
+2. The system processes the payment.
+
+---
+
+## 7. Support and Security
+### Use Case: Report an Issue
+**Actor:** Passenger, Driver
+**Basic Flow:**
+1. The user selects “Report Issue.”
+2. The system logs the issue and notifies support.
+
+### Use Case: Contact Support
+**Actor:** Passenger, Driver
+**Basic Flow:**
+1. The user selects “Contact Support.”
+2. The system provides call, chat, or email options.
+
+### Use Case: Share Ride Details with Friends
+**Actor:** Passenger
+**Basic Flow:**
+1. The passenger selects “Share Trip.”
+2. The system generates a shareable link.
+
+---
+
+## Conclusion
+These use cases comprehensively define the key functionalities of UTAXI for both passengers and drivers. Implementing these use cases will enhance system efficiency and user experience.

@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+input {
+    display: flex;
+    margin: 0 auto;     
+    justify-content: center;
+    height: 2em;
+    width: 4em;
+}

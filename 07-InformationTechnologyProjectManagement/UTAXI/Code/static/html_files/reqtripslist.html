@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Utaxi | Trips List</title>
+        <link rel="icon" href="favicon.jpg">
+        <link rel="stylesheet" type="text/css" href="default.css">
+        <link rel="stylesheet" href="reqtripslist.css">
+
+    </head>
+
+    <body>
+
+        <div id="head"><h1>UTAXI</h1> </div>
+        <div id="menubar">
+            <ul id="menulist">
+                <li class="menuitem" onclick="location.href='http://localhost:5000';">Home</li>
+                <li class="menuitem" onclick="location.href='http://localhost:5000/signuppage';">Sign Up</li>
+                <li class="menuitem" onclick="location.href='http://localhost:5000/trips';">Trips</li>
+                <li class="menuitem" onclick="location.href='http://localhost:5000/about';">About Us</li>
+            </ul>
+        </div>
+        
+        <div id="wrapper">
+
+            <div class="form">
+                <form action="/reqtripslist" method="post">
+                    <h4><p class="box-head">Trips List</p></h4>
+                    <br>
+                    <input name="username" id="username" type="text" placeholder="Username" required/>
+                    <br>
+                    <label for="username" id="required">*required</label><br><br>
+                    <input name="id-check" id="no-id" type="radio" value="no-id" checked="checked"/>
+                    <label for="no-id" class="description">All trips</label>
+                    <input name="id-check" id="with-id" type="radio" value="with-id" />
+                    <label for="with-id" class="description">With ID</label>
+                    <br>
+                    <input name="id" id="trip-id" type="num ber" min="0" value="0"/>
+                    <br>
+                    <label for="sorted" class="sorted-description">Sort by cost?</label>
+                    <input name="sort_by_cost" id="sorted" type="checkbox" value="yes">
+                    <br>
+                    <input  id="submit" type="submit" value="Submit"/>
+                </form>
+            </div>
+
+        </div>
+
+    </body>
+    <script type="text/javascript" src="error.js"></script>
+</html>

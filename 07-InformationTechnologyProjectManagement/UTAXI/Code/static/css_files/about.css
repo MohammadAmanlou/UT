@@ -1,0 +1,11 @@
+#about-text {
+    margin: 0 auto;
+    text-align: center;     
+    background-color: #eff5f3;
+    font-family: "Verdana", "arial", "helvetica", "sans-serif";
+    border-width: 1px;
+    width: 1000px;
+    border-style: solid;
+    margin-top: 150px;
+
+}

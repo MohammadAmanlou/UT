@@ -1,0 +1,140 @@
+# Comprehensive User Stories for UTAXI Project
+
+## 1. User Registration and Login
+### Title: New User Registration
+**As** a new user, 
+**I want** to register by entering my personal information (name, phone number, email, and password), 
+**So that** I can use the online taxi services.
+
+### Title: User Login
+**As** a registered user, 
+**I want** to log in by entering my phone number and password, 
+**So that** I can request a ride.
+
+### Title: Password Recovery
+**As** a user who has forgotten my password, 
+**I want** to request a password reset and receive a reset link, 
+**So that** I can set a new password and regain access to my account.
+
+---
+
+## 2. Requesting a Taxi
+### Title: Selecting Pickup and Drop-off Locations
+**As** a passenger, 
+**I want** to select my pickup and drop-off locations via a map or address search, 
+**So that** I can send a ride request.
+
+### Title: Display Estimated Fare
+**As** a passenger, 
+**I want** to see the estimated cost of the trip before confirming my request, 
+**So that** I can decide whether the ride is suitable for me.
+
+### Title: Requesting a Taxi and Driver Confirmation
+**As** a passenger, 
+**I want** to send a taxi request after selecting my pickup and drop-off locations, 
+**So that** nearby drivers can accept my request.
+
+### Title: Display Driver Information
+**As** a passenger, 
+**I want** to see details such as the driver's name, picture, license plate, and car type after the ride is confirmed, 
+**So that** I know who will pick me up.
+
+---
+
+## 3. Ride and Route
+### Title: Display Taxi Route on Map
+**As** a passenger, 
+**I want** to track the driver's route in real time on the map, 
+**So that** I can be informed when the driver is approaching.
+
+### Title: Contact the Driver
+**As** a passenger, 
+**I want** to call or message the driver, 
+**So that** I can coordinate details if needed.
+
+### Title: Change Destination Mid-Trip
+**As** a passenger, 
+**I want** to change my destination while the ride is in progress, 
+**So that** I have flexibility in determining my route.
+
+### Title: End Ride and Payment
+**As** a passenger, 
+**I want** to complete the ride and make the payment using my preferred method, 
+**So that** my trip is finalized.
+
+---
+
+## 4. Rating and Feedback System
+### Title: Rate the Driver
+**As** a passenger, 
+**I want** to rate the driver and leave feedback after my trip, 
+**So that** I can help improve service quality.
+
+### Title: View Driver Ratings
+**As** a passenger, 
+**I want** to see driver ratings before accepting a ride, 
+**So that** I can choose a driver with high ratings.
+
+---
+
+## 5. Driver-Specific Features
+### Title: Accept Ride Requests
+**As** a driver, 
+**I want** to view ride requests and accept or decline them, 
+**So that** I can transport passengers.
+
+### Title: View Daily Earnings
+**As** a driver, 
+**I want** to track my daily and weekly earnings, 
+**So that** I can manage my performance.
+
+### Title: Withdraw Earnings
+**As** a driver, 
+**I want** to transfer my earnings to my bank account anytime, 
+**So that** I have quick access to my money.
+
+### Title: Define Working Area
+**As** a driver, 
+**I want** to set my preferred working area, 
+**So that** I only receive ride requests within my selected region.
+
+---
+
+## 6. Payment and Wallet System
+### Title: Wallet Top-Up
+**As** a passenger, 
+**I want** to add funds to my wallet using my bank card, 
+**So that** I can pay for rides without cash.
+
+### Title: Online Payment
+**As** a passenger, 
+**I want** to pay for rides online, 
+**So that** I do not need to use cash.
+
+### Title: View Payment History
+**As** a user, 
+**I want** to see a list of my transactions, 
+**So that** I can manage my expenses better.
+
+---
+
+## 7. Support and Security
+### Title: Report an Issue
+**As** a user, 
+**I want** to report issues such as lost items or inappropriate driver behavior, 
+**So that** I can receive better service.
+
+### Title: Contact Support
+**As** a user, 
+**I want** to contact customer support anytime, 
+**So that** my issues can be resolved quickly.
+
+### Title: Share Ride Details with Friends
+**As** a passenger, 
+**I want** to share my ride details with friends or family, 
+**So that** I ensure my safety if needed.
+
+---
+
+## Conclusion
+These user stories comprehensively cover all functional aspects and needs of users, including both passengers and drivers. Implementing these features will enhance the UTAXI experience and improve service quality.

@@ -1,0 +1,26 @@
+POST signup ? username mina role driver
+POST signup ? role driver username arshia
+POST signup ? username parsa role driver
+POST signup ? role passenger username negar_m
+POST signup ? role passenger username bahar
+POST signup ? role passenger username mahdi
+POST signup ? role wrong_role_for_test username siamak
+GET trips ? username arshia sort_by_cost yes
+GET cost ? username bahar origin Farahzad destination SaadatAbad in_hurry no
+GET cost ? username mahdi destination Marzdaran origin Enghelab in_hurry yes
+GET cost ? origin wrong_loc_for_test destination Enghelab username negar_m in_hurry yes
+POST trips ? username bahar origin Farahzad destination SaadatAbad in_hurry no
+POST trips ? username negar_m in_hurry yes origin Farahzad destination Marzdaran
+POST trips ? username wrong_name_for_test origin Enghelab destination SaadatAbad in_hurry no
+GET trips ? username mina sort_by_cost yes
+POST accept ? username mina id 1
+GET wrong_command_for_test ? username arshia id 2
+POST accept ? username arshia id 2
+GET trips ? username parsa sort_by_cost no
+POST trips ? username mahdi destination Marzdaran origin Enghelab in_hurry yes
+GET cost ? username mahdi destination Marzdaran origin Enghelab in_hurry yes
+POST finish ? username arshia id 2
+GET trips ? sort_by_cost yes username arshia
+POST accept ? username arshia id 3
+POST finish ? username mina id 1
+GET trips ? sort_by_cost no username parsa

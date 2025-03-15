@@ -1,0 +1,20 @@
+POST signup ? username mmd_arshia role driver
+POST signup ? role driver username mmd_S
+POST signup ? username mobina role driver
+POST signup ? role driver username elahe
+POST signup ? role passenger username amin
+POST signup ? role passenger username zeinab
+POST signup ? username parsa role passenger
+GET cost ? username amin origin Enghelab destination SaadatAbad in_hurry yes
+GET cost ? origin Tehranpars destination Marzdaran username zeinab in_hurry no
+POST trips ? username amin origin Enghelab destination SaadatAbad in_hurry yes
+POST trips ? username mmd_arshia origin SaadatAbad destination Marzdaran in_hurry no
+POST trips ? in_hurry no username zeinab destination Marzdaran origin Enghelab
+POST trips ? username parsa destination SaadatAbad origin Farahzad in_hurry yes
+GET trips ? username mobina sort_by_cost yes
+POST accept ? username mmd_arshia id 2
+POST finish ? username mmd_arshia id 2
+POST accept ? username elahe id 3
+POST accept ? id 3 username mmd_S
+POST trips ? username mobina origin Enghelab destination SaadatAbad in_hurry yes
+GET trips ? username elahe sort_by_cost no

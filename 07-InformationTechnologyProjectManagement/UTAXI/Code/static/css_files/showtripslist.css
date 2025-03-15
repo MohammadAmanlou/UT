@@ -1,0 +1,64 @@
+.box-head {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 20px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    margin-top: 100px;  
+
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #ece7e7;
+    width: 1400px;
+    height: 700px;
+}
+
+#trips {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#trips td, #trips th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#trips tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#trips tr:hover {
+    background-color: #ddd;
+}
+
+#trips th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    height: 30px;
+    color: white;
+}
+
+input#username {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#submit {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;   
+    font-size: 15px;
+}

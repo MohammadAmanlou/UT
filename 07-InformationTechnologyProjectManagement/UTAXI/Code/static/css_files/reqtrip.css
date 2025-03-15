@@ -1,0 +1,54 @@
+.box-head {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 20px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    margin-top: 200px;  
+    display: flex;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #ece7e7;
+    width: 450px;
+    height: 400px;
+}
+
+input#username {
+    height: 30px;
+    font-size: 17px;
+}
+
+select {
+    height: 30px;
+    width: 175px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+select#destination {
+    margin-top: 20px;
+}
+
+label {
+    font-family: "Verdana";
+}
+
+#req {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;   
+    font-size: 15px;
+}
+
+#cost {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 150px;
+    height: 30px;   
+    font-size: 15px;
+}

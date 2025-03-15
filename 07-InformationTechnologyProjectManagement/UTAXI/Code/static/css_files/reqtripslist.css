@@ -1,0 +1,70 @@
+.box-head {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 20px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    margin-top: 200px;  
+    display: flex;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #ece7e7;
+    width: 450px;
+    height: 320px;
+}
+
+input#username {
+    height: 30px;
+    font-size: 17px;
+}
+
+input#trip-id {
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#submit {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;   
+    font-size: 15px;
+}
+
+label.description {
+    font-family: "Verdana";
+}
+
+label.sorted-description {
+    font-family: "Verdana";
+    margin-top: 10px;
+}
+
+input#trip-id {
+    display: none;
+}
+
+input#with-id:checked ~ input#trip-id  {
+    display: block;
+
+}
+
+input#with-id:checked ~ input#sorted {
+    display: none;
+}
+
+input#with-id:checked ~ label.sorted-description {
+    display: none;
+}
+
+input#with-id:checked ~ input#submit {
+    cursor: pointer;
+    margin-top: 0px;
+    width: 90px;
+    height: 30px;   
+    font-size: 15px;
+}

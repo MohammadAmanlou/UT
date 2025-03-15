@@ -1,0 +1,1139 @@
+vsim -gui work.TBPipe
+# vsim -gui work.TBPipe 
+# Start time: 16:05:23 on Jan 09,2025
+# Loading work.TBPipe
+# Loading work.TopLevelPipe
+# Loading work.Controller
+# Loading work.decoder
+# Loading work.ALUdecoder
+# Loading work.HazardUnit
+# Loading work.Decodereeee
+# Loading work.DataPath
+# Loading work.MUX_4_1
+# Loading work.Register
+# Loading work.inst_Mem
+# Loading work.Adder
+# Loading work.IF_ID_Regs
+# Loading work.RegFile
+# Loading work.sign_extended
+# Loading work.ID_EX_Regs
+# Loading work.MUX_2_1
+# Loading work.ALU
+# Loading work.EX_Mem_Regs
+# Loading work.DataMemory
+# Loading work.Mem_WB_Regs
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'RegWrite'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'MemWrite'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ALUSrc'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Branch'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Jump'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wass'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ImmSrc'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ResultSrc'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: G:/pipeLine/ControlModules.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ALUOp'. The port definition is at: G:/pipeLine/ControlModules.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fde File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ALUControl'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fde File: G:/pipeLine/ControlModules.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# Error loading design
+# End time: 16:05:23 on Jan 09,2025, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 41
+# Compile of ControlModules.v was successful.
+vsim -gui work.TBPipe
+# vsim -gui work.TBPipe 
+# Start time: 16:07:31 on Jan 09,2025
+# Loading work.TBPipe
+# Loading work.TopLevelPipe
+# Loading work.Controller
+# Loading work.decoder
+# Loading work.ALUdecoder
+# Loading work.HazardUnit
+# Loading work.Decodereeee
+# Loading work.DataPath
+# Loading work.MUX_4_1
+# Loading work.Register
+# Loading work.inst_Mem
+# Loading work.Adder
+# Loading work.IF_ID_Regs
+# Loading work.RegFile
+# Loading work.sign_extended
+# Loading work.ID_EX_Regs
+# Loading work.MUX_2_1
+# Loading work.ALU
+# Loading work.EX_Mem_Regs
+# Loading work.DataMemory
+# Loading work.Mem_WB_Regs
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'RegWrite'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'MemWrite'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ALUSrc'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Branch'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Jump'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wass'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ImmSrc'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ResultSrc'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fdf File: G:/pipeLine/ControlModules.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ALUControl'.
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/CTRL/fde File: G:/pipeLine/ControlModules.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# Error loading design
+# End time: 16:07:32 on Jan 09,2025, Elapsed time: 0:00:01
+# Errors: 9, Warnings: 40
+# Compile of ControlModules.v was successful.
+vsim -gui work.TBPipe
+# vsim -gui work.TBPipe 
+# Start time: 16:10:36 on Jan 09,2025
+# Loading work.TBPipe
+# Loading work.TopLevelPipe
+# Loading work.Controller
+# Loading work.decoder
+# Loading work.ALUdecoder
+# Loading work.HazardUnit
+# Loading work.Decodereeee
+# Loading work.DataPath
+# Loading work.MUX_4_1
+# Loading work.Register
+# Loading work.inst_Mem
+# Loading work.Adder
+# Loading work.IF_ID_Regs
+# Loading work.RegFile
+# Loading work.sign_extended
+# Loading work.ID_EX_Regs
+# Loading work.MUX_2_1
+# Loading work.ALU
+# Loading work.EX_Mem_Regs
+# Loading work.DataMemory
+# Loading work.Mem_WB_Regs
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+add wave -position insertpoint sim:/TBPipe/DUT/DP/PCReg/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+add wave -position insertpoint sim:/TBPipe/DUT/DP/m0/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+add wave -position insertpoint sim:/TBPipe/DUT/DP/regfilee/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+add wave -position insertpoint sim:/TBPipe/DUT/DP/regfilee/#ALWAYS#18/*
+add wave -position insertpoint sim:/TBPipe/DUT/DP/regfilee/#ALWAYS#22/*
+run -all
+add wave -position insertpoint sim:/TBPipe/DUT/DP/regfilee/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+# Compile of ControlModules.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controller
+# Loading work.decoder
+# Loading work.ALUdecoder
+# Loading work.Decodereeee
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R1 File: G:/pipeLine/RegisterBlocks.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R2 File: G:/pipeLine/RegisterBlocks.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R3 File: G:/pipeLine/RegisterBlocks.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R4 File: G:/pipeLine/RegisterBlocks.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R5 File: G:/pipeLine/RegisterBlocks.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R6 File: G:/pipeLine/RegisterBlocks.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R7 File: G:/pipeLine/RegisterBlocks.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R8 File: G:/pipeLine/RegisterBlocks.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (3) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R9 File: G:/pipeLine/RegisterBlocks.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R10 File: G:/pipeLine/RegisterBlocks.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R11 File: G:/pipeLine/RegisterBlocks.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/ID/R12 File: G:/pipeLine/RegisterBlocks.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R18 File: G:/pipeLine/RegisterBlocks.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R19 File: G:/pipeLine/RegisterBlocks.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R20 File: G:/pipeLine/RegisterBlocks.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/EX/R21 File: G:/pipeLine/RegisterBlocks.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R26 File: G:/pipeLine/RegisterBlocks.v Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R27 File: G:/pipeLine/RegisterBlocks.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'in'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'out'. The port definition is at: G:/pipeLine/Register.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TBPipe/DUT/DP/WB/R28 File: G:/pipeLine/RegisterBlocks.v Line: 49
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : G:/pipeLine/TB.v(11)
+#    Time: 5052 ns  Iteration: 0  Instance: /TBPipe
+# Break in Module TBPipe at G:/pipeLine/TB.v line 11
+add wave -position insertpoint sim:/TBPipe/DUT/DP/regfilee/*
+add wave -position insertpoint sim:/TBPipe/DUT/DP/regfilee/#ALWAYS#18/*
+add wave -position insertpoint sim:/TBPipe/DUT/DP/regfilee/#ALWAYS#22/*
+add wave -position insertpoint sim:/TBPipe/DUT/DP/PCReg/*
+add wave -position end  /TBPipe/DUT/DP/regfilee/x
+run -all
+# Break key hit
+# Break in Module DataMemory at G:/pipeLine/DataMem.v line 21
+# End time: 16:49:13 on Jan 09,2025, Elapsed time: 0:38:37
+# Errors: 0, Warnings: 40

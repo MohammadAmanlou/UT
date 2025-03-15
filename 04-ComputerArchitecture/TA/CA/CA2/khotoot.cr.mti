@@ -1,0 +1,115 @@
+D:/UDir/Digital_systems2/pipeLine/DataMem.v {2 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/DataMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+** Warning: D:/UDir/Digital_systems2/pipeLine/DataMem.v(33): (vlog-2256) Event expressions should result in a singular type.
+
+Top level modules:
+	DataMemory
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/ALU.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/HazardUnit.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/HazardUnit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/RegisterBlocks.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/RegisterBlocks.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF_ID_Regs
+-- Compiling module ID_EX_Regs
+-- Compiling module EX_Mem_Regs
+-- Compiling module Mem_WB_Regs
+
+Top level modules:
+	IF_ID_Regs
+	ID_EX_Regs
+	EX_Mem_Regs
+	Mem_WB_Regs
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/MUX_2_1.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/MUX_2_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_2_1
+
+Top level modules:
+	MUX_2_1
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/instMem.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/instMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module inst_Mem
+
+Top level modules:
+	inst_Mem
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/MUX_4_1.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/MUX_4_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_4_1
+
+Top level modules:
+	MUX_4_1
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/Register.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/sign_extend.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/sign_extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sign_extended
+
+Top level modules:
+	sign_extended
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/Adder.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/PC.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/Top.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TopLevelPipe
+
+Top level modules:
+	TopLevelPipe
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/controller.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+-- Compiling module Decoder
+
+Top level modules:
+	Controller
+	Decoder
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/TB.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TBPipe
+
+Top level modules:
+	TBPipe
+
+} {} {}} D:/UDir/Digital_systems2/pipeLine/DataPath.v {1 {vlog -work work -stats=none D:/UDir/Digital_systems2/pipeLine/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}}
