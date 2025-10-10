@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1842113000fs"></ZoomStartTime>
+      <ZoomEndTime time="2211113001fs"></ZoomEndTime>
+      <Cursor1Time time="2020000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="215"></NameColumnWidth>
+      <ValueColumnWidth column_width="260"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="61" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data" type="array">
+      <obj_property name="ElementShortName">data[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[0:15][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/TopModule/design_2_i/RegisterFile_0/inst/data[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/instruction_mem/inst/ram_data[1024]" type="array">
+      <obj_property name="ElementShortName">[1024][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1024][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/instruction_mem/inst/ram_data[1028]" type="array">
+      <obj_property name="ElementShortName">[1028][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1028][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/instruction_mem/inst/ram_data[1032]" type="array">
+      <obj_property name="ElementShortName">[1032][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1032][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/instruction_mem/inst/ram_data[1036]" type="array">
+      <obj_property name="ElementShortName">[1036][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1036][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/instruction_mem/inst/ram_data[1040]" type="array">
+      <obj_property name="ElementShortName">[1040][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1040][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/instruction_mem/inst/ram_data[1044]" type="array">
+      <obj_property name="ElementShortName">[1044][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1044][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/instruction_mem/inst/ram_data[1048]" type="array">
+      <obj_property name="ElementShortName">[1048][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1048][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/rn" type="array">
+      <obj_property name="ElementShortName">rn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/register_file_mux_out" type="array">
+      <obj_property name="ElementShortName">register_file_mux_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">register_file_mux_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Exe_Dest" type="array">
+      <obj_property name="ElementShortName">Exe_Dest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Exe_Dest[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Exe_WB_EN" type="logic">
+      <obj_property name="ElementShortName">Exe_WB_EN</obj_property>
+      <obj_property name="ObjectShortName">Exe_WB_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Mem_Dest" type="array">
+      <obj_property name="ElementShortName">Mem_Dest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Dest[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Mem_WB_EN" type="logic">
+      <obj_property name="ElementShortName">Mem_WB_EN</obj_property>
+      <obj_property name="ObjectShortName">Mem_WB_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/is_two_source" type="logic">
+      <obj_property name="ElementShortName">is_two_source</obj_property>
+      <obj_property name="ObjectShortName">is_two_source</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/hazard_detected" type="logic">
+      <obj_property name="ElementShortName">hazard_detected</obj_property>
+      <obj_property name="ObjectShortName">hazard_detected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/freeze" type="logic">
+      <obj_property name="ElementShortName">freeze</obj_property>
+      <obj_property name="ObjectShortName">freeze</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/pcOut" type="array">
+      <obj_property name="ElementShortName">pcOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/instructionOut" type="array">
+      <obj_property name="ElementShortName">instructionOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IFreg/inst/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/PC/inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/PC/inst/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/PC/inst/freeze" type="logic">
+      <obj_property name="ElementShortName">freeze</obj_property>
+      <obj_property name="ObjectShortName">freeze</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/PC/inst/in" type="array">
+      <obj_property name="ElementShortName">in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/PC/inst/outReg" type="array">
+      <obj_property name="ElementShortName">outReg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outReg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/PC/inst/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/Mux/inst/select" type="logic">
+      <obj_property name="ElementShortName">select</obj_property>
+      <obj_property name="ObjectShortName">select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/Mux/inst/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/Mux/inst/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/Mux/inst/out0" type="array">
+      <obj_property name="ElementShortName">out0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IDreg_0/inst/Signed_imm_24" type="array">
+      <obj_property name="ElementShortName">Signed_imm_24[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Signed_imm_24[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IDreg_0/inst/Signed_imm_24_out" type="array">
+      <obj_property name="ElementShortName">Signed_imm_24_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Signed_imm_24_out[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IDreg_0/inst/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/IDreg_0/inst/pcOut" type="array">
+      <obj_property name="ElementShortName">pcOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ALU_0/inst/in1" type="array">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ALU_0/inst/in2" type="array">
+      <obj_property name="ElementShortName">in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ALU_0/inst/carry_in" type="logic">
+      <obj_property name="ElementShortName">carry_in</obj_property>
+      <obj_property name="ObjectShortName">carry_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ALU_0/inst/ALU_op" type="array">
+      <obj_property name="ElementShortName">ALU_op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_op[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ALU_0/inst/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ALU_0/inst/NZCV" type="array">
+      <obj_property name="ElementShortName">NZCV[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NZCV[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ForwardingUnit_0/inst/src1" type="array">
+      <obj_property name="ElementShortName">src1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">src1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ForwardingUnit_0/inst/src2" type="array">
+      <obj_property name="ElementShortName">src2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">src2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ForwardingUnit_0/inst/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/ForwardingUnit_0/inst/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/rn" type="array">
+      <obj_property name="ElementShortName">rn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/register_file_mux_out" type="array">
+      <obj_property name="ElementShortName">register_file_mux_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">register_file_mux_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Exe_Dest" type="array">
+      <obj_property name="ElementShortName">Exe_Dest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Exe_Dest[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Exe_WB_EN" type="logic">
+      <obj_property name="ElementShortName">Exe_WB_EN</obj_property>
+      <obj_property name="ObjectShortName">Exe_WB_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Exe_MEM_R_EN" type="logic">
+      <obj_property name="ElementShortName">Exe_MEM_R_EN</obj_property>
+      <obj_property name="ObjectShortName">Exe_MEM_R_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Mem_Dest" type="array">
+      <obj_property name="ElementShortName">Mem_Dest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Dest[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/Mem_WB_EN" type="logic">
+      <obj_property name="ElementShortName">Mem_WB_EN</obj_property>
+      <obj_property name="ObjectShortName">Mem_WB_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/is_two_source" type="logic">
+      <obj_property name="ElementShortName">is_two_source</obj_property>
+      <obj_property name="ObjectShortName">is_two_source</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/has_forwarding_unit" type="logic">
+      <obj_property name="ElementShortName">has_forwarding_unit</obj_property>
+      <obj_property name="ObjectShortName">has_forwarding_unit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/TopModule/design_2_i/HazardUnitDetector_0/inst/hazard_detected" type="logic">
+      <obj_property name="ElementShortName">hazard_detected</obj_property>
+      <obj_property name="ObjectShortName">hazard_detected</obj_property>
+   </wvobject>
+</wave_config>

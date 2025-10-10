@@ -1,0 +1,117 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c915b02d523a498ea8d9b0aaa4f3bde8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_5 -L xlslice_v1_0_1 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_12 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Adder.v" Line 1. Module Adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/CUMux.v" Line 1. Module CUMUX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ConditionCheck.v" Line 1. Module ConditionCheck doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ControlUnit.v" Line 1. Module ControlUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ExeReg.v" Line 1. Module ExeReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/HazardUnitDetector.v" Line 1. Module HazardUnitDetector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/IDreg.v" Line 1. Module IDreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/IFreg.v" Line 1. Module IFreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/MEM_Stage_Reg.v" Line 1. Module MEM_Stage_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Mux2To1.v" Line 1. Module Mux2to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Mux2To1.v" Line 1. Module Mux2to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Register.v" Line 1. Module Register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/RegMux.v" Line 1. Module RegMux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/RegisterFile.v" Line 1. Module RegisterFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/StatusReg.v" Line 1. Module StatusReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Val2Gen.v" Line 1. Module Val2Gen doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.design_2_ALU_0_0
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.design_2_Adder_0
+Compiling module xil_defaultlib.CUMUX
+Compiling module xil_defaultlib.design_2_CUMUX_0_0
+Compiling module xil_defaultlib.ConditionCheck
+Compiling module xil_defaultlib.design_2_ConditionCheck_0_0
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.design_2_ControlUnit_0_0
+Compiling module xil_defaultlib.ExeReg
+Compiling module xil_defaultlib.design_2_ExeReg_0_0
+Compiling module xil_defaultlib.Exe_Mux
+Compiling module xil_defaultlib.design_2_Exe_Mux_0_0
+Compiling module xil_defaultlib.design_2_Exe_Mux_0_1
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.design_2_ForwardingUnit_0_0
+Compiling module xlconstant_v1_1_5.xlconstant_v1_1_5_xlconstant(CON...
+Compiling module xil_defaultlib.design_2_FourConstant_0
+Compiling module xil_defaultlib.HazardUnitDetector
+Compiling module xil_defaultlib.design_2_HazardUnitDetector_0_0
+Compiling module xil_defaultlib.IDreg
+Compiling module xil_defaultlib.design_2_IDreg_0_0
+Compiling module xil_defaultlib.IFreg
+Compiling module xil_defaultlib.design_2_IFreg_0
+Compiling module xil_defaultlib.MEM_Stage_Reg
+Compiling module xil_defaultlib.design_2_MEM_Stage_Reg_0_0
+Compiling module xil_defaultlib.Mux2to1
+Compiling module xil_defaultlib.design_2_Mux_0
+Compiling module xil_defaultlib.design_2_Mux_1
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.design_2_util_vector_logic_0_1
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.design_2_PC_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_2_0
+Compiling module xil_defaultlib.RedAdder
+Compiling module xil_defaultlib.design_2_RedAdder_0_0
+Compiling module xil_defaultlib.RegMux
+Compiling module xil_defaultlib.design_2_RegMux_0_0
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.design_2_RegisterFile_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_3_0
+Compiling module xil_defaultlib.StatusReg
+Compiling module xil_defaultlib.design_2_StatusReg_0_0
+Compiling module xil_defaultlib.Val2Gen
+Compiling module xil_defaultlib.design_2_Val2Gen_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_2_xlslice_0_1
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.design_2_util_vector_logic_1_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.design_2_util_vector_logic_0_0
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="z...
+Compiling module xil_defaultlib.design_2_dist_mem_gen_1_0
+Compiling architecture behavioral of entity xil_defaultlib.debouncer [debouncer_default]
+Compiling module xil_defaultlib.design_2_debouncer_0_0
+Compiling module xil_defaultlib.design_2_xlslice_2_1
+Compiling module xlconstant_v1_1_5.xlconstant_v1_1_5_xlconstant(CON...
+Compiling module xil_defaultlib.design_2_xlconstant_0_0
+Compiling module xil_defaultlib.design_2_ila_0_0
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="z...
+Compiling module xil_defaultlib.design_2_dist_mem_gen_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_2_2
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_1_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_4_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_3_1
+Compiling module xil_defaultlib.design_2_util_vector_logic_0_2
+Compiling module xil_defaultlib.design_2_util_vector_logic_0_3
+Compiling module xil_defaultlib.design_2_vio_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_2_xlslice_0_2
+Compiling module xil_defaultlib.design_2
+Compiling module xil_defaultlib.design_2_wrapper
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

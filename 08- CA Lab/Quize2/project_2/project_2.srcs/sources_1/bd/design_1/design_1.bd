@@ -1,0 +1,568 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xEDAC9A23388C5F6C",
+      "device": "xc7z010clg400-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "flush": "",
+      "InstructionMem": "",
+      "xlslice_0": "",
+      "FourConstant": "",
+      "mux_second": "",
+      "branch_taken": "",
+      "Freeze": "",
+      "Mux": "",
+      "PC": "",
+      "ila_0": "",
+      "debouncer_0": "",
+      "Adder": "",
+      "IFreg": "",
+      "IFreg_0": "",
+      "IFreg_1": "",
+      "IFreg_2": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "rst_0": {
+        "type": "rst",
+        "direction": "I"
+      }
+    },
+    "components": {
+      "flush": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_4",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "InstructionMem": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "design_1_blk_mem_gen_0_0",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../imports/src/output.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Single_Port_ROM"
+          },
+          "Port_A_Write_Rate": {
+            "value": "0"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "xlslice_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "12"
+          },
+          "DOUT_WIDTH": {
+            "value": "13"
+          }
+        }
+      },
+      "FourConstant": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "1"
+          },
+          "CONST_WIDTH": {
+            "value": "32"
+          }
+        }
+      },
+      "mux_second": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_2",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          },
+          "CONST_WIDTH": {
+            "value": "32"
+          }
+        }
+      },
+      "branch_taken": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_3",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "Freeze": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_1",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "Mux": {
+        "vlnv": "xilinx.com:module_ref:Mux2to1:1.0",
+        "xci_name": "design_1_Mux2to1_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Mux2to1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "select": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "b": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out0": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "PC": {
+        "vlnv": "xilinx.com:module_ref:Register:1.0",
+        "xci_name": "design_1_Register_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Register",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "freeze": {
+            "direction": "I"
+          },
+          "in": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "outReg": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "ila_0": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "design_1_ila_0_0",
+        "parameters": {
+          "C_ENABLE_ILA_AXI_MON": {
+            "value": "false"
+          },
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "6"
+          },
+          "C_PROBE0_TYPE": {
+            "value": "1"
+          },
+          "C_PROBE0_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE1_TYPE": {
+            "value": "1"
+          },
+          "C_PROBE1_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE2_TYPE": {
+            "value": "1"
+          },
+          "C_PROBE2_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE3_TYPE": {
+            "value": "1"
+          },
+          "C_PROBE3_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE4_TYPE": {
+            "value": "1"
+          },
+          "C_PROBE4_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE5_TYPE": {
+            "value": "2"
+          }
+        }
+      },
+      "debouncer_0": {
+        "vlnv": "xilinx.com:module_ref:debouncer:1.0",
+        "xci_name": "design_1_debouncer_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debouncer",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "SIGNAL_I": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "CLK_I": {
+            "direction": "I"
+          },
+          "SIGNAL_O": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      },
+      "Adder": {
+        "vlnv": "xilinx.com:module_ref:Adder:1.0",
+        "xci_name": "design_1_Adder_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Adder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "b": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "IFreg": {
+        "vlnv": "xilinx.com:module_ref:IFreg:1.0",
+        "xci_name": "design_1_IFreg_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "IFreg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "if_pc": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "if_instruction": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "id_pc": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "id_instruction": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "IFreg_0": {
+        "vlnv": "xilinx.com:module_ref:IFreg:1.0",
+        "xci_name": "design_1_IFreg_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "IFreg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "if_pc": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "if_instruction": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "id_pc": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "id_instruction": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "IFreg_1": {
+        "vlnv": "xilinx.com:module_ref:IFreg:1.0",
+        "xci_name": "design_1_IFreg_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "IFreg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "if_pc": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "if_instruction": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "id_pc": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "id_instruction": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "IFreg_2": {
+        "vlnv": "xilinx.com:module_ref:IFreg:1.0",
+        "xci_name": "design_1_IFreg_2_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "IFreg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "if_pc": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "if_instruction": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "id_pc": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "id_instruction": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Adder_0_out": {
+        "ports": [
+          "Adder/out",
+          "Mux/a"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "InstructionMem/clka",
+          "PC/clk",
+          "ila_0/clk",
+          "debouncer_0/CLK_I",
+          "IFreg/clk",
+          "IFreg_0/clk",
+          "IFreg_1/clk",
+          "IFreg_2/clk"
+        ]
+      },
+      "IFreg_pcOut": {
+        "ports": [
+          "ila_0/probe1"
+        ]
+      },
+      "IFreg_0_pcOut": {
+        "ports": [
+          "ila_0/probe2"
+        ]
+      },
+      "IFreg_1_pcOut": {
+        "ports": [
+          "ila_0/probe3"
+        ]
+      },
+      "Freeze_dout": {
+        "ports": [
+          "Freeze/dout",
+          "PC/freeze"
+        ]
+      },
+      "flush_dout": {
+        "ports": [
+          "flush/dout"
+        ]
+      },
+      "IFreg_2_pcOut": {
+        "ports": [
+          "ila_0/probe4"
+        ]
+      },
+      "xlslice_0_Dout": {
+        "ports": [
+          "xlslice_0/Dout",
+          "InstructionMem/addra"
+        ]
+      },
+      "branch_taken_dout": {
+        "ports": [
+          "branch_taken/dout",
+          "Mux/select"
+        ]
+      },
+      "mux_second_dout": {
+        "ports": [
+          "mux_second/dout",
+          "Mux/b"
+        ]
+      },
+      "Mux2to1_0_out": {
+        "ports": [
+          "Mux/out0",
+          "PC/in"
+        ]
+      },
+      "PC_out": {
+        "ports": [
+          "PC/outReg",
+          "xlslice_0/Din",
+          "Adder/b"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "FourConstant/dout",
+          "Adder/a"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst_0",
+          "debouncer_0/SIGNAL_I"
+        ]
+      },
+      "debouncer_0_SIGNAL_O": {
+        "ports": [
+          "debouncer_0/SIGNAL_O",
+          "PC/rst",
+          "ila_0/probe5",
+          "IFreg/rst",
+          "IFreg_0/rst",
+          "IFreg_1/rst",
+          "IFreg_2/rst"
+        ]
+      },
+      "InstructionMem_douta": {
+        "ports": [
+          "InstructionMem/douta"
+        ]
+      },
+      "IFreg_2_instructionOut": {
+        "ports": [
+          "ila_0/probe0"
+        ]
+      }
+    }
+  }
+}

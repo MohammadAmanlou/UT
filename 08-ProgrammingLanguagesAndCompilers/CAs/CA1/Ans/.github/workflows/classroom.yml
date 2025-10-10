@@ -1,0 +1,248 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Func
+      id: func
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Func
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/01-func.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function foo = 1
+          Line 5: Stmt function main = 1
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: For
+      id: for
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: For
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/02-for.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 1
+          Line 2: Stmt for = 2
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: If
+      id: if
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: If
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/03-if.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 1
+          Line 2: Expr 1
+          Line 2: Stmt selection = 1
+          Line 4: Expr 0
+          Line 4: Stmt selection = 2
+          Line 7: Stmt selection = 3
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: While
+      id: while
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: While
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/04-while.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 2
+          Line 2: Expr 1
+          Line 2: Stmt while = 2
+          Line 6: Expr 0
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Nested
+      id: nested
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Nested
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/05-nested.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 2
+          Line 2: Stmt for = 3
+          Line 5: Expr 1
+          Line 5: Stmt selection = 1
+          Line 7: Expr 0
+          Line 7: Stmt selection = 2
+          Line 10: Stmt selection = 3
+          Line 16: Expr 0
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Binary Exp
+      id: binary-exp
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Binary Exp
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/06-binery_exp.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 3
+          Line 2: Expr 5
+          Line 3: Expr +
+          Line 4: Expr 0
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Unary Exp
+      id: unary-exp
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Unary Exp
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/07-unery_exp.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 3
+          Line 2: Expr 5
+          Line 3: Expr ++
+          Line 4: Expr 0
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Binary Exp 2
+      id: binary-exp-2
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Binary Exp 2
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/08-binery_exp2.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 3
+          Line 2: Expr 5
+          Line 3: Expr +=
+          Line 4: Expr 0
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Binary Exp Long_
+      id: binary-exp-long
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Binary Exp Long_
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/09-binery_exp_long.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 3
+          Line 2: Expr 5
+          Line 3: Expr =
+          Line 4: Expr 0
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Mix Exp
+      id: mix-exp
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Mix Exp
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/10-mix_exp.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 1: Stmt function main = 3
+          Line 2: Expr ,
+          Line 3: Expr *=
+          Line 4: Expr +=
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Program
+      id: program
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Program
+        setup-command: ''
+        command: javac -cp utilities/antlr-4.13.1-complete.jar -d out $(find src gen
+          -name "*.java") && java -cp out:utilities/antlr-4.13.1-complete.jar SimpleLang
+          tests/11-program.cpy | sort -t':' -k1.6n -k2
+        input: ''
+        expected-output: |-
+          Line 2: Stmt function reverseNumber = 3
+          Line 3: Expr 0
+          Line 4: Expr >
+          Line 4: Stmt while = 2
+          Line 5: Expr =
+          Line 6: Expr /=
+          Line 8: Expr reversedNum
+          Line 11: Stmt function main = 7
+          Line 15: Expr printf
+          Line 16: Expr scanf
+          Line 19: Expr <
+          Line 19: Stmt selection = 2
+          Line 20: Expr printf
+          Line 21: Expr 0
+          Line 25: Expr reverseNumber
+          Line 26: Expr ==
+          Line 26: Stmt selection = 1
+          Line 27: Expr printf
+          Line 28: Stmt selection = 1
+          Line 29: Expr printf
+          Line 32: Expr 0
+        comparison-method: contains
+        timeout: 10
+        max-score: 1
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        FUNC_RESULTS: "${{steps.func.outputs.result}}"
+        FOR_RESULTS: "${{steps.for.outputs.result}}"
+        IF_RESULTS: "${{steps.if.outputs.result}}"
+        WHILE_RESULTS: "${{steps.while.outputs.result}}"
+        NESTED_RESULTS: "${{steps.nested.outputs.result}}"
+        BINARY-EXP_RESULTS: "${{steps.binary-exp.outputs.result}}"
+        UNARY-EXP_RESULTS: "${{steps.unary-exp.outputs.result}}"
+        BINARY-EXP-2_RESULTS: "${{steps.binary-exp-2.outputs.result}}"
+        BINARY-EXP-LONG_RESULTS: "${{steps.binary-exp-long.outputs.result}}"
+        MIX-EXP_RESULTS: "${{steps.mix-exp.outputs.result}}"
+        PROGRAM_RESULTS: "${{steps.program.outputs.result}}"
+      with:
+        runners: func,for,if,while,nested,binary-exp,unary-exp,binary-exp-2,binary-exp-long,mix-exp,program

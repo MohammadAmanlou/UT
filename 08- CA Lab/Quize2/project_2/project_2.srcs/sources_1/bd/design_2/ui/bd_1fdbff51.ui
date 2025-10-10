@@ -1,0 +1,141 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port rst_0 -pg 1 -y 400 -defaultsOSRD
+preplace port clk_0 -pg 1 -y 430 -defaultsOSRD
+preplace inst RegisterFile_0 -pg 1 -lvl 17 -y 230 -defaultsOSRD
+preplace inst Val2Gen_0 -pg 1 -lvl 14 -y -630 -defaultsOSRD
+preplace inst instruction_mem -pg 1 -lvl 6 -y -120 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 8 -y 90 -defaultsOSRD
+preplace inst RedAdder_0 -pg 1 -lvl 15 -y -720 -defaultsOSRD
+preplace inst shift_operand_slice -pg 1 -lvl 10 -y 710 -defaultsOSRD
+preplace inst dest_slice -pg 1 -lvl 12 -y 720 -defaultsOSRD
+preplace inst ControlUnit_0 -pg 1 -lvl 9 -y 210 -defaultsOSRD
+preplace inst HazardUnitDetector_0 -pg 1 -lvl 18 -y -1000 -defaultsOSRD
+preplace inst ExeReg_0 -pg 1 -lvl 17 -y -640 -defaultsOSRD
+preplace inst RD_slice -pg 1 -lvl 12 -y 310 -defaultsOSRD
+preplace inst IDreg_0 -pg 1 -lvl 14 -y -270 -defaultsOSRD
+preplace inst Mux -pg 1 -lvl 5 -y -110 -defaultsOSRD
+preplace inst ALU_0 -pg 1 -lvl 14 -y -790 -defaultsOSRD
+preplace inst vio_forward_en -pg 1 -lvl 1 -y -800 -defaultsOSRD
+preplace inst ConditionCheck_0 -pg 1 -lvl 8 -y 230 -defaultsOSRD
+preplace inst CUMUX_0 -pg 1 -lvl 9 -y 450 -defaultsOSRD
+preplace inst debouncer_0 -pg 1 -lvl 3 -y -110 -defaultsOSRD
+preplace inst Exe_Mux_1 -pg 1 -lvl 16 -y -460 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 16 -y -830 -defaultsOSRD
+preplace inst carry_in_slice -pg 1 -lvl 15 -y -460 -defaultsOSRD
+preplace inst OR_mod -pg 1 -lvl 13 -y -780 -defaultsOSRD
+preplace inst IFreg -pg 1 -lvl 17 -y -200 -defaultsOSRD
+preplace inst Exe_Mux_2 -pg 1 -lvl 16 -y -290 -defaultsOSRD
+preplace inst Adder -pg 1 -lvl 22 -y -110 -defaultsOSRD
+preplace inst signed_imm_24_slice -pg 1 -lvl 11 -y 690 -defaultsOSRD
+preplace inst FourConstant -pg 1 -lvl 21 -y -110 -defaultsOSRD
+preplace inst two_src_or -pg 1 -lvl 17 -y -900 -defaultsOSRD
+preplace inst MEM_Stage_Reg_0 -pg 1 -lvl 21 -y -660 -defaultsOSRD
+preplace inst data_mem -pg 1 -lvl 19 -y -630 -defaultsOSRD
+preplace inst Rm_slice -pg 1 -lvl 12 -y 160 -defaultsOSRD
+preplace inst rn_slice -pg 1 -lvl 15 -y 60 -defaultsOSRD
+preplace inst RegMux_0 -pg 1 -lvl 15 -y 220 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 2 -y -110 -defaultsOSRD
+preplace inst ForwardingUnit_0 -pg 1 -lvl 20 -y 320 -defaultsOSRD
+preplace inst forward_en_0 -pg 1 -lvl 2 -y -1080 -defaultsOSRD
+preplace inst cond_hazard_or_1 -pg 1 -lvl 8 -y 540 -defaultsOSRD
+preplace inst cond_not -pg 1 -lvl 8 -y 370 -defaultsOSRD
+preplace inst instruction_mem_address_slice -pg 1 -lvl 1 -y -110 -defaultsOSRD
+preplace inst PC -pg 1 -lvl 4 -y -110 -defaultsOSRD
+preplace inst StatusReg_0 -pg 1 -lvl 13 -y 490 -defaultsOSRD
+preplace inst Mux_cyan -pg 1 -lvl 22 -y -660 -defaultsOSRD
+preplace inst opcode_slice -pg 1 -lvl 7 -y 400 -defaultsOSRD
+preplace netloc MEM_Stage_Reg_0_WB_EN_out 1 16 6 6070J 50 NJ 50 NJ 50 NJ 50 N 50 7920
+preplace netloc IDreg_0_Val_Rm_out 1 14 2 5180 -300 N
+preplace netloc ALU_0_NZCV 1 12 3 4210 30 NJ 30 5080
+preplace netloc flush_dout 1 4 11 1400 -410 N -410 N -410 N -410 N -410 N -410 N -410 N -410 N -410 4550 -510 5050
+preplace netloc util_vector_logic_0_Res 1 7 2 2320 430 2780
+preplace netloc Adder_0_out 1 4 19 1380 -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 N -1150 7910 -740 8180J
+preplace netloc MEM_Stage_Reg_0_MEM_R_EN_out 1 21 1 N
+preplace netloc IDreg_0_pcOut 1 14 1 5130
+preplace netloc CUMUX_0_MEM_W_EN_out 1 9 5 3330 -330 NJ -330 NJ -330 NJ -330 NJ
+preplace netloc debouncer_0_SIGNAL_O 1 1 20 280 70 480 10 880 0 N 0 N 0 2090 -60 N -60 N -60 3370 -10 N -10 N -10 4160 -10 4570 0 5230 -60 N -60 6040 -780 N -780 N -780 N -780 7580
+preplace netloc CUMUX_0_WB_EN_out 1 9 5 3280 -370 NJ -370 NJ -370 NJ -370 NJ
+preplace netloc IDreg_0_EXE_CMD_out 1 13 2 4610 -890 5060
+preplace netloc ExeReg_0_MEM_R_EN_out 1 17 4 6600 -730 NJ -730 NJ -730 7560J
+preplace netloc shift_operand_slice_Dout 1 10 4 3600 -190 NJ -190 NJ -190 NJ
+preplace netloc RegisterFile_0_R0 1 1 17 230 30 NJ 30 NJ 30 NJ 30 1650J -50 NJ -50 NJ -50 NJ -50 3380J -40 NJ -40 NJ -40 NJ -40 4560J -30 5220J -50 NJ -50 NJ -50 6580
+preplace netloc two_src_or_Res 1 17 1 6520
+preplace netloc ExeReg_0_Val_Rm_out 1 17 2 NJ -610 7010
+preplace netloc RegisterFile_0_R1 1 1 17 210 160 NJ 160 NJ 160 NJ 160 NJ 160 NJ 160 NJ 160 2790J 30 NJ 30 NJ 30 NJ 30 4170J 20 NJ 20 5240J -40 NJ -40 NJ -40 6570
+preplace netloc util_vector_logic_0_Res1 1 16 1 5990
+preplace netloc ControlUnit_0_EXE_CMD 1 8 2 2820 20 3230
+preplace netloc RegisterFile_0_R2 1 1 17 240 40 NJ 40 NJ 40 NJ 40 1680J 30 NJ 30 NJ 30 2780J 40 3270J 100 NJ 100 NJ 100 NJ 100 NJ 100 5060J 120 5590J 80 NJ 80 6550
+preplace netloc Exe_Mux_1_out 1 13 4 4580 -980 NJ -980 NJ -980 5950
+preplace netloc ExeReg_0_WB_EN_out 1 17 4 6530 -720 NJ -720 7240J -680 NJ
+preplace netloc RegisterFile_0_R3 1 1 17 250 50 NJ 50 NJ 50 NJ 50 1670J -40 NJ -40 NJ -40 NJ -40 3360J -30 NJ -30 NJ -30 NJ -30 4540J 140 NJ 140 5610J 90 NJ 90 6540
+preplace netloc MEM_Stage_Reg_0_dest_out 1 16 6 6060J -60 NJ -60 NJ -60 NJ -60 7580 -50 7910
+preplace netloc signed_imm_24_slice_Dout 1 11 3 3800 -170 NJ -170 NJ
+preplace netloc RegisterFile_0_R4 1 1 17 260 60 NJ 60 NJ 60 1380J -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 4530J 60 5090J 130 5570J 70 NJ 70 6560
+preplace netloc IDreg_0_src_2_out 1 14 1 NJ
+preplace netloc RegisterFile_0_Val_Rm 1 13 5 4590J 10 5250J 0 5580J 20 5950 60 6520
+preplace netloc RegisterFile_0_R5 1 1 17 220 90 490J -10 NJ -10 NJ -10 1660J -30 NJ -30 NJ -30 NJ -30 3310J 50 NJ 50 NJ 50 NJ 50 NJ 50 5260J -30 NJ -30 NJ -30 6600
+preplace netloc RedAdder_0_out 1 4 12 1390 -940 NJ -940 NJ -940 NJ -940 NJ -940 NJ -940 NJ -940 NJ -940 NJ -940 NJ -940 NJ -940 5590
+preplace netloc IFreg_pcOut 1 13 1 N
+preplace netloc RegisterFile_0_Val_Rn 1 13 5 4580J -10 NJ -10 NJ -10 N -10 6530
+preplace netloc RegisterFile_0_R6 1 1 17 270 80 500J 20 900J 10 NJ 10 NJ 10 2100J 0 NJ 0 NJ 0 3290J 40 NJ 40 NJ 40 NJ 40 NJ 40 5270J -20 NJ -20 NJ -20 6590
+preplace netloc ExeReg_0_dest_out 1 17 4 6590 -530 NJ -530 7250J -600 NJ
+preplace netloc Mux_cyan_out0 1 15 8 5610 -110 5970J -110 6580J -180 NJ -180 NJ -180 NJ -180 NJ -180 8170
+preplace netloc IDreg_0_status_out 1 14 1 5190
+preplace netloc CUMUX_0_MEM_R_EN_out 1 9 5 3300 -350 NJ -350 NJ -350 NJ -350 NJ
+preplace netloc Mux2to1_0_out 1 3 3 900 -210 N -210 1650
+preplace netloc IDreg_0_MEM_R_EN_out 1 12 6 4160 -970 NJ -970 5110 -970 N -970 6030 -970 6580
+preplace netloc dest_slice_Dout 1 12 2 4180 -150 NJ
+preplace netloc CUMUX_0_B_out 1 9 5 3350 -290 NJ -290 NJ -290 NJ -290 NJ
+preplace netloc ControlUnit_0_B 1 8 2 2810 10 3240
+preplace netloc ExeReg_0_ALU_Res_out 1 15 6 5590 -560 5990 -510 6530J -600 6990 -540 7230 -640 N
+preplace netloc opcode_slice_Dout 1 7 1 2310
+preplace netloc IDreg_0_WB_EN_out 1 14 4 5120 -910 NJ -910 5970J -980 6530
+preplace netloc xlslice_1_Dout 1 13 5 4610 -20 5210 -70 5560 10 6000 -1080 N
+preplace netloc dist_mem_gen_0_spo 1 6 1 N
+preplace netloc rst_0_1 1 0 3 -270J -250 NJ -250 480
+preplace netloc xlslice_0_Dout 1 1 5 200 -280 N -280 N -280 N -280 1660
+preplace netloc MEM_Stage_Reg_0_ALU_Res_out 1 21 1 N
+preplace netloc Freeze_dout 1 3 16 890 -220 N -220 N -220 N -220 2300 -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 7020
+preplace netloc MEM_Stage_Reg_0_data_mem_out 1 21 1 N
+preplace netloc Rm_slice_Dout 1 12 3 N 160 N 160 5060
+preplace netloc ControlUnit_0_MEM_W_EN 1 8 9 2860 70 3260 70 NJ 70 NJ 70 NJ 70 NJ 70 5200J -840 5610 -890 N
+preplace netloc ExeReg_0_MEM_W_EN_out 1 17 2 NJ -650 7000
+preplace netloc clk_0_1 1 0 21 -280J -260 190 -260 500 -200 880 -200 N -200 N -200 N -200 N -200 2760 -220 N -220 N -220 N -220 4190 -450 4530 -520 5140 -580 N -580 6050 -770 N -770 7020 -740 N -740 7570
+preplace netloc vio_forward_en_probe_out0 1 1 17 200 -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 NJ -930 6020J -830 6580J
+preplace netloc CUMUX_0_EXE_CMD_out 1 9 5 3340 -310 NJ -310 NJ -310 NJ -310 NJ
+preplace netloc IFreg_instructionOut 1 6 9 2090 150 2310 150 2800 90 3250 650 3590 750 3810 80 N 80 N 80 5270
+preplace netloc cond_hazard_or_1_Res 1 8 1 2800
+preplace netloc ControlUnit_0_WB_EN 1 8 2 2840 50 3210
+preplace netloc ForwardingUnit_0_ForwardA 1 15 6 5580 -70 NJ -70 NJ -70 NJ -70 NJ -70 7570
+preplace netloc IDreg_0_imm_out 1 13 2 4570 -920 5090
+preplace netloc ForwardingUnit_0_ForwardB 1 15 6 5600 0 NJ 0 NJ 0 NJ 0 NJ 0 7560
+preplace netloc ControlUnit_0_MEM_R_EN 1 8 2 2850 60 3200
+preplace netloc PC_out 1 0 22 -260 -270 N -270 N -270 N -270 1370 -540 N -540 N -540 N -540 N -540 N -540 N -540 N -540 N -540 N -540 N -540 5570 -550 5980 -400 N -400 N -400 N -400 N -400 7930
+preplace netloc data_mem_spo 1 19 2 N -630 7570
+preplace netloc IDreg_0_MEM_W_EN_out 1 12 5 4210 -960 NJ -960 5100 -630 N -630 N
+preplace netloc carry_in_slice_Dout 1 13 3 4600 -900 NJ -900 5560
+preplace netloc IDreg_0_Signed_imm_24_out 1 14 1 5150
+preplace netloc OR_mod_Res 1 13 1 4550
+preplace netloc CUMUX_0_S_out 1 9 5 3390 -270 NJ -270 NJ -270 NJ -270 NJ
+preplace netloc RD_slice_Dout 1 12 3 4200 240 N 240 N
+preplace netloc IDreg_0_Shift_operand_out 1 13 2 4610 -530 5070
+preplace netloc xlslice_0_Dout1 1 8 8 2770 -210 NJ -210 NJ -210 NJ -210 NJ -210 4540J -880 5130 -830 N
+preplace netloc ControlUnit_0_S 1 8 2 2830 80 3220
+preplace netloc IDreg_0_dest_out 1 14 4 5170 -570 NJ -570 5980J -990 6520
+preplace netloc ConditionCheck_0_condOut 1 7 2 2320 300 2780
+preplace netloc RegMux_0_mOut 1 13 5 4600 300 N 300 5580 220 6010 -1060 N
+preplace netloc IDreg_0_Val_Rn_out 1 14 2 5160 -400 5570
+preplace netloc xlconstant_0_dout 1 21 1 7940
+preplace netloc StatusReg_0_status_out 1 7 7 2320 -10 N -10 3320 0 N 0 N 0 N 0 4550
+preplace netloc Exe_Mux_2_out 1 13 4 4560 -950 NJ -950 NJ -950 5960
+preplace netloc ALU_0_result 1 14 3 NJ -800 5610 -770 6020
+preplace netloc Val2Gen_0_Val2 1 13 2 4590 -910 5070
+preplace netloc IDreg_0_src_1_out 1 14 1 NJ
+preplace netloc IDreg_0_S_out 1 12 3 4220 150 NJ 150 5050
+levelinfo -pg 1 -300 90 390 740 1250 1540 1990 2200 2620 3050 3490 3700 4060 4390 4860 5430 5810 6350 6810 7130 7420 7750 8060 8210 -top -1230 -bot 1080
+"
+}
+0

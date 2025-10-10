@@ -1,0 +1,144 @@
+#!/usr/bin/env bash
+
+set -eu
+
+REFERENCE_FILES=(
+    # misc
+    src/labgob/labgob.go
+    src/labgob/test_test.go
+    src/labrpc/labrpc.go
+    src/labrpc/test_test.go
+    src/models1/kv.go
+
+    # lab 1
+    src/mrapps/crash.go
+    src/mrapps/indexer.go
+    src/mrapps/mtiming.go
+    src/mrapps/nocrash.go
+    src/mrapps/rtiming.go
+    src/mrapps/wc.go
+    src/main/mrsequential.go
+    src/main/mrcoordinator.go
+    src/main/mrworker.go
+
+    # lab 2
+    src/kvsrv1/lock/lock_test.go
+    src/kvsrv1/kvsrv_test.go
+    src/kvsrv1/test.go
+    src/kvtest1/kvtest.go
+    src/kvtest1/porcupine.go
+
+    # lab 3
+    src/raft1/raft_test.go
+    src/raft1/server.go
+    src/raft1/test.go
+    src/tester1/clnts.go
+    src/tester1/config.go
+    src/tester1/group.go
+    src/tester1/persister.go
+    src/tester1/srv.go
+    src/tester1/annotation.go
+
+    # lab 4
+    src/kvraft1/rsm/rsm_test.go
+    src/kvraft1/rsm/server.go
+    src/kvraft1/rsm/test.go
+    src/kvraft1/kvraft_test.go
+    src/kvraft1/test.go
+
+    # lab 5
+    src/shardkv1/test.go
+    src/shardkv1/shardkv_test.go
+    src/shardkv1/shardcfg/shardcfg_test.go
+)
+
+main() {
+    upstream="$1"
+    labnum="$2"
+
+    # make sure we have reference copy of lab, in FETCH_HEAD
+    git fetch "$upstream" 2>/dev/null || die "unable to git fetch $upstream"
+
+    # copy existing directory
+    tmpdir="$(mktemp -d)"
+    find src -type s -delete # cp can't copy sockets
+    cp -r src "$tmpdir"
+    orig="$PWD"
+    cd "$tmpdir"
+
+    # check out reference files
+    for f in ${REFERENCE_FILES[@]}; do
+        mkdir -p "$(dirname $f)"
+        git --git-dir="$orig/.git" show "FETCH_HEAD:$f" > "$f"
+    done
+
+    case $labnum in
+        "lab1") check_lab1;;
+        "lab2") check_lab2;;
+        "lab3a"|"lab3b"|"lab3c"|"lab3d") check_lab3;;
+        "lab4a"|"lab4b"|"lab4c") check_lab4;;
+        "lab5a"|"lab5b"|"lab5c") check_lab5;;
+        *) die "unknown lab: $labnum";;
+    esac
+
+    cd
+    rm -rf "$tmpdir"
+}
+
+check_lab1() {
+    check_cmd cd src/mrapps
+    check_cmd go build -buildmode=plugin wc.go
+    check_cmd go build -buildmode=plugin indexer.go
+    check_cmd go build -buildmode=plugin mtiming.go
+    check_cmd go build -buildmode=plugin rtiming.go
+    check_cmd go build -buildmode=plugin crash.go
+    check_cmd go build -buildmode=plugin nocrash.go
+    check_cmd cd ../main
+    check_cmd go build mrcoordinator.go
+    check_cmd go build mrworker.go
+    check_cmd go build mrsequential.go
+}
+
+check_lab2() {
+    check_cmd cd src/kvsrv1
+    check_cmd go test -c
+}
+
+check_lab3() {
+    check_cmd cd src/raft1
+    check_cmd go test -c
+}
+
+check_lab4() {
+    check_cmd cd src/kvraft1
+    check_cmd go test -c
+}
+
+check_lab5() {
+    check_cmd cd src/shardkv1
+    check_cmd go test -c
+    # also check other labs/parts
+    cd "$tmpdir"
+    check_lab4
+    cd "$tmpdir"
+    check_lab3
+}
+
+check_cmd() {
+    if ! "$@" >/dev/null 2>&1; then
+        echo "We tried building your source code with testing-related files reverted to original versions, and the build failed. This copy of your code is preserved in $tmpdir for debugging purposes. Please make sure the code you are trying to hand in does not make changes to test code." >&2
+        echo >&2
+        echo "The build failed while trying to run the following command:" >&2
+        echo >&2
+        echo "$ $@" >&2
+        echo "  (cwd: ${PWD#$tmpdir/})" >&2
+        exit 1
+    fi
+}
+
+die() {
+    echo "$1" >&2
+    exit 1
+}
+
+main "$@"

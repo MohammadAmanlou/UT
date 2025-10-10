@@ -1,0 +1,47 @@
+[
+    {
+        "question_id": 324,
+        "db_id": "toxicology",
+        "question": "Find the percentage of atoms with single bond. (Evidence: single bond refers to bond_type = '-'; percentage = DIVIDE(SUM(bond_type = '-'), COUNT(bond_id)) as percentage)",
+        "evidence": "single bond refers to bond_type = '-'; percentage = DIVIDE(SUM(bond_type = '-'), COUNT(bond_id)) as percentage",
+        "SQL": "SELECT CAST(COUNT(CASE WHEN T.bond_type = '-' THEN T.bond_id ELSE NULL END) AS REAL) * 100 / COUNT(T.bond_id) FROM bond t",
+        "difficulty": "simple",
+        "schema": "atom (atom_id, molecule_id, element)\nbond (bond_id, molecule_id, bond_type)\nconnected (atom_id, atom_id2, bond_id)\nmolecule (molecule_id, label)\n"
+    },
+    {
+        "question_id": 268,
+        "db_id": "toxicology",
+        "question": "What are the elements for bond id TR001_10_11? (Evidence: element = 'cl' means Chlorine; element = 'c' means Carbon; element = 'h' means Hydrogen; element = 'o' means Oxygen, element = 's' means Sulfur; element = 'n' means Nitrogen, element = 'p' means Phosphorus, element = 'na' means Sodium, element = 'br' means Bromine, element = 'f' means Fluorine; element = 'i' means Iodine; element = 'sn' means Tin; element = 'pb' means Lead; element = 'te' means Tellurium; element = 'ca' means Calcium)",
+        "evidence": "element = 'cl' means Chlorine; element = 'c' means Carbon; element = 'h' means Hydrogen; element = 'o' means Oxygen, element = 's' means Sulfur; element = 'n' means Nitrogen, element = 'p' means Phosphorus, element = 'na' means Sodium, element = 'br' means Bromine, element = 'f' means Fluorine; element = 'i' means Iodine; element = 'sn' means Tin; element = 'pb' means Lead; element = 'te' means Tellurium; element = 'ca' means Calcium",
+        "SQL": "SELECT T2.element FROM connected AS T1 INNER JOIN atom AS T2 ON T1.atom_id = T2.atom_id WHERE T1.bond_id = 'TR001_10_11'",
+        "difficulty": "challenging",
+        "schema": "atom (atom_id, molecule_id, element)\nbond (bond_id, molecule_id, bond_type)\nconnected (atom_id, atom_id2, bond_id)\nmolecule (molecule_id, label)\n"
+    },
+    {
+        "question_id": 829,
+        "db_id": "superhero",
+        "question": "Which publisher created more superheroes: DC or Marvel Comics? Find the difference in the number of superheroes. (Evidence: DC refers to publisher_name = 'DC Comics'; Marvel Comics refers to publisher_name = 'Marvel Comics'; if SUM(publisher_name = 'DC Comics') > SUM(publisher_name = 'Marvel Comics'), it means DC Comics published more superheroes than Marvel Comics; if SUM(publisher_name = 'Marvel Comics') > SUM(publisher_name = 'Marvel Comics'), it means Marvel Comics published more heroes than DC Comics; difference = SUBTRACT(SUM(publisher_name = 'DC Comics'), SUM(publisher_name = 'Marvel Comics'));)",
+        "evidence": "DC refers to publisher_name = 'DC Comics'; Marvel Comics refers to publisher_name = 'Marvel Comics'; if SUM(publisher_name = 'DC Comics') > SUM(publisher_name = 'Marvel Comics'), it means DC Comics published more superheroes than Marvel Comics; if SUM(publisher_name = 'Marvel Comics') > SUM(publisher_name = 'Marvel Comics'), it means Marvel Comics published more heroes than DC Comics; difference = SUBTRACT(SUM(publisher_name = 'DC Comics'), SUM(publisher_name = 'Marvel Comics'));",
+        "SQL": "SELECT SUM(CASE WHEN T2.publisher_name = 'DC Comics' THEN 1 ELSE 0 END) - SUM(CASE WHEN T2.publisher_name = 'Marvel Comics' THEN 1 ELSE 0 END) FROM superhero AS T1 INNER JOIN publisher AS T2 ON T1.publisher_id = T2.id",
+        "difficulty": "challenging",
+        "schema": "alignment (id, alignment)\nattribute (id, attribute_name)\ncolour (id, colour)\ngender (id, gender)\npublisher (id, publisher_name)\nrace (id, race)\nsuperhero (id, superhero_name, full_name, gender_id, eye_colour_id, hair_colour_id, skin_colour_id, race_id, publisher_id, alignment_id, height_cm, weight_kg)\nhero_attribute (hero_id, attribute_id, attribute_value)\nsuperpower (id, power_name)\nhero_power (hero_id, power_id)\n"
+    },
+    {
+        "question_id": 1448,
+        "db_id": "student_club",
+        "question": "Find the name and date of events with expenses for pizza that were more than fifty dollars but less than a hundred dollars. (Evidence: name of event refers to event_name; date of event refers to event_date; expenses for pizza refers to expense_description = 'Pizza' where cost > 50 and cost < 100)",
+        "evidence": "name of event refers to event_name; date of event refers to event_date; expenses for pizza refers to expense_description = 'Pizza' where cost > 50 and cost < 100",
+        "SQL": "SELECT T1.event_name, T1.event_date FROM event AS T1 INNER JOIN budget AS T2 ON T1.event_id = T2.link_to_event INNER JOIN expense AS T3 ON T2.budget_id = T3.link_to_budget WHERE T3.expense_description = 'Pizza' AND T3.cost > 50 AND T3.cost < 100",
+        "difficulty": "challenging",
+        "schema": "event (event_id, event_name, event_date, type, notes, location, status)\nmajor (major_id, major_name, department, college)\nzip_code (zip_code, type, city, county, state, short_state)\nattendance (link_to_event, link_to_member)\nbudget (budget_id, category, spent, remaining, amount, event_status, link_to_event)\nexpense (expense_id, expense_description, expense_date, cost, approved, link_to_member, link_to_budget)\nincome (income_id, date_received, amount, source, notes, link_to_member)\nmember (member_id, first_name, last_name, email, position, t_shirt_size, phone, zip, link_to_major)\n"
+    },
+    {
+        "question_id": 1390,
+        "db_id": "student_club",
+        "question": "Based on the total cost for all event, what is the percentage of cost for Yearly Kickoff event? (Evidence: DIVIDE(SUM(cost where event_name = 'Yearly Kickoff'), SUM(cost)) * 100)",
+        "evidence": "DIVIDE(SUM(cost where event_name = 'Yearly Kickoff'), SUM(cost)) * 100",
+        "SQL": "SELECT CAST(SUM(CASE WHEN T1.event_name = 'Yearly Kickoff' THEN T3.cost ELSE 0 END) AS REAL) * 100 / SUM(T3.cost) FROM event AS T1 INNER JOIN budget AS T2 ON T1.event_id = T2.link_to_event INNER JOIN expense AS T3 ON T2.budget_id = T3.link_to_budget",
+        "difficulty": "moderate",
+        "schema": "event (event_id, event_name, event_date, type, notes, location, status)\nmajor (major_id, major_name, department, college)\nzip_code (zip_code, type, city, county, state, short_state)\nattendance (link_to_event, link_to_member)\nbudget (budget_id, category, spent, remaining, amount, event_status, link_to_event)\nexpense (expense_id, expense_description, expense_date, cost, approved, link_to_member, link_to_budget)\nincome (income_id, date_received, amount, source, notes, link_to_member)\nmember (member_id, first_name, last_name, email, position, t_shirt_size, phone, zip, link_to_major)\n"
+    }
+]

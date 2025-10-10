@@ -1,0 +1,34 @@
+// Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+// --------------------------------------------------------------------------------
+// Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+// Date        : Sun Apr 20 17:26:21 2025
+// Host        : Ariyan running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               c:/Users/ariya/ARM/ARM.srcs/sources_1/bd/design_2/ip/design_2_ExeReg_0_0/design_2_ExeReg_0_0_stub.v
+// Design      : design_2_ExeReg_0_0
+// Purpose     : Stub declaration of top-level module interface
+// Device      : xc7z010clg400-1
+// --------------------------------------------------------------------------------
+
+// This empty module with port declaration file causes synthesis tools to infer a black box for IP.
+// The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
+// Please paste the declaration into a Verilog source file or add the file as an additional source.
+(* X_CORE_INFO = "ExeReg,Vivado 2018.3" *)
+module design_2_ExeReg_0_0(clk, rst, WB_EN, MEM_R_EN, MEM_W_EN, ALU_Res, Val_Rm, 
+  dest, WB_EN_out, MEM_R_EN_out, MEM_W_EN_out, ALU_Res_out, Val_Rm_out, dest_out)
+/* synthesis syn_black_box black_box_pad_pin="clk,rst,WB_EN,MEM_R_EN,MEM_W_EN,ALU_Res[31:0],Val_Rm[31:0],dest[3:0],WB_EN_out,MEM_R_EN_out,MEM_W_EN_out,ALU_Res_out[31:0],Val_Rm_out[31:0],dest_out[3:0]" */;
+  input clk;
+  input rst;
+  input WB_EN;
+  input MEM_R_EN;
+  input MEM_W_EN;
+  input [31:0]ALU_Res;
+  input [31:0]Val_Rm;
+  input [3:0]dest;
+  output WB_EN_out;
+  output MEM_R_EN_out;
+  output MEM_W_EN_out;
+  output [31:0]ALU_Res_out;
+  output [31:0]Val_Rm_out;
+  output [3:0]dest_out;
+endmodule

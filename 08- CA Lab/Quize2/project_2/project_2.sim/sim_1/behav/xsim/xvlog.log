@@ -1,0 +1,130 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/IFreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Mux2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/CUMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CUMUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ConditionCheck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ConditionCheck
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/RegMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/IDreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/StatusReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StatusReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/Val2Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Val2Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/ExeReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ExeReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/MEM_Stage_Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_Stage_Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/imports/src/HazardUnitDetector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardUnitDetector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/new/RedAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RedAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CA_LAB/Computer-Architecture-Lab/src/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/new/Exe_Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Exe_Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_Adder_0/sim/design_2_Adder_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_Adder_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_FourConstant_0/sim/design_2_FourConstant_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_FourConstant_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_IFreg_0/sim/design_2_IFreg_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_IFreg_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_Mux_0/sim/design_2_Mux_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_Mux_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_PC_0/sim/design_2_PC_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_PC_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_debouncer_0_0/sim/design_2_debouncer_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_debouncer_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_ila_0_0/sim/design_2_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_0_0/sim/design_2_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/sim/design_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_CUMUX_0_0/sim/design_2_CUMUX_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_CUMUX_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_ConditionCheck_0_0/sim/design_2_ConditionCheck_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_ConditionCheck_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_ControlUnit_0_0/sim/design_2_ControlUnit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_ControlUnit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_RegMux_0_0/sim/design_2_RegMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_RegMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_RegisterFile_0_0/sim/design_2_RegisterFile_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_RegisterFile_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_1_0/sim/design_2_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_2_0/sim/design_2_xlslice_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_3_0/sim/design_2_xlslice_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_2_2/sim/design_2_xlslice_2_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_util_vector_logic_0_0/sim/design_2_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_util_vector_logic_1_0/sim/design_2_util_vector_logic_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_util_vector_logic_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_IDreg_0_0/sim/design_2_IDreg_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_IDreg_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_StatusReg_0_0/sim/design_2_StatusReg_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_StatusReg_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_2_1/sim/design_2_xlslice_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_3_1/sim/design_2_xlslice_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_4_0/sim/design_2_xlslice_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_dist_mem_gen_0_0/sim/design_2_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_dist_mem_gen_1_0/sim/design_2_dist_mem_gen_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_dist_mem_gen_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_Val2Gen_0_0/sim/design_2_Val2Gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_Val2Gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_ALU_0_0/sim/design_2_ALU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_ALU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_util_vector_logic_0_1/sim/design_2_util_vector_logic_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_util_vector_logic_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_0_1/sim/design_2_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_ExeReg_0_0/sim/design_2_ExeReg_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_ExeReg_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_Mux_1/sim/design_2_Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_MEM_Stage_Reg_0_0/sim/design_2_MEM_Stage_Reg_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_MEM_Stage_Reg_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_HazardUnitDetector_0_0/sim/design_2_HazardUnitDetector_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_HazardUnitDetector_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_util_vector_logic_0_2/sim/design_2_util_vector_logic_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_util_vector_logic_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_util_vector_logic_0_3/sim/design_2_util_vector_logic_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_util_vector_logic_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_RedAdder_0_0/sim/design_2_RedAdder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_RedAdder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlslice_0_2/sim/design_2_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_ForwardingUnit_0_0/sim/design_2_ForwardingUnit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_ForwardingUnit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_Exe_Mux_0_0/sim/design_2_Exe_Mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_Exe_Mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_Exe_Mux_0_1/sim/design_2_Exe_Mux_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_Exe_Mux_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_vio_0_0/sim/design_2_vio_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_vio_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.ip_user_files/bd/design_2/ip/design_2_xlconstant_0_0/sim/design_2_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

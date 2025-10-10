@@ -1,0 +1,8 @@
+python-dotenv
+langchain
+langgraph
+langchain-core
+langchain-google-genai
+tqdm
+pandas
+func-timeout

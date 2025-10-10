@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1748181942">
+  <File Type="PA-TCL" Name="design_2_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="design_2_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="design_2_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="design_2_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="design_2_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="design_2_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/src/Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/Adder.v"/>
+        <Attr Name="ImportTime" Val="1741523979"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/IFreg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/IFreg.v"/>
+        <Attr Name="ImportTime" Val="1743949001"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/Mux2To1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/Mux2To1.v"/>
+        <Attr Name="ImportTime" Val="1741528745"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/Register.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/Register.v"/>
+        <Attr Name="ImportTime" Val="1743949005"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ARM/ARM.srcs/sources_1/new/debouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1741530267"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/CUMux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/CUMux.v"/>
+        <Attr Name="ImportTime" Val="1743946742"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/ConditionCheck.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/ConditionCheck.v"/>
+        <Attr Name="ImportTime" Val="1745153692"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/ControlUnit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/ControlUnit.v"/>
+        <Attr Name="ImportTime" Val="1743946742"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/RegMux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/RegMux.v"/>
+        <Attr Name="ImportTime" Val="1743944141"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/RegisterFile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/RegisterFile.v"/>
+        <Attr Name="ImportTime" Val="1745758320"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/IDreg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/IDreg.v"/>
+        <Attr Name="ImportTime" Val="1744549628"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/StatusReg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/StatusReg.v"/>
+        <Attr Name="ImportTime" Val="1745153736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/Val2Gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/Val2Gen.v"/>
+        <Attr Name="ImportTime" Val="1745158630"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/ALU.v"/>
+        <Attr Name="ImportTime" Val="1745152462"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/ExeReg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/ExeReg.v"/>
+        <Attr Name="ImportTime" Val="1745154610"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/MEM_Stage_Reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/MEM_Stage_Reg.v"/>
+        <Attr Name="ImportTime" Val="1745156487"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/HazardUnitDetector.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/HazardUnitDetector.v"/>
+        <Attr Name="ImportTime" Val="1745763678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RedAdder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1/project_1.srcs/sources_1/new/RedAdder.v"/>
+        <Attr Name="ImportTime" Val="1746948142"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/ForwardingUnit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/CA_LAB/Computer-Architecture-Lab/src/ForwardingUnit.v"/>
+        <Attr Name="ImportTime" Val="1747574338"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Exe_Mux_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1/project_1.srcs/sources_1/new/Exe_Mux_1.v"/>
+        <Attr Name="ImportTime" Val="1747572337"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_2/design_2.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ARM/ARM.srcs/sources_1/bd/design_2/design_2.bd"/>
+        <Attr Name="ImportTime" Val="1745763688"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_2/hdl/design_2_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ARM/ARM.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1745762994"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ARM/ARM.srcs/sources_1/bd/design_1/design_1.bd"/>
+        <Attr Name="ImportTime" Val="1744551119"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/hdl/design_1_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ARM/ARM.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1744551401"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ARM.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ARM/ARM.srcs/sources_1/new/ARM.v"/>
+        <Attr Name="ImportTime" Val="1741522228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/output.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="d:/CA_LAB/Computer-Architecture-Lab/src/output.coe"/>
+        <Attr Name="ImportTime" Val="1740819552"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_2/ip/design_2_dist_mem_gen_0_0/output.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_dist_mem_gen_0_0/output.coe"/>
+        <Attr Name="ImportTime" Val="1746362122"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_2_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/project_1/pin_assignment.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../project_1/pin_assignment.xdc"/>
+        <Attr Name="ImportTime" Val="1741531047"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Val2Gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Mux_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_debouncer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Mux_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_Register_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_Mux2to1_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_IFreg_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_CUMUX_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_ExeReg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_PC_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_ConditionCheck_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_MEM_Stage_Reg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_debouncer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_util_vector_logic_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_util_vector_logic_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_HazardUnitDetector_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_RegMux_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_dist_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_ALU_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_dist_mem_gen_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_ForwardingUnit_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Adder_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_ControlUnit_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_StatusReg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_RedAdder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_IDreg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Exe_Mux_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Exe_Mux_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_RegisterFile_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_vio_0_0"/>
+</GenRun>

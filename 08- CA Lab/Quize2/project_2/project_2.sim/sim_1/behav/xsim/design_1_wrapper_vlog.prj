@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"D:/CA_LAB/Computer-Architecture-Lab/src/IFreg.v" \
+"D:/CA_LAB/Computer-Architecture-Lab/src/Register.v" \
+"D:/CA_LAB/Computer-Architecture-Lab/src/Mux2To1.v" \
+"D:/CA_LAB/Computer-Architecture-Lab/src/Adder.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_IFreg_0_0/sim/design_1_IFreg_0_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_Register_0_0/sim/design_1_Register_0_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_Mux2to1_0_0/sim/design_1_Mux2to1_0_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_Adder_0_0/sim/design_1_Adder_0_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_1/sim/design_1_xlconstant_0_1.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_2/sim/design_1_xlconstant_0_2.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_3/sim/design_1_xlconstant_0_3.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_IFreg_0_1/sim/design_1_IFreg_0_1.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_IFreg_1_0/sim/design_1_IFreg_1_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_IFreg_2_0/sim/design_1_IFreg_2_0.v" \
+"../../../../ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_4/sim/design_1_xlconstant_0_4.v" \
+"../../../../ARM.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../ARM.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

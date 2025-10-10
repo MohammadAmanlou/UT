@@ -1,0 +1,43 @@
+hyps:
+  lookback: 30
+
+dates:
+  start_date: "2024-09-25 00:00:00"
+  end_date: "2024-12-01 00:00:00"
+
+
+paths:
+  raw_data: "E:/UT/Term8/LLM/LLMs-For-Rational-Trading/data/gold_ohlcv_2020_2025.csv"
+  processed_data: "data/processed_XAU_1d_data.csv"
+  evaluation: "data/strategies_XAU_1d_data.csv"
+  news: "data/merged_news.csv"
+
+numerical_features:
+  log_return: true
+  simple_return: true
+
+  sma:
+    periods: [10, 20, 50]
+  ema:
+    periods: [10, 20, 50]
+  macd: true
+  rsi:
+    period: 14
+  stochastic:
+    k: 14
+    d: 3
+  williams_r: 14
+  cci: 20
+  roc: 10
+  atr: 14
+  bollinger_bands: 20
+  donchian: 20
+  adx: 14
+  vortex: 14
+  obv: true
+  time_features: true
+
+  strategy_short_window: 10
+  strategy_long_window: 30
+  strategy_rsi_threshold: 30
+

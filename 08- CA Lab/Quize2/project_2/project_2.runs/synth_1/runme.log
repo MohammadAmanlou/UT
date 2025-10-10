@@ -1,0 +1,705 @@
+
+*** Running vivado
+    with args -log design_2_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_wrapper.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_2_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:01:01 . Memory (MB): peak = 429.039 ; gain = 102.836
+Command: synth_design -top design_2_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25288 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 541.254 ; gain = 103.559
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_2_wrapper' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.v:12]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.v:21]
+INFO: [Synth 8-6157] synthesizing module 'design_2' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_2_ALU_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ALU_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_ALU_0_0' (1#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ALU_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_Adder_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Adder_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_Adder_0' (2#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Adder_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_CUMUX_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_CUMUX_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_CUMUX_0_0' (3#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_CUMUX_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'CUMUX_0' of module 'design_2_CUMUX_0_0' requires 15 connections, but only 14 given [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:121]
+INFO: [Synth 8-6157] synthesizing module 'design_2_ConditionCheck_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ConditionCheck_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_ConditionCheck_0_0' (4#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ConditionCheck_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_ControlUnit_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ControlUnit_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_ControlUnit_0_0' (5#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ControlUnit_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'ControlUnit_0' of module 'design_2_ControlUnit_0_0' requires 8 connections, but only 7 given [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:140]
+INFO: [Synth 8-6157] synthesizing module 'design_2_ExeReg_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ExeReg_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_ExeReg_0_0' (6#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ExeReg_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_Exe_Mux_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Exe_Mux_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_Exe_Mux_0_0' (7#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Exe_Mux_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_Exe_Mux_0_1' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Exe_Mux_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_Exe_Mux_0_1' (8#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Exe_Mux_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_ForwardingUnit_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ForwardingUnit_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_ForwardingUnit_0_0' (9#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ForwardingUnit_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_FourConstant_0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_FourConstant_0/synth/design_2_FourConstant_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant' (10#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_FourConstant_0' (11#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_FourConstant_0/synth/design_2_FourConstant_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_HazardUnitDetector_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_HazardUnitDetector_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_HazardUnitDetector_0_0' (12#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_HazardUnitDetector_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_IDreg_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_IDreg_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_IDreg_0_0' (13#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_IDreg_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_IFreg_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_IFreg_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_IFreg_0' (14#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_IFreg_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_MEM_Stage_Reg_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_MEM_Stage_Reg_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_MEM_Stage_Reg_0_0' (15#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_MEM_Stage_Reg_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_Mux_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Mux_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_Mux_0' (16#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Mux_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_Mux_1' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Mux_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_Mux_1' (17#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Mux_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_util_vector_logic_0_1' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_util_vector_logic_0_1' (18#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_PC_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_PC_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_PC_0' (19#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_PC_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_2_0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_2_0/synth/design_2_xlslice_2_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 15 - type: integer 
+	Parameter DIN_TO bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice' (20#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_2_0' (21#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_2_0/synth/design_2_xlslice_2_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_RedAdder_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_RedAdder_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_RedAdder_0_0' (22#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_RedAdder_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_RegMux_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_RegMux_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_RegMux_0_0' (23#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_RegMux_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_RegisterFile_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_RegisterFile_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_RegisterFile_0_0' (24#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_RegisterFile_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_3_0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_3_0/synth/design_2_xlslice_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' (24#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_3_0' (25#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_3_0/synth/design_2_xlslice_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_StatusReg_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_StatusReg_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_StatusReg_0_0' (26#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_StatusReg_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_Val2Gen_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Val2Gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_Val2Gen_0_0' (27#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_Val2Gen_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_0_1' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_0_1/synth/design_2_xlslice_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 4 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' (27#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_0_1' (28#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_0_1/synth/design_2_xlslice_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_util_vector_logic_1_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_util_vector_logic_1_0' (29#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_util_vector_logic_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_util_vector_logic_0_0' (30#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_dist_mem_gen_1_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_dist_mem_gen_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_dist_mem_gen_1_0' (31#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_dist_mem_gen_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_debouncer_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_debouncer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_debouncer_0_0' (32#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_debouncer_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_2_1' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_2_1/synth/design_2_xlslice_2_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_2_1' (33#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_2_1/synth/design_2_xlslice_2_1.v:57]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:342]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlconstant_0_0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlconstant_0_0/synth/design_2_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized0' (33#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlconstant_0_0' (34#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlconstant_0_0/synth/design_2_xlconstant_0_0.v:57]
+WARNING: [Synth 8-350] instance 'forward_en_0' of module 'design_2_xlconstant_0_0' requires 1 connections, but only 0 given [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:342]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:344]
+INFO: [Synth 8-6157] synthesizing module 'design_2_ila_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_ila_0_0' (35#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_ila_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_dist_mem_gen_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_dist_mem_gen_0_0' (36#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_0_0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_0_0/synth/design_2_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 12 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' (36#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_0_0' (37#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_0_0/synth/design_2_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_2_2' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_2_2/synth/design_2_xlslice_2_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 31 - type: integer 
+	Parameter DIN_TO bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' (37#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_2_2' (38#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_2_2/synth/design_2_xlslice_2_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_1_0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_1_0/synth/design_2_xlslice_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized4' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 19 - type: integer 
+	Parameter DIN_TO bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized4' (38#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_1_0' (39#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_1_0/synth/design_2_xlslice_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_4_0' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_4_0/synth/design_2_xlslice_4_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized5' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 11 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized5' (39#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_4_0' (40#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_4_0/synth/design_2_xlslice_4_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_3_1' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_3_1/synth/design_2_xlslice_3_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized6' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 23 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized6' (40#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_3_1' (41#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_3_1/synth/design_2_xlslice_3_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_2_util_vector_logic_0_2' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_util_vector_logic_0_2' (42#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_util_vector_logic_0_3' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_util_vector_logic_0_3' (43#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_util_vector_logic_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_vio_0_0' [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_vio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_vio_0_0' (44#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/.Xil/Vivado-4396-Ariyan/realtime/design_2_vio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_2_xlslice_0_2' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_0_2/synth/design_2_xlslice_0_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized7' [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 25 - type: integer 
+	Parameter DIN_TO bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized7' (44#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_xlslice_0_2' (45#1) [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_xlslice_0_2/synth/design_2_xlslice_0_2.v:57]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_forward_en'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:379]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'HazardUnitDetector_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:186]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'RegisterFile_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:287]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:344]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'debouncer_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:335]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'StatusReg_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:307]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'PC'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:269]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'MEM_Stage_Reg_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:242]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'IFreg'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:233]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'IDreg_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:197]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ExeReg_0'. This will prevent further optimization [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:148]
+INFO: [Synth 8-6155] done synthesizing module 'design_2' (46#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/synth/design_2.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_wrapper' (47#1) [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.v:12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized6 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized5 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized4 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[15]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 598.195 ; gain = 160.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 598.195 ; gain = 160.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 598.195 ; gain = 160.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Adder_0/design_2_Adder_0/design_2_Adder_0_in_context.xdc] for cell 'design_2_i/Adder'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Adder_0/design_2_Adder_0/design_2_Adder_0_in_context.xdc] for cell 'design_2_i/Adder'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_IFreg_0/design_2_IFreg_0/design_2_IFreg_0_in_context.xdc] for cell 'design_2_i/IFreg'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_IFreg_0/design_2_IFreg_0/design_2_IFreg_0_in_context.xdc] for cell 'design_2_i/IFreg'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Mux_0/design_2_Mux_0/design_2_Mux_0_in_context.xdc] for cell 'design_2_i/Mux'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Mux_0/design_2_Mux_0/design_2_Mux_0_in_context.xdc] for cell 'design_2_i/Mux'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_PC_0/design_2_PC_0/design_2_PC_0_in_context.xdc] for cell 'design_2_i/PC'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_PC_0/design_2_PC_0/design_2_PC_0_in_context.xdc] for cell 'design_2_i/PC'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_debouncer_0_0/design_2_debouncer_0_0/design_2_debouncer_0_0_in_context.xdc] for cell 'design_2_i/debouncer_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_debouncer_0_0/design_2_debouncer_0_0/design_2_debouncer_0_0_in_context.xdc] for cell 'design_2_i/debouncer_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ila_0_0/design_2_ila_0_0/design_2_ila_0_0_in_context.xdc] for cell 'design_2_i/ila_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ila_0_0/design_2_ila_0_0/design_2_ila_0_0_in_context.xdc] for cell 'design_2_i/ila_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_CUMUX_0_0/design_2_CUMUX_0_0/design_2_CUMUX_0_0_in_context.xdc] for cell 'design_2_i/CUMUX_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_CUMUX_0_0/design_2_CUMUX_0_0/design_2_CUMUX_0_0_in_context.xdc] for cell 'design_2_i/CUMUX_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ConditionCheck_0_0/design_2_ConditionCheck_0_0/design_2_ConditionCheck_0_0_in_context.xdc] for cell 'design_2_i/ConditionCheck_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ConditionCheck_0_0/design_2_ConditionCheck_0_0/design_2_ConditionCheck_0_0_in_context.xdc] for cell 'design_2_i/ConditionCheck_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ControlUnit_0_0/design_2_ControlUnit_0_0/design_2_ControlUnit_0_0_in_context.xdc] for cell 'design_2_i/ControlUnit_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ControlUnit_0_0/design_2_ControlUnit_0_0/design_2_ControlUnit_0_0_in_context.xdc] for cell 'design_2_i/ControlUnit_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_RegMux_0_0/design_2_RegMux_0_0/design_2_RegMux_0_0_in_context.xdc] for cell 'design_2_i/RegMux_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_RegMux_0_0/design_2_RegMux_0_0/design_2_RegMux_0_0_in_context.xdc] for cell 'design_2_i/RegMux_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_RegisterFile_0_0/design_2_RegisterFile_0_0/design_2_RegisterFile_0_0_in_context.xdc] for cell 'design_2_i/RegisterFile_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_RegisterFile_0_0/design_2_RegisterFile_0_0/design_2_RegisterFile_0_0_in_context.xdc] for cell 'design_2_i/RegisterFile_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_0/design_2_util_vector_logic_0_0/design_2_util_vector_logic_0_0_in_context.xdc] for cell 'design_2_i/cond_not'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_0/design_2_util_vector_logic_0_0/design_2_util_vector_logic_0_0_in_context.xdc] for cell 'design_2_i/cond_not'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_1_0/design_2_util_vector_logic_1_0/design_2_util_vector_logic_1_0_in_context.xdc] for cell 'design_2_i/cond_hazard_or_1'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_1_0/design_2_util_vector_logic_1_0/design_2_util_vector_logic_1_0_in_context.xdc] for cell 'design_2_i/cond_hazard_or_1'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_IDreg_0_0/design_2_IDreg_0_0/design_2_IDreg_0_0_in_context.xdc] for cell 'design_2_i/IDreg_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_IDreg_0_0/design_2_IDreg_0_0/design_2_IDreg_0_0_in_context.xdc] for cell 'design_2_i/IDreg_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_StatusReg_0_0/design_2_StatusReg_0_0/design_2_StatusReg_0_0_in_context.xdc] for cell 'design_2_i/StatusReg_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_StatusReg_0_0/design_2_StatusReg_0_0/design_2_StatusReg_0_0_in_context.xdc] for cell 'design_2_i/StatusReg_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_dist_mem_gen_0_0/design_2_dist_mem_gen_0_0/design_2_dist_mem_gen_0_0_in_context.xdc] for cell 'design_2_i/instruction_mem'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_dist_mem_gen_0_0/design_2_dist_mem_gen_0_0/design_2_dist_mem_gen_0_0_in_context.xdc] for cell 'design_2_i/instruction_mem'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_dist_mem_gen_1_0/design_2_dist_mem_gen_1_0/design_2_dist_mem_gen_1_0_in_context.xdc] for cell 'design_2_i/data_mem'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_dist_mem_gen_1_0/design_2_dist_mem_gen_1_0/design_2_dist_mem_gen_1_0_in_context.xdc] for cell 'design_2_i/data_mem'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Val2Gen_0_0/design_2_Val2Gen_0_0/design_2_Val2Gen_0_0_in_context.xdc] for cell 'design_2_i/Val2Gen_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Val2Gen_0_0/design_2_Val2Gen_0_0/design_2_Val2Gen_0_0_in_context.xdc] for cell 'design_2_i/Val2Gen_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ALU_0_0/design_2_ALU_0_0/design_2_ALU_0_0_in_context.xdc] for cell 'design_2_i/ALU_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ALU_0_0/design_2_ALU_0_0/design_2_ALU_0_0_in_context.xdc] for cell 'design_2_i/ALU_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_1/design_2_util_vector_logic_0_1/design_2_util_vector_logic_0_1_in_context.xdc] for cell 'design_2_i/OR_mod'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_1/design_2_util_vector_logic_0_1/design_2_util_vector_logic_0_1_in_context.xdc] for cell 'design_2_i/OR_mod'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ExeReg_0_0/design_2_ExeReg_0_0/design_2_ExeReg_0_0_in_context.xdc] for cell 'design_2_i/ExeReg_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ExeReg_0_0/design_2_ExeReg_0_0/design_2_ExeReg_0_0_in_context.xdc] for cell 'design_2_i/ExeReg_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Mux_1/design_2_Mux_1/design_2_Mux_1_in_context.xdc] for cell 'design_2_i/Mux_cyan'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Mux_1/design_2_Mux_1/design_2_Mux_1_in_context.xdc] for cell 'design_2_i/Mux_cyan'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_MEM_Stage_Reg_0_0/design_2_MEM_Stage_Reg_0_0/design_2_MEM_Stage_Reg_0_0_in_context.xdc] for cell 'design_2_i/MEM_Stage_Reg_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_MEM_Stage_Reg_0_0/design_2_MEM_Stage_Reg_0_0/design_2_MEM_Stage_Reg_0_0_in_context.xdc] for cell 'design_2_i/MEM_Stage_Reg_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_HazardUnitDetector_0_0/design_2_HazardUnitDetector_0_0/design_2_HazardUnitDetector_0_0_in_context.xdc] for cell 'design_2_i/HazardUnitDetector_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_HazardUnitDetector_0_0/design_2_HazardUnitDetector_0_0/design_2_HazardUnitDetector_0_0_in_context.xdc] for cell 'design_2_i/HazardUnitDetector_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_2/design_2_util_vector_logic_0_2/design_2_util_vector_logic_1_0_in_context.xdc] for cell 'design_2_i/two_src_or'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_2/design_2_util_vector_logic_0_2/design_2_util_vector_logic_1_0_in_context.xdc] for cell 'design_2_i/two_src_or'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_3/design_2_util_vector_logic_0_3/design_2_util_vector_logic_0_0_in_context.xdc] for cell 'design_2_i/util_vector_logic_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_util_vector_logic_0_3/design_2_util_vector_logic_0_3/design_2_util_vector_logic_0_0_in_context.xdc] for cell 'design_2_i/util_vector_logic_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_RedAdder_0_0/design_2_RedAdder_0_0/design_2_RedAdder_0_0_in_context.xdc] for cell 'design_2_i/RedAdder_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_RedAdder_0_0/design_2_RedAdder_0_0/design_2_RedAdder_0_0_in_context.xdc] for cell 'design_2_i/RedAdder_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ForwardingUnit_0_0/design_2_ForwardingUnit_0_0/design_2_ForwardingUnit_0_0_in_context.xdc] for cell 'design_2_i/ForwardingUnit_0'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_ForwardingUnit_0_0/design_2_ForwardingUnit_0_0/design_2_ForwardingUnit_0_0_in_context.xdc] for cell 'design_2_i/ForwardingUnit_0'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Exe_Mux_0_0/design_2_Exe_Mux_0_0/design_2_Exe_Mux_0_0_in_context.xdc] for cell 'design_2_i/Exe_Mux_1'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Exe_Mux_0_0/design_2_Exe_Mux_0_0/design_2_Exe_Mux_0_0_in_context.xdc] for cell 'design_2_i/Exe_Mux_1'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Exe_Mux_0_1/design_2_Exe_Mux_0_1/design_2_Exe_Mux_0_1_in_context.xdc] for cell 'design_2_i/Exe_Mux_2'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_Exe_Mux_0_1/design_2_Exe_Mux_0_1/design_2_Exe_Mux_0_1_in_context.xdc] for cell 'design_2_i/Exe_Mux_2'
+Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_vio_0_0/design_2_vio_0_0/design_2_vio_0_0_in_context.xdc] for cell 'design_2_i/vio_forward_en'
+Finished Parsing XDC File [c:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/sources_1/bd/design_2/ip/design_2_vio_0_0/design_2_vio_0_0/design_2_vio_0_0_in_context.xdc] for cell 'design_2_i/vio_forward_en'
+Parsing XDC File [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/constrs_1/imports/project_1/pin_assignment.xdc]
+Finished Parsing XDC File [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/constrs_1/imports/project_1/pin_assignment.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.srcs/constrs_1/imports/project_1/pin_assignment.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_2_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_2_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 910.180 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 910.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 910.227 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 910.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 910.227 ; gain = 472.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 910.227 ; gain = 472.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_2_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Adder. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/FourConstant. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/IFreg. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Mux. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/PC. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/debouncer_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/ila_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/instruction_mem_address_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/CUMUX_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/ConditionCheck_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/ControlUnit_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/RegMux_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/RegisterFile_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/rn_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/RD_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Rm_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/opcode_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/cond_not. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/cond_hazard_or_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/IDreg_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/StatusReg_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/dest_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/signed_imm_24_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/shift_operand_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/instruction_mem. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/data_mem. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Val2Gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/ALU_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/OR_mod. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/carry_in_slice. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/ExeReg_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Mux_cyan. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/MEM_Stage_Reg_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/HazardUnitDetector_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/two_src_or. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/util_vector_logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/RedAdder_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/xlslice_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/ForwardingUnit_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Exe_Mux_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Exe_Mux_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/vio_forward_en. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/forward_en_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 910.227 ; gain = 472.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 910.227 ; gain = 472.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 910.227 ; gain = 472.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 918.895 ; gain = 481.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 918.895 ; gain = 481.199
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |design_2_ALU_0_0                |         1|
+|2     |design_2_Adder_0                |         1|
+|3     |design_2_CUMUX_0_0              |         1|
+|4     |design_2_ConditionCheck_0_0     |         1|
+|5     |design_2_ControlUnit_0_0        |         1|
+|6     |design_2_ExeReg_0_0             |         1|
+|7     |design_2_Exe_Mux_0_0            |         1|
+|8     |design_2_Exe_Mux_0_1            |         1|
+|9     |design_2_ForwardingUnit_0_0     |         1|
+|10    |design_2_HazardUnitDetector_0_0 |         1|
+|11    |design_2_IDreg_0_0              |         1|
+|12    |design_2_IFreg_0                |         1|
+|13    |design_2_MEM_Stage_Reg_0_0      |         1|
+|14    |design_2_Mux_0                  |         1|
+|15    |design_2_Mux_1                  |         1|
+|16    |design_2_util_vector_logic_0_1  |         1|
+|17    |design_2_PC_0                   |         1|
+|18    |design_2_RedAdder_0_0           |         1|
+|19    |design_2_RegMux_0_0             |         1|
+|20    |design_2_RegisterFile_0_0       |         1|
+|21    |design_2_StatusReg_0_0          |         1|
+|22    |design_2_Val2Gen_0_0            |         1|
+|23    |design_2_util_vector_logic_1_0  |         1|
+|24    |design_2_util_vector_logic_0_0  |         1|
+|25    |design_2_dist_mem_gen_1_0       |         1|
+|26    |design_2_debouncer_0_0          |         1|
+|27    |design_2_ila_0_0                |         1|
+|28    |design_2_dist_mem_gen_0_0       |         1|
+|29    |design_2_util_vector_logic_0_2  |         1|
+|30    |design_2_util_vector_logic_0_3  |         1|
+|31    |design_2_vio_0_0                |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------+------+
+|      |Cell                            |Count |
++------+--------------------------------+------+
+|1     |design_2_ALU_0_0                |     1|
+|2     |design_2_Adder_0                |     1|
+|3     |design_2_CUMUX_0_0              |     1|
+|4     |design_2_ConditionCheck_0_0     |     1|
+|5     |design_2_ControlUnit_0_0        |     1|
+|6     |design_2_ExeReg_0_0             |     1|
+|7     |design_2_Exe_Mux_0_0            |     1|
+|8     |design_2_Exe_Mux_0_1            |     1|
+|9     |design_2_ForwardingUnit_0_0     |     1|
+|10    |design_2_HazardUnitDetector_0_0 |     1|
+|11    |design_2_IDreg_0_0              |     1|
+|12    |design_2_IFreg_0                |     1|
+|13    |design_2_MEM_Stage_Reg_0_0      |     1|
+|14    |design_2_Mux_0                  |     1|
+|15    |design_2_Mux_1                  |     1|
+|16    |design_2_PC_0                   |     1|
+|17    |design_2_RedAdder_0_0           |     1|
+|18    |design_2_RegMux_0_0             |     1|
+|19    |design_2_RegisterFile_0_0       |     1|
+|20    |design_2_StatusReg_0_0          |     1|
+|21    |design_2_Val2Gen_0_0            |     1|
+|22    |design_2_debouncer_0_0          |     1|
+|23    |design_2_dist_mem_gen_0_0       |     1|
+|24    |design_2_dist_mem_gen_1_0       |     1|
+|25    |design_2_ila_0_0                |     1|
+|26    |design_2_util_vector_logic_0_0  |     1|
+|27    |design_2_util_vector_logic_0_1  |     1|
+|28    |design_2_util_vector_logic_0_2  |     1|
+|29    |design_2_util_vector_logic_0_3  |     1|
+|30    |design_2_util_vector_logic_1_0  |     1|
+|31    |design_2_vio_0_0                |     1|
+|32    |IBUF                            |     2|
++------+--------------------------------+------+
+
+Report Instance Areas: 
++------+----------------------------------+------------------------+------+
+|      |Instance                          |Module                  |Cells |
++------+----------------------------------+------------------------+------+
+|1     |top                               |                        |  1057|
+|2     |  design_2_i                      |design_2                |  1055|
+|3     |    FourConstant                  |design_2_FourConstant_0 |     0|
+|4     |    RD_slice                      |design_2_xlslice_2_0    |     0|
+|5     |    Rm_slice                      |design_2_xlslice_3_0    |     0|
+|6     |    carry_in_slice                |design_2_xlslice_0_1    |     0|
+|7     |    dest_slice                    |design_2_xlslice_2_1    |     0|
+|8     |    forward_en_0                  |design_2_xlconstant_0_0 |     0|
+|9     |    instruction_mem_address_slice |design_2_xlslice_0_0    |     0|
+|10    |    opcode_slice                  |design_2_xlslice_2_2    |     0|
+|11    |    rn_slice                      |design_2_xlslice_1_0    |     0|
+|12    |    shift_operand_slice           |design_2_xlslice_4_0    |     0|
+|13    |    signed_imm_24_slice           |design_2_xlslice_3_1    |     0|
+|14    |    xlslice_0                     |design_2_xlslice_0_2    |     0|
++------+----------------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 221 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 929.988 ; gain = 180.262
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 929.988 ; gain = 492.293
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 939.199 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+137 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 939.250 ; gain = 510.211
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 939.250 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ariya/OneDrive/Desktop/project_1/project_1/project_1.runs/synth_1/design_2_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_2_wrapper_utilization_synth.rpt -pb design_2_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 25 18:07:15 2025...
