@@ -1,0 +1,531 @@
+PS C:\Users\mmd\Desktop\New folder> .\project_exec.exe
+Enter TRACE:2
+t=0.000 rtinit0: table initialized.
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1   999   999
+dest 2|  999     3   999
+     3|  999   999     7
+t=0.000 node0: sending [0, 1, 3, 7] to neighbors.
+t=0.000 rtinit1: table initialized.
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1   999
+dest 2|  999     1
+     3|  999   999
+t=0.000 node1: sending [1, 0, 1, 999] to neighbors.
+t=0.000 rtinit2: table initialized.
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3   999   999
+dest 1|  999     1   999
+     3|  999   999     2
+t=0.000 node2: sending [3, 1, 0, 2] to neighbors.
+t=0.000 rtinit3: table initialized.
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7   999
+dest 1|  999   999
+     2|  999     2
+t=0.000 node3: sending [7, 999, 2, 0] to neighbors.
+MAIN: rcv event, t=0.094, at 1 src: 0, dest: 1, contents:   0   1   3   7     
+t=0.094 rtupdate1: received [0, 1, 3, 7] from node 0 and mincosts updated     
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1   999
+dest 2|    4     1
+     3|    8   999
+t=0.094 node1: sending [1, 0, 1, 8] to neighbors.
+MAIN: rcv event, t=0.427, at 1 src: 2, dest: 1, contents:   3   1   0   2     
+t=0.427 rtupdate1: received [3, 1, 0, 2] from node 2 and mincosts updated     
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    4     1
+     3|    8     3
+t=0.427 node1: sending [1, 0, 1, 3] to neighbors.
+MAIN: rcv event, t=0.998, at 0 src: 1, dest: 0, contents:   1   0   1 999     
+t=0.998 rtupdate0: received [1, 0, 1, 999] from node 1 and mincosts updated   
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1   999   999
+dest 2|    2     3   999
+     3|  999   999     7
+t=0.998 node0: sending [0, 1, 2, 7] to neighbors.
+MAIN: rcv event, t=1.244, at 3 src: 0, dest: 3, contents:   0   1   3   7     
+t=1.244 rtupdate3: received [0, 1, 3, 7] from node 0 and mincosts updated     
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7   999
+dest 1|    8   999
+     2|   10     2
+t=1.244 node3: sending [7, 8, 2, 0] to neighbors.
+MAIN: rcv event, t=1.514, at 2 src: 0, dest: 2, contents:   0   1   3   7     
+t=1.514 rtupdate2: received [0, 1, 3, 7] from node 0 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3   999   999
+dest 1|    4     1   999
+     3|   10   999     2
+MAIN: rcv event, t=1.685, at 0 src: 2, dest: 0, contents:   3   1   0   2     
+t=1.685 rtupdate0: received [3, 1, 0, 2] from node 2 and mincosts updated     
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3   999
+     3|  999     5     7
+t=1.685 node0: sending [0, 1, 2, 5] to neighbors.
+MAIN: rcv event, t=2.171, at 3 src: 2, dest: 3, contents:   3   1   0   2     
+t=2.171 rtupdate3: received [3, 1, 0, 2] from node 2 and mincosts updated     
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|    8     3
+     2|   10     2
+t=2.171 node3: sending [5, 3, 2, 0] to neighbors.
+MAIN: rcv event, t=2.399, at 0 src: 3, dest: 0, contents:   7 999   2   0     
+t=2.399 rtupdate0: received [7, 999, 2, 0] from node 3 and mincosts did not update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3     9
+     3|  999     5     7
+MAIN: rcv event, t=2.489, at 0 src: 1, dest: 0, contents:   1   0   1   8     
+t=2.489 rtupdate0: received [1, 0, 1, 8] from node 1 and mincosts did not update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3     9
+     3|    9     5     7
+MAIN: rcv event, t=2.667, at 2 src: 1, dest: 2, contents:   1   0   1 999     
+t=2.667 rtupdate2: received [1, 0, 1, 999] from node 1 and mincosts updated   
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2   999
+dest 1|    4     1   999
+     3|   10   999     2
+t=2.667 node2: sending [2, 1, 0, 2] to neighbors.
+MAIN: rcv event, t=2.823, at 1 src: 0, dest: 1, contents:   0   1   2   7     
+t=2.823 rtupdate1: received [0, 1, 2, 7] from node 0 and mincosts did not update
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    3     1
+     3|    8     3
+MAIN: rcv event, t=3.361, at 0 src: 1, dest: 0, contents:   1   0   1   3     
+t=3.361 rtupdate0: received [1, 0, 1, 3] from node 1 and mincosts updated     
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3     9
+     3|    4     5     7
+t=3.361 node0: sending [0, 1, 2, 4] to neighbors.
+MAIN: rcv event, t=3.780, at 3 src: 0, dest: 3, contents:   0   1   2   7     
+t=3.780 rtupdate3: received [0, 1, 2, 7] from node 0 and mincosts did not update
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=3.798, at 2 src: 3, dest: 2, contents:   7 999   2   0     
+t=3.798 rtupdate2: received [7, 999, 2, 0] from node 3 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10   999     2
+MAIN: rcv event, t=3.915, at 0 src: 3, dest: 0, contents:   7   8   2   0     
+t=3.915 rtupdate0: received [7, 8, 2, 0] from node 3 and mincosts did not update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    15
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=4.098, at 1 src: 0, dest: 1, contents:   0   1   2   5     
+t=4.098 rtupdate1: received [0, 1, 2, 5] from node 0 and mincosts did not update
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    3     1
+     3|    6     3
+MAIN: rcv event, t=4.650, at 1 src: 2, dest: 1, contents:   2   1   0   2     
+t=4.650 rtupdate1: received [2, 1, 0, 2] from node 2 and mincosts did not update
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     3
+dest 2|    3     1
+     3|    6     3
+MAIN: rcv event, t=4.774, at 2 src: 1, dest: 2, contents:   1   0   1   8     
+t=4.774 rtupdate2: received [1, 0, 1, 8] from node 1 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10     9     2
+MAIN: rcv event, t=5.464, at 3 src: 0, dest: 3, contents:   0   1   2   5     
+t=5.464 rtupdate3: received [0, 1, 2, 5] from node 0 and mincosts did not update
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=5.640, at 0 src: 3, dest: 0, contents:   5   3   2   0     
+t=5.640 rtupdate0: received [5, 3, 2, 0] from node 3 and mincosts did not update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=5.760, at 2 src: 1, dest: 2, contents:   1   0   1   3     
+t=5.760 rtupdate2: received [1, 0, 1, 3] from node 1 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10     4     2
+MAIN: rcv event, t=6.212, at 1 src: 0, dest: 1, contents:   0   1   2   4     
+t=6.212 rtupdate1: received [0, 1, 2, 4] from node 0 and mincosts did not update
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     3
+dest 2|    3     1
+     3|    5     3
+MAIN: rcv event, t=6.315, at 3 src: 2, dest: 3, contents:   2   1   0   2     
+t=6.315 rtupdate3: received [2, 1, 0, 2] from node 2 and mincosts updated     
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     4
+dest 1|    8     3
+     2|    9     2
+t=6.315 node3: sending [4, 3, 2, 0] to neighbors.
+MAIN: rcv event, t=6.435, at 0 src: 2, dest: 0, contents:   2   1   0   2     
+t=6.435 rtupdate0: received [2, 1, 0, 2] from node 2 and mincosts did not update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=6.771, at 2 src: 0, dest: 2, contents:   0   1   2   7     
+t=6.771 rtupdate2: received [0, 1, 2, 7] from node 0 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10     4     2
+MAIN: rcv event, t=7.003, at 3 src: 0, dest: 3, contents:   0   1   2   4     
+t=7.003 rtupdate3: received [0, 1, 2, 4] from node 0 and mincosts did not update
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     4
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=7.406, at 0 src: 3, dest: 0, contents:   4   3   2   0     
+t=7.406 rtupdate0: received [4, 3, 2, 0] from node 3 and mincosts did not update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=7.650, at 2 src: 3, dest: 2, contents:   7   8   2   0     
+t=7.650 rtupdate2: received [7, 8, 2, 0] from node 3 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1    10
+     3|   10     4     2
+MAIN: rcv event, t=8.069, at 2 src: 0, dest: 2, contents:   0   1   2   5     
+t=8.069 rtupdate2: received [0, 1, 2, 5] from node 0 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1    10
+     3|    8     4     2
+MAIN: rcv event, t=9.377, at 2 src: 3, dest: 2, contents:   5   3   2   0     
+t=9.377 rtupdate2: received [5, 3, 2, 0] from node 3 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     7
+dest 1|    4     1     5
+     3|    8     4     2
+MAIN: rcv event, t=10.016, at 2 src: 0, dest: 2, contents:   0   1   2   4    
+t=10.016 rtupdate2: received [0, 1, 2, 4] from node 0 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     7
+dest 1|    4     1     5
+     3|    7     4     2
+MAIN: rcv event, t=11.030, at 2 src: 3, dest: 2, contents:   4   3   2   0    
+t=11.030 rtupdate2: received [4, 3, 2, 0] from node 3 and mincosts did not update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     6
+dest 1|    4     1     5
+     3|    7     4     2
+MAIN: rcv event, t=10000.000, at -1t=10000.000 linkhandler0: cost to link 1 changed to 20. mincosts updated
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|   20     4    10
+dest 2|   21     3     9
+     3|   23     5     7
+t=10000.000 node0: sending [0, 4, 3, 5] to neighbors.
+t=10000.000 linkhandler1: cost to link 0 changed to 20. mincosts updated      
+             via
+   D1 |    0     2
+  ----|-----------
+     0|   20     3
+dest 2|   22     1
+     3|   24     3
+t=10000.000 node1: sending [3, 0, 1, 3] to neighbors.
+MAIN: rcv event, t=10000.013, at 2 src: 0, dest: 2, contents:   0   4   3   5 
+t=10000.013 rtupdate2: received [0, 4, 3, 5] from node 0 and mincosts did not 
+update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     6
+dest 1|    7     1     5
+     3|    8     4     2
+MAIN: rcv event, t=10000.666, at 1 src: 0, dest: 1, contents:   0   4   3   5 
+t=10000.666 rtupdate1: received [0, 4, 3, 5] from node 0 and mincosts did not 
+update
+             via
+   D1 |    0     2
+  ----|-----------
+     0|   20     3
+dest 2|   23     1
+     3|   25     3
+MAIN: rcv event, t=10001.100, at 0 src: 1, dest: 0, contents:   3   0   1   3 
+t=10001.100 rtupdate0: received [3, 0, 1, 3] from node 1 and mincosts did not 
+update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|   20     4    10
+dest 2|   21     3     9
+     3|   23     5     7
+MAIN: rcv event, t=10001.130, at 3 src: 0, dest: 3, contents:   0   4   3   5 
+t=10001.130 rtupdate3: received [0, 4, 3, 5] from node 0 and mincosts did not 
+update
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     4
+dest 1|   11     3
+     2|   10     2
+MAIN: rcv event, t=10001.865, at 2 src: 1, dest: 2, contents:   3   0   1   3 
+t=10001.865 rtupdate2: received [3, 0, 1, 3] from node 1 and mincosts updated 
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     4     6
+dest 1|    7     1     5
+     3|    8     4     2
+t=10001.865 node2: sending [3, 1, 0, 2] to neighbors.
+MAIN: rcv event, t=10002.132, at 1 src: 2, dest: 1, contents:   3   1   0   2 
+t=10002.132 rtupdate1: received [3, 1, 0, 2] from node 2 and mincosts updated 
+             via
+   D1 |    0     2
+  ----|-----------
+     0|   20     4
+dest 2|   23     1
+     3|   25     3
+t=10002.132 node1: sending [4, 0, 1, 3] to neighbors.
+MAIN: rcv event, t=10002.603, at 0 src: 2, dest: 0, contents:   3   1   0   2 
+t=10002.603 rtupdate0: received [3, 1, 0, 2] from node 2 and mincosts did not 
+update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|   20     4    10
+dest 2|   21     3     9
+     3|   23     5     7
+MAIN: rcv event, t=10002.604, at 0 src: 1, dest: 0, contents:   4   0   1   3 
+t=10002.604 rtupdate0: received [4, 0, 1, 3] from node 1 and mincosts did not 
+update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|   20     4    10
+dest 2|   21     3     9
+     3|   23     5     7
+MAIN: rcv event, t=10003.143, at 3 src: 2, dest: 3, contents:   3   1   0   2 
+t=10003.143 rtupdate3: received [3, 1, 0, 2] from node 2 and mincosts updated 
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|   11     3
+     2|   10     2
+t=10003.143 node3: sending [5, 3, 2, 0] to neighbors.
+MAIN: rcv event, t=10003.938, at 0 src: 3, dest: 0, contents:   5   3   2   0 
+t=10003.938 rtupdate0: received [5, 3, 2, 0] from node 3 and mincosts did not 
+update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|   20     4    10
+dest 2|   21     3     9
+     3|   23     5     7
+MAIN: rcv event, t=10004.054, at 2 src: 1, dest: 2, contents:   4   0   1   3 
+t=10004.054 rtupdate2: received [4, 0, 1, 3] from node 1 and mincosts did not 
+update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     5     6
+dest 1|    7     1     5
+     3|    8     4     2
+MAIN: rcv event, t=10004.582, at 2 src: 3, dest: 2, contents:   5   3   2   0 
+t=10004.582 rtupdate2: received [5, 3, 2, 0] from node 3 and mincosts did not 
+update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     5     7
+dest 1|    7     1     5
+     3|    8     4     2
+MAIN: rcv event, t=20000.000, at 0t=20000.000 linkhandler0: cost to link 1 changed to 1. mincosts updated
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+t=20000.000 node0: sending [0, 1, 2, 4] to neighbors.
+t=20000.000 linkhandler1: cost to link 0 changed to 1. mincosts updated       
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    4     1
+     3|    6     3
+t=20000.000 node1: sending [1, 0, 1, 3] to neighbors.
+MAIN: rcv event, t=20000.117, at 0 src: 1, dest: 0, contents:   1   0   1   3 
+t=20000.117 rtupdate0: received [1, 0, 1, 3] from node 1 and mincosts did not 
+update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=20000.484, at 1 src: 0, dest: 1, contents:   0   1   2   4 
+t=20000.484 rtupdate1: received [0, 1, 2, 4] from node 0 and mincosts did not 
+update
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    3     1
+     3|    5     3
+MAIN: rcv event, t=20001.498, at 2 src: 0, dest: 2, contents:   0   1   2   4 
+t=20001.498 rtupdate2: received [0, 1, 2, 4] from node 0 and mincosts did not 
+update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     5     7
+dest 1|    4     1     5
+     3|    7     4     2
+MAIN: rcv event, t=20001.773, at 3 src: 0, dest: 3, contents:   0   1   2   4 
+t=20001.773 rtupdate3: received [0, 1, 2, 4] from node 0 and mincosts did not 
+update
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=20002.717, at 2 src: 1, dest: 2, contents:   1   0   1   3 
+t=20002.717 rtupdate2: received [1, 0, 1, 3] from node 1 and mincosts updated 
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     7
+dest 1|    4     1     5
+     3|    7     4     2
+t=20002.717 node2: sending [2, 1, 0, 2] to neighbors.
+MAIN: rcv event, t=20002.922, at 1 src: 2, dest: 1, contents:   2   1   0   2 
+t=20002.922 rtupdate1: received [2, 1, 0, 2] from node 2 and mincosts did not 
+update
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     3
+dest 2|    3     1
+     3|    5     3
+MAIN: rcv event, t=20004.307, at 0 src: 2, dest: 0, contents:   2   1   0   2 
+t=20004.307 rtupdate0: received [2, 1, 0, 2] from node 2 and mincosts did not 
+update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=20004.629, at 3 src: 2, dest: 3, contents:   2   1   0   2 
+t=20004.629 rtupdate3: received [2, 1, 0, 2] from node 2 and mincosts updated 
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     4
+dest 1|    8     3
+     2|    9     2
+t=20004.629 node3: sending [4, 3, 2, 0] to neighbors.
+MAIN: rcv event, t=20005.580, at 0 src: 3, dest: 0, contents:   4   3   2   0 
+t=20005.580 rtupdate0: received [4, 3, 2, 0] from node 3 and mincosts did not 
+update
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=20006.547, at 2 src: 3, dest: 2, contents:   4   3   2   0 
+t=20006.547 rtupdate2: received [4, 3, 2, 0] from node 3 and mincosts did not 
+update
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     6
+dest 1|    4     1     5
+     3|    7     4     2
+
+Simulator terminated at t=20006.546875, no packets in medium
