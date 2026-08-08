@@ -1,0 +1,39 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav_graph"
+app:startDestination="@id/homeFragment" >
+<fragment
+    android:id="@+id/homeFragment"
+    android:name="com.example.airmouse.HomeFragment"
+    android:label="Home"
+    tools:layout="@layout/fragment_home" >
+
+    <action
+        android:id="@+id/action_homeFragment_to_controllerFragment"
+        app:destination="@id/controllerFragment" />
+    <action
+        android:id="@+id/action_homeFragment_to_guideFragment"
+        app:destination="@id/guideFragment" />
+    <action
+        android:id="@+id/action_homeFragment_to_calibrationFragment"
+        app:destination="@id/calibrationFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/controllerFragment"
+    android:name="com.example.airmouse.ControllerFragment"
+    android:label="Controller"
+    tools:layout="@layout/fragment_controller" />
+<fragment
+    android:id="@+id/guideFragment"
+    android:name="com.example.airmouse.GuideFragment"
+    android:label="Guide"
+    tools:layout="@layout/fragment_guide" />
+<fragment
+    android:id="@+id/calibrationFragment"
+    android:name="com.example.airmouse.CalibrationFragment"
+    android:label="Calibration"
+    tools:layout="@layout/fragment_calibration" />
+</navigation>

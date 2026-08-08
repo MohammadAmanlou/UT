@@ -1,0 +1,10 @@
+#Fri Jun 19 15:57:21 IRST 2026
+base.0=D\:\\UT\\term 8\\CPS\\CA\\02\\Codes\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=D\:\\UT\\term 8\\CPS\\CA\\02\\Codes\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=D\:\\UT\\term 8\\CPS\\CA\\02\\Codes\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\9\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=9/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

@@ -1,0 +1,3 @@
+com.example.airmouse.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

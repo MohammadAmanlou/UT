@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.airmouse.app-debug-43:/layout_fragment_controller.xml.flat",
+        "source": "com.example.airmouse.app-main-45:/layout/fragment_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_fragment_calibration.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_calibration.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_fragment_controller.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_fragment_guide.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-debug-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\activity_main.xml"
+    }
+]

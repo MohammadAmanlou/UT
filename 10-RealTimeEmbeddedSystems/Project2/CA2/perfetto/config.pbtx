@@ -1,0 +1,34 @@
+duration_ms: 15000
+
+buffers {
+  size_kb: 65536
+  fill_policy: RING_BUFFER
+}
+
+data_sources {
+  config {
+    name: "linux.ftrace"
+    ftrace_config {
+      ftrace_events: "sched/sched_switch"
+      ftrace_events: "sched/sched_wakeup"
+      ftrace_events: "power/cpu_frequency"
+      ftrace_events: "power/cpu_idle"
+
+      atrace_categories: "sched"
+      atrace_categories: "am"
+      atrace_categories: "wm"
+      atrace_categories: "gfx"
+      atrace_categories: "view"
+      atrace_categories: "input"
+      atrace_categories: "app"
+
+      atrace_apps: "com.example.airmouse"
+    }
+  }
+}
+
+data_sources {
+  config {
+    name: "android.process_stats"
+  }
+}

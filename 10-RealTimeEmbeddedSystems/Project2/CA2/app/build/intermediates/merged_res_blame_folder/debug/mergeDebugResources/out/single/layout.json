@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\content_main.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\fragment_controller.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\fragment_calibration.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_calibration.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\fragment_guide.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\fragment_guide.xml"
+    },
+    {
+        "merged": "com.example.airmouse.app-mergeDebugResources-42:/layout/fragment_controller.xml",
+        "source": "com.example.airmouse.app-main-45:/layout/fragment_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-mergeDebugResources-42:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\mehrad\\.gradle\\daemon\\8.13\\com.example.airmouse.app-main-45:\\layout\\activity_main.xml"
+    }
+]

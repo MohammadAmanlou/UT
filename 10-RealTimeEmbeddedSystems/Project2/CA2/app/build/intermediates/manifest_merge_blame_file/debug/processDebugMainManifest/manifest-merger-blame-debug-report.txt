@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.airmouse"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <uses-feature
+13-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:7:5-9:36
+14        android:name="android.hardware.sensor.gyroscope"
+14-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:8:9-57
+15        android:required="false" />
+15-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:9:9-33
+16    <uses-feature
+16-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:10:5-12:35
+17        android:name="android.hardware.sensor.accelerometer"
+17-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:11:9-61
+18        android:required="true" />
+18-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:12:9-32
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\498dc571660098761b05815fa27582bd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.airmouse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\498dc571660098761b05815fa27582bd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\498dc571660098761b05815fa27582bd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.airmouse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\498dc571660098761b05815fa27582bd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\498dc571660098761b05815fa27582bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:15:5-37:19
+27        android:allowBackup="true"
+27-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\498dc571660098761b05815fa27582bd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:17:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:18:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="@string/app_name"
+34-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:20:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:24:9-69
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:21:9-54
+37        android:supportsRtl="true"
+37-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:22:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.AirMouse"
+39-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:25:9-46
+40        android:usesCleartextTraffic="true" >
+40-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:23:9-44
+41        <profileable android:shell="true" />
+41-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:26:9-45
+41-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:26:22-42
+42
+43        <activity
+43-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:27:9-36:20
+44            android:name="com.example.airmouse.MainActivity"
+44-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:28:13-41
+45            android:exported="true"
+45-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:29:13-36
+46            android:theme="@style/Theme.AirMouse" >
+46-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:30:13-50
+47            <intent-filter>
+47-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:31:13-35:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:32:17-69
+48-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:32:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:34:17-77
+50-->D:\UT\term 8\CPS\CA\02\Codes\app\src\main\AndroidManifest.xml:34:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\891d5e15b0bfe736c4f7c656f72ad9f6\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\891d5e15b0bfe736c4f7c656f72ad9f6\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.airmouse.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\891d5e15b0bfe736c4f7c656f72ad9f6\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\891d5e15b0bfe736c4f7c656f72ad9f6\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\891d5e15b0bfe736c4f7c656f72ad9f6\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\891d5e15b0bfe736c4f7c656f72ad9f6\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\891d5e15b0bfe736c4f7c656f72ad9f6\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mehrad\.gradle\caches\8.13\transforms\ab626fe9dedb40bd9531f7718f819683\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mehrad\.gradle\caches\8.13\transforms\ab626fe9dedb40bd9531f7718f819683\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mehrad\.gradle\caches\8.13\transforms\ab626fe9dedb40bd9531f7718f819683\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+66                android:value="androidx.startup" />
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+67        </provider>
+68
+69        <uses-library
+69-->[androidx.window:window:1.0.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\a0946cd090409ed9e3e51227da719247\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+70            android:name="androidx.window.extensions"
+70-->[androidx.window:window:1.0.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\a0946cd090409ed9e3e51227da719247\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\a0946cd090409ed9e3e51227da719247\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+72        <uses-library
+72-->[androidx.window:window:1.0.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\a0946cd090409ed9e3e51227da719247\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+73            android:name="androidx.window.sidecar"
+73-->[androidx.window:window:1.0.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\a0946cd090409ed9e3e51227da719247\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\a0946cd090409ed9e3e51227da719247\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mehrad\.gradle\caches\8.13\transforms\b4d33a59c147ca81bc3b2d8626f62aaa\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>

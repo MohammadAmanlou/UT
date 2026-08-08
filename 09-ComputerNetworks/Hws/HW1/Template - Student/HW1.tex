@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{float} % برای استفاده از [H] و کنترل محل قرارگیری تصویر
+
+
+\usepackage{geometry}
+\geometry{
+	letterpaper,
+	left=20mm,
+	right=20mm,
+	top=25mm,
+	bottom=30mm,
+}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{tikzscale}
+\usepackage{pgfplots}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{nccmath} %for fleqn
+\makeatletter
+\def\verbatim@font{\linespread{1}\normalfont\ttfamily}
+\makeatother
+\usepackage[breaklinks]{hyperref} 
+\hypersetup{
+	colorlinks   = true,
+	citecolor    = blue
+}
+\hypersetup{linkcolor=blue}
+\usepackage[T1]{fontenc}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\mathchardef\mhyphen="2D
+\newcommand\makeset{\mathop{make\mhyphen set}}
+\newcommand\findset{\mathop{find\mhyphen set}}
+\newcommand*{\Comb}[2]{{}^{#1}C_{#2}}
+\usepackage{mdframed}
+\usepackage{fancyhdr} 
+\fancyhf{}
+\chead{\courseName}
+\lhead{\thepage}  
+\rhead{\homeworkName}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt} 
+\fancypagestyle{first}{% 
+	\fancyhf{} % clear all header and footer fields 
+	\chead{
+		\small
+		} % except the center 
+	\renewcommand{\headrulewidth}{0pt} 
+	\renewcommand{\footrulewidth}{0pt}
+} 
+\fancypagestyle{second}{% 
+	\fancyhf{} % clear all header and footer fields 
+	\chead{} % except the center 
+	\renewcommand{\headrulewidth}{0pt} 
+	\renewcommand{\footrulewidth}{0pt}
+}
+\pagestyle{fancy} 
+	
+\usepackage{xepersian}
+\settextfont[Scale=1.2]{B Nazanin.TTF}
+\setlatintextfont[Scale=1]{Latin Modern Roman}
+\setdigitfont[Scale=1.4]{Times New Roman}
+\setlength\parindent{0pt}
+
+\usepackage{xepersian}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{fancyvrb}
+\usepackage{courier}
+
+\lstset{
+  language=Go,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{red},
+  commentstyle=\color{gray},
+  breaklines=true,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=5pt,
+  frame=single,
+  tabsize=2
+}
+
+\newcommand{\courseName}{نام درس: شبکه های کامپیوتری}
+\newcommand{\studentName}{%
+نویسنده:
+محمد امانلو - 810100084
+}
+
+\newcommand{\homeworkName}{تکلیف شماره 1}
+
+
+\renewcommand{\baselinestretch}{1.5} 
+
+\begin{document}
+	\graphicspath{{../LaTeX_Common/cover/},{img/}}
+	\pagenumbering{gobble} 
+	\input{../LaTeX_Common/cover/hwcover.tex}
+
+	\pagenumbering{arabic}  
+	\input{Content/HW1.tex}
+	{
+		\small
+		\bibliographystyle{ieeetr-fa}
+		\bibliography{MyReferences}
+	}
+\end{document}

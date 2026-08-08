@@ -1,0 +1,114 @@
+
+==========================================================================================
+1) Custom AirMouse trace sections
+==========================================================================================
+{'name': 'airmouse_udp_event_task', 'count': 8, 'avg_ms': 12.02067725, 'max_ms': 18.515209}
+{'name': 'airmouse_udp_wait_ack', 'count': 8, 'avg_ms': 10.563229125, 'max_ms': 17.643073}
+{'name': 'airmouse_udp_move_task', 'count': 498, 'avg_ms': 1.5488545100401607, 'max_ms': 6.488594}
+{'name': 'airmouse_udp_send', 'count': 506, 'avg_ms': 1.2843330079051385, 'max_ms': 5.545677}
+{'name': 'airmouse_sensor_gyro', 'count': 566, 'avg_ms': 0.6005383975265018, 'max_ms': 7.256407}
+{'name': 'airmouse_udp_enqueue_move', 'count': 498, 'avg_ms': 0.33202591967871486, 'max_ms': 6.652865}
+{'name': 'airmouse_sensor_accel', 'count': 1133, 'avg_ms': 0.32618372109443955, 'max_ms': 1.685364}
+{'name': 'airmouse_sensor_mag', 'count': 532, 'avg_ms': 0.2356365582706767, 'max_ms': 1.631927}
+{'name': 'airmouse_ui_update', 'count': 499, 'avg_ms': 0.1938731362725451, 'max_ms': 0.920573}
+{'name': 'airmouse_udp_enqueue_scroll', 'count': 6, 'avg_ms': 0.15196166666666666, 'max_ms': 0.318489}
+{'name': 'airmouse_filter_accel', 'count': 1133, 'avg_ms': 0.14666315180935569, 'max_ms': 1.341927}
+{'name': 'airmouse_udp_enqueue_click', 'count': 2, 'avg_ms': 0.10724, 'max_ms': 0.115469}
+{'name': 'airmouse_filter_gyro', 'count': 566, 'avg_ms': 0.05567486925795053, 'max_ms': 1.979948}
+{'name': 'airmouse_filter_mag', 'count': 532, 'avg_ms': 0.05531325187969925, 'max_ms': 0.752605}
+
+==========================================================================================
+2) Sensor event interval for Gyroscope
+==========================================================================================
+{'samples': 565, 'avg_interval_ms': 18.811920346902653, 'min_interval_ms': 11.875105, 'max_interval_ms': 26.26875}
+
+==========================================================================================
+3) Sensor event interval for Accelerometer
+==========================================================================================
+{'samples': 1132, 'avg_interval_ms': 9.396712351590105, 'min_interval_ms': 0.076302, 'max_interval_ms': 27.904167}
+
+==========================================================================================
+4) Sensor event interval for Magnetometer
+==========================================================================================
+{'samples': 531, 'avg_interval_ms': 19.998504485875706, 'min_interval_ms': 15.173906, 'max_interval_ms': 26.452344}
+
+==========================================================================================
+5) Filter execution time
+==========================================================================================
+{'name': 'airmouse_filter_accel', 'count': 1133, 'avg_ms': 0.14666315180935569, 'min_ms': 0.009531, 'max_ms': 1.341927}
+{'name': 'airmouse_filter_gyro', 'count': 566, 'avg_ms': 0.05567486925795053, 'min_ms': 0.009687, 'max_ms': 1.979948}
+
+==========================================================================================
+6) UDP send and ACK wait time
+==========================================================================================
+{'name': 'airmouse_udp_wait_ack', 'count': 8, 'avg_ms': 10.563229125, 'min_ms': 5.485573, 'max_ms': 17.643073}
+{'name': 'airmouse_udp_send', 'count': 506, 'avg_ms': 1.2843330079051385, 'min_ms': 0.4425, 'max_ms': 5.545677}
+
+==========================================================================================
+7) Thread activity for AirMouse sections
+==========================================================================================
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_filter_accel', 'count': 1133, 'avg_ms': 0.14666315180935569, 'max_ms': 1.341927}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_filter_gyro', 'count': 566, 'avg_ms': 0.05567486925795053, 'max_ms': 1.979948}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_filter_mag', 'count': 532, 'avg_ms': 0.05531325187969925, 'max_ms': 0.752605}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_sensor_accel', 'count': 1133, 'avg_ms': 0.32618372109443955, 'max_ms': 1.685364}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_sensor_gyro', 'count': 566, 'avg_ms': 0.6005383975265018, 'max_ms': 7.256407}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_sensor_mag', 'count': 532, 'avg_ms': 0.2356365582706767, 'max_ms': 1.631927}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_udp_enqueue_click', 'count': 2, 'avg_ms': 0.10724, 'max_ms': 0.115469}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_udp_enqueue_move', 'count': 498, 'avg_ms': 0.33202591967871486, 'max_ms': 6.652865}
+{'thread_name': 'AirMouseSensorT', 'section_name': 'airmouse_udp_enqueue_scroll', 'count': 6, 'avg_ms': 0.15196166666666666, 'max_ms': 0.318489}
+{'thread_name': 'AirMouseUdpThre', 'section_name': 'airmouse_udp_event_task', 'count': 8, 'avg_ms': 12.02067725, 'max_ms': 18.515209}
+{'thread_name': 'AirMouseUdpThre', 'section_name': 'airmouse_udp_move_task', 'count': 498, 'avg_ms': 1.5488545100401607, 'max_ms': 6.488594}
+{'thread_name': 'AirMouseUdpThre', 'section_name': 'airmouse_udp_send', 'count': 506, 'avg_ms': 1.2843330079051385, 'max_ms': 5.545677}
+{'thread_name': 'AirMouseUdpThre', 'section_name': 'airmouse_udp_wait_ack', 'count': 8, 'avg_ms': 10.563229125, 'max_ms': 17.643073}
+{'thread_name': 'xample.airmouse', 'section_name': 'airmouse_ui_update', 'count': 499, 'avg_ms': 0.1938731362725451, 'max_ms': 0.920573}
+
+==========================================================================================
+8) Most active threads by CPU scheduling time
+==========================================================================================
+{'thread_name': 'swapper', 'sched_count': 36255, 'total_ms': 45962.038158, 'avg_ms': 1.2677434328506412}
+{'thread_name': 'xample.airmouse', 'sched_count': 2787, 'total_ms': 4557.666064, 'avg_ms': 1.635330485827054}
+{'thread_name': 'RenderThread', 'sched_count': 3893, 'total_ms': 3988.942166, 'avg_ms': 1.0246447896223991}
+{'thread_name': 'surfaceflinger', 'sched_count': 3716, 'total_ms': 3755.122953, 'avg_ms': 1.0105282435414424}
+{'thread_name': 'RenderEngine', 'sched_count': 1385, 'total_ms': 2762.498014, 'avg_ms': 1.9945834036101082}
+{'thread_name': 'traced_probes', 'sched_count': 502, 'total_ms': 1516.741669, 'avg_ms': 3.021397747011952}
+{'thread_name': 'AirMouseSensorT', 'sched_count': 1715, 'total_ms': 1348.861173, 'avg_ms': 0.7865079725947522}
+{'thread_name': 'AirMouseUdpThre', 'sched_count': 806, 'total_ms': 944.19308, 'avg_ms': 1.1714554342431762}
+{'thread_name': 'HwBinder:1907_1', 'sched_count': 1276, 'total_ms': 888.523805, 'avg_ms': 0.6963352703761755}
+{'thread_name': 'Jit thread pool', 'sched_count': 4657, 'total_ms': 818.366121, 'avg_ms': 0.1757281771526734}
+{'thread_name': 'binder:1174_3', 'sched_count': 1516, 'total_ms': 656.321937, 'avg_ms': 0.4329300375989446}
+{'thread_name': 'composer-servic', 'sched_count': 1154, 'total_ms': 596.614895, 'avg_ms': 0.5169973093587522}
+{'thread_name': 'crtc_commit:153', 'sched_count': 1910, 'total_ms': 577.361386, 'avg_ms': 0.30228344816753927}
+{'thread_name': 'SensorService', 'sched_count': 1393, 'total_ms': 556.572614, 'avg_ms': 0.3995496152189519}
+{'thread_name': 'kgsl_devfreq_no', 'sched_count': 843, 'total_ms': 460.784523, 'avg_ms': 0.5466008576512456}
+{'thread_name': 'GPU completion', 'sched_count': 2445, 'total_ms': 342.571014, 'avg_ms': 0.14011084417177913}
+{'thread_name': 'binder:1174_2', 'sched_count': 439, 'total_ms': 341.360473, 'avg_ms': 0.7775864988610478}
+{'thread_name': 'sh', 'sched_count': 351, 'total_ms': 291.320843, 'avg_ms': 0.8299739116809116}
+{'thread_name': 'kgsl_dispatcher', 'sched_count': 1415, 'total_ms': 286.247706, 'avg_ms': 0.20229519858657244}
+{'thread_name': 'app', 'sched_count': 654, 'total_ms': 285.824371, 'avg_ms': 0.4370403226299694}
+{'thread_name': '.gms.persistent', 'sched_count': 700, 'total_ms': 278.213653, 'avg_ms': 0.3974480757142857}
+{'thread_name': 'binder:1994_5', 'sched_count': 1132, 'total_ms': 259.421783, 'avg_ms': 0.22917118639575973}
+{'thread_name': 'BckgrndExec HP', 'sched_count': 1281, 'total_ms': 245.288562, 'avg_ms': 0.19148209367681499}
+{'thread_name': '161_see', 'sched_count': 641, 'total_ms': 244.420417, 'avg_ms': 0.3813111029641186}
+{'thread_name': 'adbd', 'sched_count': 270, 'total_ms': 234.985883, 'avg_ms': 0.8703180851851852}
+{'thread_name': '21_see', 'sched_count': 567, 'total_ms': 232.275366, 'avg_ms': 0.40965673015873016}
+{'thread_name': '11_see', 'sched_count': 739, 'total_ms': 227.769057, 'avg_ms': 0.30821252638700947}
+{'thread_name': 'TimerDispatch', 'sched_count': 643, 'total_ms': 218.707032, 'avg_ms': 0.3401353530326594}
+{'thread_name': 'rcu_preempt', 'sched_count': 2717, 'total_ms': 215.291202, 'avg_ms': 0.07923857269046743}
+{'thread_name': 'rcuog/4', 'sched_count': 1502, 'total_ms': 204.228323, 'avg_ms': 0.1359709207723036}
+
+==========================================================================================
+9) CPU frequency summary
+==========================================================================================
+{'cpu': 0, 'samples': 290, 'min_freq': 614400.0, 'avg_freq': 844800.0, 'max_freq': 1363200.0}
+{'cpu': 1, 'samples': 290, 'min_freq': 614400.0, 'avg_freq': 844800.0, 'max_freq': 1363200.0}
+{'cpu': 2, 'samples': 290, 'min_freq': 614400.0, 'avg_freq': 844800.0, 'max_freq': 1363200.0}
+{'cpu': 3, 'samples': 290, 'min_freq': 614400.0, 'avg_freq': 844800.0, 'max_freq': 1363200.0}
+{'cpu': 4, 'samples': 604, 'min_freq': 633600.0, 'avg_freq': 1111915.2317880795, 'max_freq': 1881600.0}
+{'cpu': 5, 'samples': 604, 'min_freq': 633600.0, 'avg_freq': 1111915.2317880795, 'max_freq': 1881600.0}
+{'cpu': 6, 'samples': 604, 'min_freq': 633600.0, 'avg_freq': 1111915.2317880795, 'max_freq': 1881600.0}
+{'cpu': 7, 'samples': 22, 'min_freq': 806400.0, 'avg_freq': 1599709.0909090908, 'max_freq': 2169600.0}
+
+==========================================================================================
+10) Approximate latency from sensor event to UDP send
+==========================================================================================
+{'matched_events': 1588, 'avg_latency_ms': 7.976440198992443, 'min_latency_ms': 0.026875, 'max_latency_ms': 49.791094}
