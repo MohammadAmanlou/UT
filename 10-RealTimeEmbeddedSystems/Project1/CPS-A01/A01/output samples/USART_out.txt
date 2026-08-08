@@ -1,0 +1,65 @@
+D:\golboo\term 10\CPS\projects\A01_final\build>CPS4042_part2
+Esp8266::Processor created.
+one instance of Esp8266 created.
+Usb::processor created.
+one instance of Usb created.
+linkVdd: header Esp8266::vdd1 attached to link successfully.
+Esp8266::vdd1: linkVdd attached successfully
+linkGnd: header Esp8266::gnd1 attached to link successfully.
+Esp8266::gnd1: linkGnd attached successfully
+linkTxEspRxUsb: header Esp8266::tx attached to link successfully.
+Esp8266::tx: linkTxEspRxUsb attached successfully
+linkRxEspTxUsb: header Esp8266::rx attached to link successfully.
+Esp8266::rx: linkRxEspTxUsb attached successfully
+linkVdd: header Usb::vdd attached to link successfully.
+Usb::vdd: linkVdd attached successfully
+linkGnd: header Usb::gnd attached to link successfully.
+Usb::gnd: linkGnd attached successfully
+linkRxEspTxUsb: header Usb::tx attached to link successfully.
+Usb::tx: linkRxEspTxUsb attached successfully
+linkTxEspRxUsb: header Usb::rx attached to link successfully.
+Usb::rx: linkTxEspRxUsb attached successfully
+[USART] Initialized
+UsartMicroController setup completed.
+[USART] Initialized
+HardDisk setup completed.
+[UsartMicroController] USART Write to USB address: 0
+[HardDisk] USART Read from Micro address: 0
+[HardDisk] USART Write to Micro data: 173
+[UsartMicroController] USART Write to USB address: 1
+[UsartMicroController] USART Read from USB data: 173
+[HardDisk] USART Read from Micro address: 1
+[HardDisk] USART Write to Micro data: 59[UsartMicroController] USART Write to USB address: 2
+
+[HardDisk] USART Read from Micro address: 2
+[HardDisk] USART Write to Micro data: 242
+[UsartMicroController] USART Write to USB address: 3
+[UsartMicroController] USART Read from USB data: 59
+[UsartMicroController] USART Read from USB data: 242
+[HardDisk] USART Read from Micro address: 3
+[HardDisk] USART Write to Micro data: 126
+[UsartMicroController] USART Write to USB address: 4
+[UsartMicroController] USART Read from USB data: 126
+[HardDisk] USART Read from Micro address: 4
+[HardDisk] USART Write to Micro data: 193
+[UsartMicroController] USART Write to USB address: 5
+[UsartMicroController] USART Read from USB data: 193
+[HardDisk] USART Read from Micro address: 5
+[HardDisk] USART Write to Micro data: [UsartMicroController] USART Write to USB address: 6
+69
+[HardDisk] USART Read from Micro address: 6
+[HardDisk] USART Write to Micro data: 152
+[UsartMicroController] USART Write to USB address: 7
+[UsartMicroController] USART Read from USB data: 69
+[UsartMicroController] USART Read from USB data: 152
+[HardDisk] USART Read from Micro address: 7
+[HardDisk] USART Write to Micro data: 214
+[UsartMicroController] USART Write to USB address: 8
+[UsartMicroController] USART Read from USB data: 214
+[HardDisk] USART Read from Micro address: 8
+[HardDisk] USART Write to Micro data: 18
+[UsartMicroController] USART Write to USB address: 9
+[UsartMicroController] USART Read from USB data: 18
+[HardDisk] USART Read from Micro address: 9
+[HardDisk] USART Write to Micro data: 255
+[UsartMicroController] USART Read from USB data: 255

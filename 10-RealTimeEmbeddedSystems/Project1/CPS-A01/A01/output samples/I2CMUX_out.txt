@@ -1,0 +1,118 @@
+Esp8266::Processor created.
+one instance of Esp8266 created.
+I2CMux::processor created.
+one instance of I2CMux created.
+Vl530x::processor created.
+one instance of Vl530x created.
+Vl530x::processor created.
+one instance of Vl530x created.
+linkVdd: header Esp8266::vdd1 attached to link successfully.
+Esp8266::vdd1: linkVdd attached successfully
+linkGnd: header Esp8266::gnd1 attached to link successfully.
+Esp8266::gnd1: linkGnd attached successfully
+linkTxEspRxMux: header Esp8266::tx attached to link successfully.
+Esp8266::tx: linkTxEspRxMux attached successfully
+linkRxEspTxMux: header Esp8266::rx attached to link successfully.
+Esp8266::rx: linkRxEspTxMux attached successfully
+linkVdd: header I2CMux::vdd attached to link successfully.
+I2CMux::vdd: linkVdd attached successfully
+linkGnd: header I2CMux::gnd attached to link successfully.
+I2CMux::gnd: linkGnd attached successfully
+linkTxEspRxMux: header I2CMux::rx attached to link successfully.
+I2CMux::rx: linkTxEspRxMux attached successfully
+linkRxEspTxMux: header I2CMux::tx attached to link successfully.
+I2CMux::tx: linkRxEspTxMux attached successfully
+linkVdd: header Vl530x::vdd attached to link successfully.
+Vl530x::vdd: linkVdd attached successfully
+linkGnd: header Vl530x::gnd attached to link successfully.
+Vl530x::gnd: linkGnd attached successfully
+linkVdd: header Vl530x::vdd attached to link successfully.
+Vl530x::vdd: linkVdd attached successfully
+linkGnd: header Vl530x::gnd attached to link successfully.
+Vl530x::gnd: linkGnd attached successfully
+linkScl0: header I2CMux::ch0::scl attached to link successfully.
+I2CMux::ch0::scl: linkScl0 attached successfully
+linkSda0: header I2CMux::ch0::sda attached to link successfully.
+I2CMux::ch0::sda: linkSda0 attached successfully
+linkScl0: header Vl530x::scl attached to link successfully.
+Vl530x::scl: linkScl0 attached successfully
+linkSda0: header Vl530x::sda attached to link successfully.
+Vl530x::sda: linkSda0 attached successfully
+linkScl1: header I2CMux::ch1::scl attached to link successfully.
+I2CMux::ch1::scl: linkScl1 attached successfully
+linkSda1: header I2CMux::ch1::sda attached to link successfully.
+I2CMux::ch1::sda: linkSda1 attached successfully
+linkScl1: header Vl530x::scl attached to link successfully.
+Vl530x::scl: linkScl1 attached successfully
+linkSda1: header Vl530x::sda attached to link successfully.
+Vl530x::sda: linkSda1 attached successfully
+[USART] Initialized
+MuxMicroController setup completed.
+[USART] Initialized
+[I2C Master] Initialized ΓÇô target 0x29
+[I2C Master] Initialized ΓÇô target 0x29
+I2C MUX setup completed.
+[Microcontroller] USART Write to MUX channel request: 0
+[I2C Slave] Initialized ΓÇô own address 0x29
+[Sensor-0] setup completed, range 0..20
+[I2C MUX] USART Read from Microcontroller channel command: 0 -> selected channel 0
+[I2C MUX] selected I2C channel 0
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 0 sent
+[I2C Master] Read data byte: 0
+[I2C Slave] Data byte 10 sent
+[I2C Master] Read data byte: 10
+[I2C Slave] Data byte 10 sent
+[I2C Master] Read data byte: 10
+[I2C MUX] USART Write to Microcontroller: 0 from I2C channel 0
+[I2C MUX] USART Write to Microcontroller: 10 from I2C channel 0
+[I2C MUX] USART Write to Microcontroller: 10 from I2C channel 0
+[Microcontroller] USART Read from MUX: 0 (byte 1/3 for channel 0)
+[Microcontroller] USART Read from MUX: 10 (byte 2/3 for channel 0)
+[Microcontroller] USART Read from MUX: 10 (byte 3/3 for channel 0)
+[Microcontroller] channel 0 sensor value: 10
+[Microcontroller] USART Write to MUX channel request: 1
+[I2C MUX] USART Read from Microcontroller channel command: 1 -> selected channel 1
+[I2C MUX] selected I2C channel 1
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Initialized ΓÇô own address 0x29
+[Sensor-1] setup completed, range 50..100
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 0 sent
+[I2C Master] Read data byte: 0
+[I2C Slave] Data byte 61 sent
+[I2C Master] Read data byte: 61
+[I2C Slave] Data byte 61 sent
+[I2C Master] Read data byte: 61
+[I2C MUX] USART Write to Microcontroller: 0 from I2C channel 1
+[I2C MUX] USART Write to Microcontroller: 61 from I2C channel 1
+[I2C MUX] USART Write to Microcontroller: 61 from I2C channel 1
+[Microcontroller] USART Read from MUX: 0 (byte 1/3 for channel 1)
+[Microcontroller] USART Read from MUX: 61 (byte 2/3 for channel 1)
+[Microcontroller] USART Read from MUX: 61 (byte 3/3 for channel 1)
+[Microcontroller] channel 1 sensor value: 61
+[Microcontroller] USART Write to MUX channel request: 0
+[I2C MUX] USART Read from Microcontroller channel command: 0 -> selected channel 0
+[I2C MUX] selected I2C channel 0
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 0 sent
+[I2C Master] Read data byte: 0
+[I2C Slave] Data byte 11 sent
+[I2C Master] Read data byte: 11
+[I2C Slave] Data byte 11 sent
+[I2C Master] Read data byte: 11
+[I2C MUX] USART Write to Microcontroller: 0 from I2C channel 0
+[I2C MUX] USART Write to Microcontroller: 11 from I2C channel 0
+[I2C MUX] USART Write to Microcontroller: 11 from I2C channel 0
+[Microcontroller] USART Read from MUX: 0 (byte 1/3 for channel 0)
+[Microcontroller] USART Read from MUX: 11 (byte 2/3 for channel 0)
+[Microcontroller] USART Read from MUX: 11 (byte 3/3 for channel 0)
+[Microcontroller] channel 0 sensor value: 11

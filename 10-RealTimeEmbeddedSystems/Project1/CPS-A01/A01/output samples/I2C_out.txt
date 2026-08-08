@@ -1,0 +1,134 @@
+Esp8266::Processor created.
+one instance of Esp8266 created.
+Vl530x::processor created.
+one instance of Vl530x created.
+linkRed: header Esp8266::vdd1 attached to link successfully.
+Esp8266::vdd1: linkRed attached successfully
+linkBlack: header Esp8266::gnd1 attached to link successfully.
+Esp8266::gnd1: linkBlack attached successfully
+linkGreen: header Esp8266::scl attached to link successfully.
+Esp8266::scl: linkGreen attached successfully
+linkYellow: header Esp8266::sda attached to link successfully.
+Esp8266::sda: linkYellow attached successfully
+linkRed: header Vl530x::vdd attached to link successfully.
+Vl530x::vdd: linkRed attached successfully
+linkBlack: header Vl530x::gnd attached to link successfully.
+Vl530x::gnd: linkBlack attached successfully
+linkGreen: header Vl530x::scl attached to link successfully.
+Vl530x::scl: linkGreen attached successfully
+linkYellow: header Vl530x::sda attached to link successfully.
+Vl530x::sda: linkYellow attached successfully
+[I2C Master] Initialized ΓÇô target 0x29
+[USART] Initialized
+esp8266 setup completed.
+[I2C Slave] Initialized ΓÇô own address 0x29
+vl530x setup completed.
+[Microcontroller] USART Write to USB: 0
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 5 sent
+[I2C Master] Read data byte: 5
+[I2C Slave] Data byte 218 sent
+[I2C Master] Read data byte: 218
+[I2C Slave] Data byte 213 sent
+[I2C Master] Read data byte: 213
+[Microcontroller] new distance: 1498
+[Microcontroller] USART Write to USB: 1
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 12 sent
+[I2C Master] Read data byte: 12
+[I2C Slave] Data byte 114 sent
+[I2C Master] Read data byte: 114
+[I2C Slave] Data byte 102 sent
+[I2C Master] Read data byte: 102
+[Microcontroller] new distance: 3186
+[Microcontroller] USART Write to USB: 2
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 14 sent
+[I2C Master] Read data byte: 14
+[I2C Slave] Data byte 219 sent
+[I2C Master] Read data byte: 219
+[I2C Slave] Data byte 205 sent
+[I2C Master] Read data byte: 205
+[Microcontroller] new distance: 3803
+[Microcontroller] USART Write to USB: 3
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 2 sent
+[I2C Master] Read data byte: 2
+[I2C Slave] Data byte 221 sent
+[I2C Master] Read data byte: 221
+[I2C Slave] Data byte 219 sent
+[I2C Master] Read data byte: 219
+[Microcontroller] new distance: 733
+[Microcontroller] USART Write to USB: 4
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 11 sent
+[I2C Master] Read data byte: 11
+[I2C Slave] Data byte 112 sent
+[I2C Master] Read data byte: 112
+[I2C Slave] Data byte 101 sent
+[I2C Master] Read data byte: 101
+[Microcontroller] new distance: 2928
+[Microcontroller] USART Write to USB: 5
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 12 sent
+[I2C Master] Read data byte: 12
+[I2C Slave] Data byte 47 sent
+[I2C Master] Read data byte: 47
+[I2C Slave] Data byte 35 sent
+[I2C Master] Read data byte: 35
+[Microcontroller] new distance: 3119
+[Microcontroller] USART Write to USB: 6
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 9 sent
+[I2C Master] Read data byte: 9
+[I2C Slave] Data byte 91 sent
+[I2C Master] Read data byte: 91
+[I2C Slave] Data byte 82 sent
+[I2C Master] Read data byte: 82
+[Microcontroller] new distance: 2395
+[Microcontroller] USART Write to USB: 7
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 9 sent
+[I2C Master] Read data byte: 9
+[I2C Slave] Data byte 83 sent
+[I2C Master] Read data byte: 83
+[I2C Slave] Data byte 74 sent
+[I2C Master] Read data byte: 74
+[Microcontroller] new distance: 2387
+[Microcontroller] USART Write to USB: 8
+[I2C Master] Address byte 0x53 (READ) sent on SDA
+[I2C Slave] Address 0x29 R received
+[I2C Slave] ACK sent
+[I2C Master] ACK received
+[I2C Slave] Data byte 2 sent
+[I2C Master] Read data byte: 2
+[I2C Slave] Data byte 112 sent
+[I2C Master] Read data byte: 112
+[I2C Slave] Data byte 110 sent
+[I2C Master] Read data byte: 110
+[Microcontroller] new distance: 624
+[Microcontroller] USART Write to USB: 9
